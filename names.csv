@@ -1,0 +1,101 @@
+rank,company,tsx_ticker,market_cap_usd_b
+1,Royal Bank of Canada,RY.TO,269.50
+2,Shopify,SHOP.TO,227.11
+3,Toronto-Dominion Bank,TD.TO,192.61
+4,Bank of Montreal,BMO.TO,114.88
+5,Scotiabank,BNS.TO,109.74
+6,Canadian Natural Resources,CNQ.TO,107.48
+7,Enbridge,ENB.TO,105.78
+8,CIBC,CM.TO,101.25
+9,Agnico Eagle Mines,AEM.TO,93.98
+10,Suncor Energy,SU.TO,87.95
+11,Brookfield Corporation,BN.TO,81.86
+12,CPKC,CP.TO,75.36
+13,Brookfield Asset Management,BAM.TO,72.24
+14,Canadian National Railway,CNR.TO,71.83
+15,Manulife Financial,MFC.TO,71.59
+16,Barrick,ABX.TO,66.69
+17,TC Energy,TRP.TO,64.12
+18,Imperial Oil,IMO.TO,64.10
+19,Wheaton Precious Metals,WPM.TO,61.77
+20,Cenovus Energy,CVE.TO,60.54
+21,Great-West Lifeco,GWO.TO,56.40
+22,National Bank of Canada,NA.TO,54.47
+23,Loblaw Companies,L.TO,51.96
+24,Alimentation Couche-Tard,ATD.TO,50.77
+25,Franco-Nevada,FNV.TO,47.02
+26,Constellation Software,CSU.TO,46.10
+27,Thomson Reuters,TRI.TO,45.55
+28,Celestica,CLS.TO,45.07
+29,Sun Life Financial,SLF.TO,43.29
+30,Power Corporation of Canada,POW.TO,39.92
+31,Bombardier,BBD-B.TO,39.17
+32,Cameco,CCO.TO,37.52
+33,Dollarama,DOL.TO,36.42
+34,Fairfax Financial,FFH.TO,36.00
+35,Nutrien,NTR.TO,33.25
+36,Teck Resources,TECK-B.TO,32.95
+37,Restaurant Brands International,QSR.TO,32.64
+38,Intact Financial,IFC.TO,30.50
+39,Pembina Pipeline,PPL.TO,28.26
+40,Kinross Gold,K.TO,27.80
+41,Fortis,FTS.TO,27.60
+42,George Weston,WN.TO,27.12
+43,First Quantum Minerals,FM.TO,22.88
+44,Hydro One,H.TO,21.72
+45,Lundin Mining,LUN.TO,20.76
+46,Pan American Silver,PAAS.TO,18.46
+47,BCE,BCE.TO,18.16
+48,Tourmaline Oil,TOU.TO,17.81
+49,Magna International,MG.TO,17.47
+50,Rogers Communications,RCI-B.TO,16.63
+51,Whitecap Resources,WCP.TO,16.51
+52,RB Global,RBA.TO,16.43
+53,Lundin Gold,LUG.TO,16.28
+54,WSP Global,WSP.TO,15.49
+55,GFL Environmental,GFL.TO,15.42
+56,CGI,GIB-A.TO,14.93
+57,Emera,EMA.TO,14.03
+58,Topicus,TOI.V,13.74
+59,Metro,MRU.TO,13.54
+60,ARC Resources,ARX.TO,13.49
+61,Alamos Gold,AGI.TO,13.35
+62,IGM Financial,IGM.TO,13.23
+63,iA Financial,IAG.TO,13.06
+64,Equinox Gold,EQX.TO,12.66
+65,Telus,T.TO,12.60
+66,AltaGas,ALA.TO,12.36
+67,Toromont,TIH.TO,12.31
+68,Aritzia,ATZ.TO,11.66
+69,CCL Industries,CCL-B.TO,11.41
+70,Hudbay Minerals,HBM.TO,11.40
+71,Keyera,KEY.TO,11.34
+72,Ivanhoe Mines,IVN.TO,11.23
+73,lululemon athletica,LULU (Nasdaq only),10.92
+74,China Gold International,CGG.TO,10.89
+75,Saputo,SAP.TO,10.79
+76,IAMGOLD,IMG.TO,10.43
+77,TMX Group,X.TO,10.30
+78,Hut 8,HUT.TO,10.30
+79,Quebecor,QBR-B.TO,10.08
+80,G Mining Ventures,GMIN.TO,9.87
+81,AtkinsRealis,ATRL.TO,9.82
+82,Finning,FTT.TO,9.59
+83,Eldorado Gold,ELD.TO,9.55
+84,TFI International,TFII.TO,9.30
+85,Canadian Utilities,CU.TO,9.22
+86,Dundee Precious Metals,DPM.TO,9.05
+87,First Majestic Silver,AG.TO,8.05
+88,Gildan,GIL.TO,7.74
+89,Canadian Tire,CTC-A.TO,7.74
+90,Empire Company,EMP-A.TO,7.68
+91,Stantec,STN.TO,7.60
+92,CAE,CAE.TO,7.55
+93,Choice Properties REIT,CHP-UN.TO,7.52
+94,Descartes Systems,DSG.TO,7.26
+95,Capstone Copper,CS.TO,7.18
+96,Capital Power,CPX.TO,7.15
+97,South Bow,SOBO.TO,7.07
+98,Discovery Silver,DSV.TO,6.94
+99,B2Gold,BTO.TO,6.89
+100,SSR Mining,SSRM.TO,6.86

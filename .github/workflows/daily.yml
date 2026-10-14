@@ -1,0 +1,28 @@
+name: Daily TSX value check
+
+on:
+  schedule:
+    - cron: '30 21 * * 1-5'   # 5:30 pm Toronto (EDT); 4:30 pm in winter
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install yfinance pandas numpy
+      - run: python pull_tsx_prices.py
+      - run: python daily_rating.py
+      - name: Save results
+        run: |
+          git config user.name "tsx-value-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add ratings.csv tsx100_closes.csv
+          git commit -m "Ratings for $(date -u +%F)" || echo "No changes"
+          git push

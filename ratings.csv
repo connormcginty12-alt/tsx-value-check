@@ -1,99 +1,99 @@
-ticker,company,sector,rating,score,exp_rel_1w_pct,past_1m_pct,peer_1y_pct,as_of
-HUT,Hut 8,Tech,Underpriced,1.97,0.37,-13.76,61.09,2026-10-13
-CGG,China Gold International,Gold & silver,Underpriced,1.74,0.33,-20.19,29.43,2026-10-13
-IGM,IGM Financial,Insurance & asset mgmt,Underpriced,1.24,0.23,-8.86,39.14,2026-10-13
-ELD,Eldorado Gold,Gold & silver,Underpriced,1.1,0.21,-15.07,12.88,2026-10-13
-DSV,Discovery Silver,Gold & silver,Underpriced,1.03,0.2,-2.36,48.66,2026-10-13
-GWO,Great-West Lifeco,Insurance & asset mgmt,Underpriced,1.03,0.19,-3.36,45.32,2026-10-13
-BCE,BCE,Telecom,Underpriced,0.95,0.18,-14.4,6.91,2026-10-13
-NTR,Nutrien,"Fertilizer, uranium, packaging",Underpriced,0.92,0.17,-8.51,23.75,2026-10-13
-POW,Power Corporation of Canada,Insurance & asset mgmt,Underpriced,0.89,0.17,-3.56,37.85,2026-10-13
-GMIN,G Mining Ventures,Gold & silver,Underpriced,0.88,0.17,-9.28,19.21,2026-10-13
-DPM,Dundee Precious Metals,Gold & silver,Underpriced,0.87,0.16,-2.78,39.02,2026-10-13
-QBR-B,Quebecor,Telecom,Underpriced,0.85,0.16,2.08,53.19,2026-10-13
-FM,First Quantum Minerals,Base metals,Underpriced,0.83,0.16,-11.93,8.56,2026-10-13
-BBD-B,Bombardier,Industrials,Underpriced,0.83,0.16,-0.48,43.89,2026-10-13
-TFII,TFI International,Rail & trucking,Underpriced,0.82,0.16,-11.78,8.74,2026-10-13
-RCI-B,Rogers Communications,Telecom,Underpriced,0.75,0.14,-13.67,-0.73,2026-10-13
-CU,Canadian Utilities,Utilities & REIT,Underpriced,0.73,0.14,-3.77,28.8,2026-10-13
-K,Kinross Gold,Gold & silver,Underpriced,0.73,0.14,-19.24,-19.23,2026-10-13
-WPM,Wheaton Precious Metals,Gold & silver,Underpriced,0.73,0.14,-9.92,9.63,2026-10-13
-AG,First Majestic Silver,Gold & silver,Underpriced,0.59,0.11,-15.49,-14.51,2026-10-13
-IMG,IAMGOLD,Gold & silver,Fairly priced,0.48,0.09,-7.84,3.37,2026-10-13
-TIH,Toromont,Industrials,Fairly priced,0.44,0.08,5.42,42.44,2026-10-13
-SSRM,SSR Mining,Gold & silver,Fairly priced,0.42,0.08,-6.62,4.24,2026-10-13
-MG,Magna International,Consumer discretionary,Fairly priced,0.36,0.07,1.27,25.44,2026-10-13
-FNV,Franco-Nevada,Gold & silver,Fairly priced,0.34,0.07,-6.29,1.25,2026-10-13
-EMA,Emera,Utilities & REIT,Fairly priced,0.33,0.06,-4.82,5.08,2026-10-13
-QSR,Restaurant Brands International,Consumer discretionary,Fairly priced,0.31,0.06,-4.21,5.91,2026-10-13
-LUN,Lundin Mining,Base metals,Fairly priced,0.31,0.06,3.58,29.86,2026-10-13
-HBM,Hudbay Minerals,Base metals,Fairly priced,0.31,0.06,-0.49,17.24,2026-10-13
-PAAS,Pan American Silver,Gold & silver,Fairly priced,0.29,0.05,-9.63,-12.16,2026-10-13
-SOBO,South Bow,Pipelines,Fairly priced,0.26,0.05,-1.96,10.38,2026-10-13
-SLF,Sun Life Financial,Insurance & asset mgmt,Fairly priced,0.25,0.05,0.25,16.6,2026-10-13
-SAP,Saputo,Staples & retail,Fairly priced,0.21,0.04,-1.32,9.88,2026-10-13
-TECK-B,Teck Resources,Base metals,Fairly priced,0.21,0.04,3.71,25.12,2026-10-13
-ABX,Barrick,Gold & silver,Fairly priced,0.17,0.03,-4.81,-3.22,2026-10-13
-NA,National Bank of Canada,Banks,Fairly priced,0.15,0.03,-4.1,-1.87,2026-10-13
-CVE,Cenovus Energy,Oil & gas producers,Fairly priced,0.13,0.02,2.12,16.25,2026-10-13
-AEM,Agnico Eagle Mines,Gold & silver,Fairly priced,0.08,0.02,-5.18,-8.82,2026-10-13
-ATD,Alimentation Couche-Tard,Staples & retail,Fairly priced,0.07,0.01,-2.34,-0.41,2026-10-13
-BNS,Scotiabank,Banks,Fairly priced,0.07,0.01,-0.11,6.06,2026-10-13
-CLS,Celestica,Tech,Fairly priced,0.06,0.01,5.6,23.52,2026-10-13
-CCL-B,CCL Industries,"Fertilizer, uranium, packaging",Fairly priced,0.06,0.01,2.68,14.32,2026-10-13
-TD,Toronto-Dominion Bank,Banks,Fairly priced,0.05,0.01,0.76,8.03,2026-10-13
-FTT,Finning,Industrials,Fairly priced,0.05,0.01,11.13,40.12,2026-10-13
-CNR,Canadian National Railway,Rail & trucking,Fairly priced,0.05,0.01,-0.23,4.92,2026-10-13
-RY,Royal Bank of Canada,Banks,Fairly priced,0.05,0.01,-2.83,-3.29,2026-10-13
-CHP-UN,Choice Properties REIT,Utilities & REIT,Fairly priced,0.03,0.01,-1.57,-0.4,2026-10-13
-IAG,iA Financial,Insurance & asset mgmt,Fairly priced,0.03,0.01,2.17,11.15,2026-10-13
-AGI,Alamos Gold,Gold & silver,Fairly priced,0.02,0.0,-9.27,-24.85,2026-10-13
-MFC,Manulife Financial,Insurance & asset mgmt,Fairly priced,0.01,0.0,2.1,9.84,2026-10-13
-EQX,Equinox Gold,Gold & silver,Fairly priced,-0.0,-0.0,-10.56,-29.86,2026-10-13
-FTS,Fortis,Utilities & REIT,Fairly priced,-0.02,-0.0,1.85,7.84,2026-10-13
-WCP,Whitecap Resources,Oil & gas producers,Fairly priced,-0.02,-0.0,4.41,15.52,2026-10-13
-BMO,Bank of Montreal,Banks,Fairly priced,-0.03,-0.01,-3.05,-7.93,2026-10-13
-GFL,GFL Environmental,Industrials,Fairly priced,-0.06,-0.01,2.4,7.63,2026-10-13
-WN,George Weston,Staples & retail,Fairly priced,-0.07,-0.01,4.49,13.35,2026-10-13
-H,Hydro One,Utilities & REIT,Fairly priced,-0.1,-0.02,0.96,0.99,2026-10-13
-IFC,Intact Financial,Insurance & asset mgmt,Fairly priced,-0.1,-0.02,-4.29,-15.36,2026-10-13
-CM,CIBC,Banks,Fairly priced,-0.1,-0.02,0.37,-0.99,2026-10-13
-CS,Capstone Copper,Base metals,Fairly priced,-0.1,-0.02,-7.14,-24.3,2026-10-13
-KEY,Keyera,Pipelines,Fairly priced,-0.11,-0.02,1.8,3.01,2026-10-13
-CTC-A,Canadian Tire,Consumer discretionary,Fairly priced,-0.13,-0.02,2.99,5.9,2026-10-13
-L,Loblaw Companies,Staples & retail,Fairly priced,-0.15,-0.03,4.48,9.21,2026-10-13
-TOI,Topicus,Tech,Fairly priced,-0.24,-0.04,-2.64,-17.26,2026-10-13
-CP,CPKC,Rail & trucking,Fairly priced,-0.24,-0.05,-1.38,-13.66,2026-10-13
-X,TMX Group,Insurance & asset mgmt,Fairly priced,-0.25,-0.05,0.19,-9.3,2026-10-13
-CCO,Cameco,"Fertilizer, uranium, packaging",Fairly priced,-0.26,-0.05,-8.92,-38.07,2026-10-13
-WSP,WSP Global,Industrials,Fairly priced,-0.3,-0.06,-9.55,-42.07,2026-10-13
-IMO,Imperial Oil,Oil & gas producers,Fairly priced,-0.31,-0.06,1.86,-6.9,2026-10-13
-IVN,Ivanhoe Mines,Base metals,Fairly priced,-0.35,-0.07,-13.35,-56.49,2026-10-13
-PPL,Pembina Pipeline,Pipelines,Fairly priced,-0.36,-0.07,5.37,1.11,2026-10-13
-CAE,CAE,Industrials,Fairly priced,-0.37,-0.07,0.48,-14.5,2026-10-13
-GIB-A,CGI,Tech,Fairly priced,-0.38,-0.07,5.35,0.1,2026-10-13
-GIL,Gildan,Consumer discretionary,Fairly priced,-0.39,-0.07,-12.2,-54.93,2026-10-13
-CNQ,Canadian Natural Resources,Oil & gas producers,Fairly priced,-0.42,-0.08,6.79,2.81,2026-10-13
-MRU,Metro,Staples & retail,Fairly priced,-0.42,-0.08,3.47,-7.65,2026-10-13
-ALA,AltaGas,Pipelines,Fairly priced,-0.43,-0.08,8.81,8.4,2026-10-13
-SU,Suncor Energy,Oil & gas producers,Fairly priced,-0.43,-0.08,11.41,16.22,2026-10-13
-TRP,TC Energy,Pipelines,Overpriced,-0.47,-0.09,4.99,-5.35,2026-10-13
-ATRL,AtkinsRealis,Industrials,Overpriced,-0.52,-0.1,2.41,-16.14,2026-10-13
-ENB,Enbridge,Pipelines,Overpriced,-0.52,-0.1,1.97,-17.54,2026-10-13
-T,Telus,Telecom,Overpriced,-0.59,-0.11,-10.45,-59.36,2026-10-13
-BTO,B2Gold,Gold & silver,Overpriced,-0.61,-0.12,-0.67,-30.43,2026-10-13
-EMP-A,Empire Company,Staples & retail,Overpriced,-0.65,-0.12,6.84,-8.86,2026-10-13
-FFH,Fairfax Financial,Insurance & asset mgmt,Overpriced,-0.68,-0.13,1.75,-26.1,2026-10-13
-LUG,Lundin Gold,Gold & silver,Overpriced,-0.72,-0.14,2.89,-24.61,2026-10-13
-ATZ,Aritzia,Consumer discretionary,Overpriced,-0.78,-0.15,17.59,17.68,2026-10-13
-RBA,RB Global,Industrials,Overpriced,-0.82,-0.16,7.91,-14.38,2026-10-13
-CSU,Constellation Software,Tech,Overpriced,-0.9,-0.17,9.02,-15.16,2026-10-13
-TRI,Thomson Reuters,Tech,Overpriced,-0.93,-0.18,10.28,-12.96,2026-10-13
-DSG,Descartes Systems,Tech,Overpriced,-0.96,-0.18,13.71,-3.46,2026-10-13
-STN,Stantec,Industrials,Overpriced,-0.97,-0.18,-0.07,-47.0,2026-10-13
-BAM,Brookfield Asset Management,Insurance & asset mgmt,Overpriced,-1.01,-0.19,-1.65,-53.68,2026-10-13
-BN,Brookfield Corporation,Insurance & asset mgmt,Overpriced,-1.06,-0.2,-1.3,-55.45,2026-10-13
-DOL,Dollarama,Staples & retail,Overpriced,-1.24,-0.23,14.45,-15.52,2026-10-13
-TOU,Tourmaline Oil,Oil & gas producers,Overpriced,-1.33,-0.25,6.84,-43.9,2026-10-13
-CPX,Capital Power,Utilities & REIT,Overpriced,-1.33,-0.25,7.39,-42.31,2026-10-13
-SHOP,Shopify,Tech,Overpriced,-2.2,-0.42,34.15,-35.88,2026-10-13
+ticker,company,sector,rating,score,exp_rel_1w_pct,past_1m_pct,peer_1y_pct,eps_surprise_pct,earnings_reaction_pct,pe_trailing,pe_forward,price_to_book,roe_pct,revenue_growth_pct,debt_to_equity,as_of
+HUT,Hut 8,Tech,Underpriced,0.98,0.46,-13.76,61.09,,,,-93.77,7.12,-43.37,81.4,437.21,2026-10-13
+IGM,IGM Financial,Insurance & asset mgmt,Underpriced,0.94,0.44,-8.86,39.14,9.3,5.56,16.5,13.41,2.03,13.34,18.4,31.65,2026-10-13
+DSV,Discovery Silver,Gold & silver,Underpriced,0.91,0.42,-2.36,48.66,15.38,5.59,28.19,16.76,9.49,39.23,124.7,1.26,2026-10-13
+BBD-B,Bombardier,Industrials,Underpriced,0.9,0.42,-0.48,43.89,87.97,-5.46,22.87,19.89,-20.83,,6.0,,2026-10-13
+TECK-B,Teck Resources,Base metals,Underpriced,0.88,0.41,3.71,25.12,41.91,8.05,18.75,17.69,1.7,8.72,78.2,34.25,2026-10-13
+CGG,China Gold International,Gold & silver,Underpriced,0.87,0.4,-20.19,29.43,,,14.47,11.98,4.12,33.7,50.0,17.93,2026-10-13
+WCP,Whitecap Resources,Oil & gas producers,Underpriced,0.78,0.36,4.41,15.52,65.91,2.82,16.5,12.92,2.04,12.6,86.3,24.14,2026-10-13
+QBR-B,Quebecor,Telecom,Underpriced,0.69,0.32,2.08,53.19,-3.6,7.16,15.72,13.47,5.24,35.2,4.3,240.47,2026-10-13
+CU,Canadian Utilities,Utilities & REIT,Underpriced,0.62,0.29,-3.77,28.8,6.25,4.77,301.06,17.39,2.6,1.93,8.6,179.1,2026-10-13
+DPM,Dundee Precious Metals,Gold & silver,Underpriced,0.61,0.28,-2.78,39.02,17.28,0.41,13.74,9.76,3.14,31.31,93.9,0.29,2026-10-13
+GWO,Great-West Lifeco,Insurance & asset mgmt,Underpriced,0.6,0.28,-3.36,45.32,3.65,1.52,18.47,14.07,2.84,14.13,5.4,25.91,2026-10-13
+SAP,Saputo,Staples & retail,Underpriced,0.57,0.26,-1.32,9.88,8.89,8.73,22.48,16.49,2.18,10.42,1.5,41.86,2026-10-13
+ATZ,Aritzia,Consumer discretionary,Underpriced,0.57,0.26,17.59,17.68,24.76,16.0,29.52,22.91,11.8,44.01,44.1,79.21,2026-10-13
+GMIN,G Mining Ventures,Gold & silver,Underpriced,0.52,0.24,-9.28,19.21,6.98,0.77,21.84,19.74,4.19,23.76,21.2,1.75,2026-10-13
+POW,Power Corporation of Canada,Insurance & asset mgmt,Underpriced,0.49,0.23,-3.56,37.85,1.97,0.97,22.27,12.98,2.4,10.24,8.9,47.75,2026-10-13
+IMG,IAMGOLD,Gold & silver,Underpriced,0.44,0.2,-7.84,3.37,-4.55,6.02,9.49,7.68,2.38,32.33,47.5,12.15,2026-10-13
+TFII,TFI International,Rail & trucking,Underpriced,0.41,0.19,-11.78,8.74,16.35,-3.18,28.69,14.36,3.51,12.41,12.4,111.46,2026-10-13
+TIH,Toromont,Industrials,Underpriced,0.41,0.19,5.42,42.44,-9.58,6.95,34.2,23.16,5.08,15.95,16.1,24.76,2026-10-13
+BNS,Scotiabank,Banks,Underpriced,0.39,0.18,-0.11,6.06,8.57,6.41,16.78,13.52,1.75,11.46,11.7,,2026-10-13
+BCE,BCE,Telecom,Underpriced,0.39,0.18,-14.4,6.91,-7.14,0.31,4.11,10.48,1.25,30.47,1.5,172.78,2026-10-13
+CCL-B,CCL Industries,"Fertilizer, uranium, packaging",Fairly priced,0.35,0.16,2.68,14.32,8.0,5.72,20.56,17.57,2.95,14.68,9.1,47.98,2026-10-13
+HBM,Hudbay Minerals,Base metals,Fairly priced,0.32,0.15,-0.49,17.24,12.0,1.48,15.49,12.64,2.37,16.74,17.7,19.86,2026-10-13
+WPM,Wheaton Precious Metals,Gold & silver,Fairly priced,0.31,0.14,-9.92,9.63,2.59,-1.28,31.07,27.19,6.4,23.55,84.7,20.4,2026-10-13
+K,Kinross Gold,Gold & silver,Fairly priced,0.3,0.14,-19.24,-19.23,7.58,-2.56,9.15,8.38,2.87,36.99,29.5,7.73,2026-10-13
+KEY,Keyera,Pipelines,Fairly priced,0.3,0.14,1.8,3.01,34.62,0.42,36.16,18.77,3.05,8.91,49.4,160.65,2026-10-13
+MG,Magna International,Consumer discretionary,Fairly priced,0.29,0.14,1.27,25.44,21.57,-1.99,24.68,8.36,1.48,6.51,3.3,53.43,2026-10-13
+GIL,Gildan,Consumer discretionary,Fairly priced,0.28,0.13,-12.2,-54.93,14.29,7.9,32.84,7.65,2.31,8.68,72.3,147.65,2026-10-13
+SOBO,South Bow,Pipelines,Fairly priced,0.28,0.13,-1.96,10.38,16.28,0.18,15.87,17.4,2.64,17.35,4.2,216.1,2026-10-13
+ALA,AltaGas,Pipelines,Fairly priced,0.27,0.12,8.81,8.4,40.91,1.69,28.31,19.92,1.88,6.62,33.5,104.76,2026-10-13
+ELD,Eldorado Gold,Gold & silver,Fairly priced,0.26,0.12,-15.07,12.88,-5.26,-4.59,13.13,6.99,1.39,11.27,7.9,25.68,2026-10-13
+CVE,Cenovus Energy,Oil & gas producers,Fairly priced,0.26,0.12,2.12,16.25,-1.83,5.33,12.99,12.28,2.52,20.93,41.5,33.99,2026-10-13
+TD,Toronto-Dominion Bank,Banks,Fairly priced,0.25,0.12,0.76,8.03,12.15,2.71,17.97,14.99,2.22,12.83,11.5,,2026-10-13
+IAG,iA Financial,Insurance & asset mgmt,Fairly priced,0.25,0.11,2.17,11.15,8.24,3.8,18.07,13.3,2.61,13.88,19.0,56.18,2026-10-13
+NTR,Nutrien,"Fertilizer, uranium, packaging",Fairly priced,0.21,0.1,-8.51,23.75,-3.69,-4.07,14.52,13.67,1.28,9.44,4.0,49.07,2026-10-13
+RCI-B,Rogers Communications,Telecom,Fairly priced,0.19,0.09,-13.67,-0.73,1.77,-3.96,3.86,9.14,1.43,30.92,7.7,199.99,2026-10-13
+QSR,Restaurant Brands International,Consumer discretionary,Fairly priced,0.18,0.09,-4.21,5.91,3.45,0.4,18.44,16.36,6.45,34.79,4.6,290.1,2026-10-13
+SLF,Sun Life Financial,Insurance & asset mgmt,Fairly priced,0.16,0.07,0.25,16.6,4.12,0.35,18.75,12.82,2.52,13.09,7.5,58.01,2026-10-13
+CLS,Celestica,Tech,Fairly priced,0.15,0.07,5.6,23.52,9.96,0.81,38.16,18.11,16.51,52.69,62.4,39.57,2026-10-13
+CNR,Canadian National Railway,Rail & trucking,Fairly priced,0.15,0.07,-0.23,4.92,6.12,1.82,21.72,18.83,4.67,22.02,11.3,103.89,2026-10-13
+WSP,WSP Global,Industrials,Fairly priced,0.13,0.06,-9.55,-42.07,2.13,6.23,23.31,12.49,2.11,9.85,19.9,84.48,2026-10-13
+SSRM,SSR Mining,Gold & silver,Fairly priced,0.12,0.06,-6.62,4.24,-2.94,-0.75,11.42,7.35,2.0,14.27,9.5,0.07,2026-10-13
+EMA,Emera,Utilities & REIT,Fairly priced,0.11,0.05,-4.82,5.08,-2.82,-0.02,20.56,17.85,1.54,7.56,1.2,153.87,2026-10-13
+AEM,Agnico Eagle Mines,Gold & silver,Fairly priced,0.09,0.04,-5.18,-8.82,4.81,0.64,16.34,14.93,3.27,22.97,35.0,1.12,2026-10-13
+EQX,Equinox Gold,Gold & silver,Fairly priced,0.09,0.04,-10.56,-29.86,-6.25,4.02,23.39,7.47,1.34,8.47,169.3,13.18,2026-10-13
+AG,First Majestic Silver,Gold & silver,Fairly priced,0.08,0.04,-15.49,-14.51,-14.29,-0.98,23.94,16.86,2.7,13.43,57.3,9.81,2026-10-13
+FTT,Finning,Industrials,Fairly priced,0.02,0.01,11.13,40.12,3.39,-0.31,25.14,19.48,4.55,19.33,20.0,89.53,2026-10-13
+CHP-UN,Choice Properties REIT,Utilities & REIT,Fairly priced,0.01,0.01,-1.57,-0.4,,,,14.21,1.16,-1.7,-6.2,316.24,2026-10-13
+H,Hydro One,Utilities & REIT,Fairly priced,0.01,0.01,0.96,0.99,8.77,-0.14,21.81,21.58,2.38,11.15,11.4,153.16,2026-10-13
+RY,Royal Bank of Canada,Banks,Fairly priced,0.01,0.0,-2.83,-3.29,5.16,-0.97,17.48,15.51,2.87,16.21,8.9,,2026-10-13
+FNV,Franco-Nevada,Gold & silver,Fairly priced,0.01,0.0,-6.29,1.25,-8.12,-1.22,32.78,25.99,5.79,19.91,58.2,,2026-10-13
+L,Loblaw Companies,Staples & retail,Fairly priced,-0.01,-0.0,4.48,9.21,3.13,1.27,28.8,22.12,6.74,24.48,4.1,148.92,2026-10-13
+FTS,Fortis,Utilities & REIT,Fairly priced,-0.01,-0.01,1.85,7.84,2.63,-0.12,22.58,19.81,1.66,7.47,4.1,132.27,2026-10-13
+AGI,Alamos Gold,Gold & silver,Fairly priced,-0.02,-0.01,-9.27,-24.85,11.32,-2.62,11.82,10.57,2.77,27.41,35.6,4.5,2026-10-13
+IMO,Imperial Oil,Oil & gas producers,Fairly priced,-0.02,-0.01,1.86,-6.9,8.39,1.61,21.49,14.21,3.62,16.8,42.6,17.11,2026-10-13
+MFC,Manulife Financial,Insurance & asset mgmt,Fairly priced,-0.03,-0.01,2.1,9.84,0.93,-0.4,16.68,12.31,2.02,13.31,10.7,42.48,2026-10-13
+CS,Capstone Copper,Base metals,Fairly priced,-0.07,-0.03,-7.14,-24.3,-10.0,2.56,15.93,10.44,2.0,14.18,36.2,38.67,2026-10-13
+NA,National Bank of Canada,Banks,Fairly priced,-0.07,-0.03,-4.1,-1.87,5.61,-3.92,16.92,14.07,2.35,14.27,17.3,,2026-10-13
+BMO,Bank of Montreal,Banks,Fairly priced,-0.08,-0.04,-3.05,-7.93,5.32,-2.16,19.17,14.28,1.93,10.57,12.0,,2026-10-13
+TRP,TC Energy,Pipelines,Fairly priced,-0.09,-0.04,4.99,-5.35,10.59,1.27,24.98,22.37,3.58,11.83,5.7,170.37,2026-10-13
+CP,CPKC,Rail & trucking,Fairly priced,-0.1,-0.05,-1.38,-13.66,2.42,0.39,28.34,20.38,2.31,8.15,12.6,52.82,2026-10-13
+CM,CIBC,Banks,Fairly priced,-0.11,-0.05,0.37,-0.99,8.33,-2.71,15.21,13.92,2.2,15.58,16.6,,2026-10-13
+CNQ,Canadian Natural Resources,Oil & gas producers,Fairly priced,-0.11,-0.05,6.79,2.81,7.35,0.97,13.18,13.27,3.28,26.68,69.5,43.13,2026-10-13
+GIB-A,CGI,Tech,Fairly priced,-0.12,-0.05,5.35,0.1,0.44,2.09,12.76,10.51,2.08,17.03,2.5,44.01,2026-10-13
+X,TMX Group,Insurance & asset mgmt,Fairly priced,-0.14,-0.06,0.19,-9.3,6.78,-1.24,24.53,19.54,2.98,13.24,15.6,40.24,2026-10-13
+ATD,Alimentation Couche-Tard,Staples & retail,Fairly priced,-0.18,-0.08,-2.34,-0.41,1.12,-4.39,16.49,15.28,3.04,19.61,25.1,91.92,2026-10-13
+CTC-A,Canadian Tire,Consumer discretionary,Fairly priced,-0.18,-0.09,2.99,5.9,-0.25,-2.07,15.14,12.38,1.68,11.18,2.4,165.36,2026-10-13
+IFC,Intact Financial,Insurance & asset mgmt,Fairly priced,-0.21,-0.1,-4.29,-15.36,24.78,-8.7,13.64,13.29,2.14,16.09,3.7,23.0,2026-10-13
+WN,George Weston,Staples & retail,Fairly priced,-0.21,-0.1,4.49,13.35,-11.48,-0.6,42.05,18.73,10.4,18.6,4.1,164.45,2026-10-13
+GFL,GFL Environmental,Industrials,Fairly priced,-0.22,-0.1,2.4,7.63,-29.63,3.18,,47.6,2.98,-2.25,16.3,134.49,2026-10-13
+LUN,Lundin Mining,Base metals,Fairly priced,-0.24,-0.11,3.58,29.86,-14.29,-4.88,16.05,16.67,2.96,24.33,38.1,4.69,2026-10-13
+MRU,Metro,Staples & retail,Fairly priced,-0.26,-0.12,3.47,-7.65,0.0,-0.53,21.68,16.67,2.74,12.76,1.4,70.91,2026-10-13
+ATRL,AtkinsRealis,Industrials,Fairly priced,-0.26,-0.12,2.41,-16.14,4.3,-0.45,32.22,17.89,2.61,8.43,10.0,24.15,2026-10-13
+ENB,Enbridge,Pipelines,Fairly priced,-0.26,-0.12,1.97,-17.54,5.0,-0.66,26.08,21.09,2.52,9.22,97.1,162.98,2026-10-13
+FM,First Quantum Minerals,Base metals,Fairly priced,-0.29,-0.13,-11.93,8.56,-100.0,1.48,,13.94,2.01,-1.24,24.1,66.09,2026-10-13
+BTO,B2Gold,Gold & silver,Fairly priced,-0.29,-0.13,-0.67,-30.43,-57.14,14.24,9.75,5.18,1.73,22.64,14.0,11.39,2026-10-13
+SHOP,Shopify,Tech,Fairly priced,-0.3,-0.14,34.15,-35.88,5.0,22.16,122.46,71.67,17.87,15.54,33.7,1.4,2026-10-13
+EMP-A,Empire Company,Staples & retail,Fairly priced,-0.32,-0.15,6.84,-8.86,,,50.35,12.65,2.14,4.88,2.5,147.52,2026-10-13
+ABX,Barrick,Gold & silver,Fairly priced,-0.34,-0.16,-4.81,-3.22,0.0,-8.76,10.78,9.25,2.43,27.01,43.8,12.71,2026-10-13
+DSG,Descartes Systems,Tech,Overpriced,-0.35,-0.16,13.71,-3.46,-20.27,8.13,40.54,24.88,4.39,11.95,11.8,0.46,2026-10-13
+SU,Suncor Energy,Oil & gas producers,Overpriced,-0.36,-0.17,11.41,16.22,4.87,-3.79,14.26,12.23,2.6,19.25,45.9,30.48,2026-10-13
+CAE,CAE,Industrials,Overpriced,-0.37,-0.17,0.48,-14.5,13.04,-6.59,37.49,22.53,1.98,5.64,6.8,58.63,2026-10-13
+BAM,Brookfield Asset Management,Insurance & asset mgmt,Overpriced,-0.44,-0.21,-1.65,-53.68,0.0,1.92,26.72,20.86,9.59,26.77,60.8,34.45,2026-10-13
+PPL,Pembina Pipeline,Pipelines,Overpriced,-0.45,-0.21,5.37,1.11,-12.0,-2.51,24.35,21.6,2.62,10.47,20.1,80.92,2026-10-13
+CCO,Cameco,"Fertilizer, uranium, packaging",Overpriced,-0.46,-0.21,-8.92,-38.07,-52.63,5.59,151.32,47.35,7.48,5.11,-7.2,17.13,2026-10-13
+DOL,Dollarama,Staples & retail,Overpriced,-0.51,-0.24,14.45,-15.52,2.38,2.32,38.75,32.96,35.15,93.09,17.6,399.8,2026-10-13
+LUG,Lundin Gold,Gold & silver,Overpriced,-0.52,-0.24,2.89,-24.61,-6.4,-1.56,17.93,15.57,29.8,101.2,5.5,4.84,2026-10-13
+BN,Brookfield Corporation,Insurance & asset mgmt,Overpriced,-0.53,-0.25,-1.3,-55.45,,,69.53,,1.92,2.26,8.5,161.38,2026-10-13
+PAAS,Pan American Silver,Gold & silver,Overpriced,-0.53,-0.25,-9.63,-12.16,-16.09,-10.66,13.56,9.87,2.51,22.41,38.4,11.43,2026-10-13
+STN,Stantec,Industrials,Overpriced,-0.54,-0.25,-0.07,-47.0,1.9,-1.01,21.74,13.95,3.19,15.69,11.5,80.98,2026-10-13
+TOI,Topicus,Tech,Overpriced,-0.6,-0.28,-2.64,-17.26,-50.0,1.54,134.65,20.79,8.84,7.11,17.5,63.5,2026-10-13
+IVN,Ivanhoe Mines,Base metals,Overpriced,-0.61,-0.28,-13.35,-56.49,-20.0,-4.27,93.33,19.15,1.87,2.12,57.7,22.38,2026-10-13
+TRI,Thomson Reuters,Tech,Overpriced,-0.72,-0.34,10.28,-12.96,3.13,-5.81,28.43,20.6,4.08,14.17,9.5,28.81,2026-10-13
+FFH,Fairfax Financial,Insurance & asset mgmt,Overpriced,-0.73,-0.34,1.75,-26.1,-15.53,-4.41,8.12,9.68,1.23,16.48,-0.5,46.11,2026-10-13
+CSU,Constellation Software,Tech,Overpriced,-0.78,-0.36,9.02,-15.16,-1.15,-6.54,49.37,16.41,11.11,23.28,17.3,119.53,2026-10-13
+T,Telus,Telecom,Overpriced,-1.04,-0.49,-10.45,-59.36,-20.0,-11.34,,14.98,1.35,-6.39,-2.2,223.81,2026-10-13
+RBA,RB Global,Industrials,Overpriced,-1.17,-0.54,7.91,-14.38,0.0,-17.55,39.08,18.11,2.92,8.07,11.1,77.61,2026-10-13
+TOU,Tourmaline Oil,Oil & gas producers,Overpriced,-1.33,-0.62,6.84,-43.9,-34.09,-6.23,70.1,13.86,1.58,2.33,14.9,8.24,2026-10-13
+CPX,Capital Power,Utilities & REIT,Overpriced,-1.4,-0.65,7.39,-42.31,-82.98,0.71,124.5,22.45,2.37,2.35,75.4,151.1,2026-10-13

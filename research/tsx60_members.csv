@@ -1,0 +1,61 @@
+tsx_symbol,yahoo,company,gics_sector
+AEM,AEM.TO,Agnico Eagle Mines Limited,Basic Materials
+ATD,ATD.TO,Alimentation Couche-Tard Inc.,Consumer Cyclical
+BMO,BMO.TO,Bank of Montreal,Financial Services
+BNS,BNS.TO,Bank of Nova Scotia,Financial Services
+ABX,ABX.TO,Barrick Mining Corporation,Basic Materials
+BCE,BCE.TO,BCE Inc.,Communication Services
+BAM,BAM.TO,Brookfield Asset Management Ltd.,Financial Services
+BN,BN.TO,Brookfield Corporation,Financial Services
+BIP.UN,BIP-UN.TO,Brookfield Infrastructure Partners L.P.,Utilities
+CAE,CAE.TO,CAE Inc.,Industrials
+CCO,CCO.TO,Cameco Corporation,Energy
+CM,CM.TO,Canadian Imperial Bank of Commerce,Financial Services
+CNR,CNR.TO,Canadian National Railway Company,Industrials
+CNQ,CNQ.TO,Canadian Natural Resources Limited,Energy
+CP,CP.TO,Canadian Pacific Kansas City Limited,Industrials
+CTC.A,CTC-A.TO,Canadian Tire Corporation Limited,Consumer Cyclical
+CCL.B,CCL-B.TO,CCL Industries Inc.,Consumer Cyclical
+CLS,CLS.TO,Celestica Inc.,Information Technology
+CVE,CVE.TO,Cenovus Energy Inc.,Energy
+GIB.A,GIB-A.TO,CGI Inc.,Information Technology
+CSU,CSU.TO,Constellation Software Inc.,Information Technology
+DOL,DOL.TO,Dollarama Inc.,Consumer Staples
+EMA,EMA.TO,Emera Incorporated,Utilities
+ENB,ENB.TO,Enbridge Inc.,Energy
+FFH,FFH.TO,Fairfax Financial Holdings Limited,Financial Services
+FM,FM.TO,First Quantum Minerals Ltd.,Basic Materials
+FSV,FSV.TO,FirstService Corporation,Real Estate
+FTS,FTS.TO,Fortis Inc.,Utilities
+FNV,FNV.TO,Franco-Nevada Corporation,Basic Materials
+WN,WN.TO,George Weston Limited,Consumer Staples
+GIL,GIL.TO,Gildan Activewear Inc.,Consumer Cyclical
+H,H.TO,Hydro One Limited,Utilities
+IMO,IMO.TO,Imperial Oil Limited,Energy
+IFC,IFC.TO,Intact Financial Corporation,Financial Services
+K,K.TO,Kinross Gold Corporation,Basic Materials
+L,L.TO,Loblaw Companies Limited,Consumer Staples
+MG,MG.TO,Magna International Inc.,Consumer Cyclical
+MFC,MFC.TO,Manulife Financial Corporation,Financial Services
+MRU,MRU.TO,Metro Inc.,Consumer Staples
+NA,NA.TO,National Bank of Canada,Financial Services
+NTR,NTR.TO,Nutrien Ltd.,Basic Materials
+OTEX,OTEX.TO,Open Text Corporation,Information Technology
+PPL,PPL.TO,Pembina Pipeline Corporation,Energy
+POW,POW.TO,Power Corporation of Canada,Financial Services
+QSR,QSR.TO,Restaurant Brands International Inc.,Consumer Cyclical
+RCI.B,RCI-B.TO,Rogers Communications Inc.,Communication Services
+RY,RY.TO,Royal Bank of Canada,Financial Services
+SAP,SAP.TO,Saputo Inc.,Consumer Staples
+SHOP,SHOP.TO,Shopify Inc.,Information Technology
+SLF,SLF.TO,Sun Life Financial Inc.,Financial Services
+SU,SU.TO,Suncor Energy Inc.,Energy
+TRP,TRP.TO,TC Energy Corporation,Energy
+TECK.B,TECK-B.TO,Teck Resources Limited,Basic Materials
+T,T.TO,Telus Corporation,Communication Services
+TRI,TRI.TO,Thomson Reuters Corporation,Industrials
+TD,TD.TO,Toronto-Dominion Bank,Financial Services
+TOU,TOU.TO,Tourmaline Oil Corp.,Energy
+WCN,WCN.TO,Waste Connections Inc.,Industrials
+WPM,WPM.TO,Wheaton Precious Metals Corp.,Basic Materials
+WSP,WSP.TO,WSP Global Inc.,Industrials

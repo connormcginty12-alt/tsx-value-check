@@ -22,7 +22,7 @@ jobs:
         run: |
           git config user.name "tsx-value-bot"
           git config user.email "actions@users.noreply.github.com"
-          git pull --rebase
           git add data/options data/options_coverage.csv
           git commit -m "Option chains $(date -u +%F)" || echo "No changes"
+          git pull --rebase
           git push

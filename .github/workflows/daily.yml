@@ -36,4 +36,5 @@ jobs:
           git add tsx60_members.csv portfolio_*.csv portfolio_state.json || true
           git add data/ || true
           git commit -m "Ratings for $(date -u +%F)" || echo "No changes"
+          git pull --rebase
           git push

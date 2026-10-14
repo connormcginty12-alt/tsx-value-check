@@ -1,14 +1,16 @@
 """Rate each stock as underpriced / fairly priced / overpriced.
 
 Inputs: tsx100_closes.csv, earnings.csv, financials.csv (from pull_tsx_prices.py).
-Score = average of four cross-sectional z-scores, each of which predicted next-week
-returns in both 2014-2020 and 2021-2026 (positive in every year 2014-2026 combined):
+Score = average of five cross-sectional z-scores, each of which predicted next-week
+returns in both 2014-2020 and 2021-2026 (combined score positive in every year 2015-2026):
   1. 1-month pullback: minus the stock's last-21-trading-day return
   2. Peer momentum: return over the past 12 months excluding the last month,
      after removing market beta and sector peers' moves
   3. Earnings surprise: reported vs expected EPS at the latest report (last 63 trading days)
   4. Earnings-day reaction: the stock's move vs peers on the two days after its latest
      report (last 63 trading days) -- markets under-react to earnings news
+  5. Earnings week: the stock reports earnings within the coming week (the
+     well-documented earnings-announcement premium)
 Top fifth = Underpriced, bottom fifth = Overpriced. Current financials are reported for
 context only; valuation ratios flipped sign between periods so they are not in the score.
 Writes ratings.csv.
@@ -58,15 +60,38 @@ def z(x):
     return x.sub(x.mean(axis=1), axis=0).div(x.std(axis=1), axis=0).clip(-3, 3)
 
 # --- Earnings signals (point in time) ---
-E = pd.read_csv('earnings.csv').dropna(subset=['eps_reported', 'eps_estimate'])
-E['dt'] = pd.to_datetime(E.datetime, utc=True).dt.tz_convert('America/Toronto')
+E_all = pd.read_csv('earnings.csv')
+E_all['dt'] = pd.to_datetime(E_all.datetime, utc=True).dt.tz_convert('America/Toronto')
 idx = LP.index
+# trading days plus the next ~6 weeks of business days, so scheduled reports can be placed
+idx_ext = idx.append(pd.bdate_range(idx[-1] + pd.Timedelta(days=1), periods=30))
 
-def eff_day(ts):
+def eff_day(ts, days=idx):
     """First trading day the market could react: same day if before 9:30 am, else next."""
     d0 = pd.Timestamp(ts.date())
-    i = idx.searchsorted(d0 if ts.hour + ts.minute / 60 < 9.5 else d0 + pd.Timedelta(days=1))
-    return idx[i] if i < len(idx) else pd.NaT
+    i = days.searchsorted(d0 if ts.hour + ts.minute / 60 < 9.5 else d0 + pd.Timedelta(days=1))
+    return days[i] if i < len(days) else pd.NaT
+
+# Earnings week: flag the 5 trading days before each report's first reaction day
+# (signal on day t covers reports landing on days t+2..t+6)
+due = pd.DataFrame(0.0, index=idx, columns=stocks)
+next_report = {}
+for t, grp in E_all.groupby('ticker'):
+    if t not in stocks:
+        continue
+    for ts in grp.dt:
+        d_eff = eff_day(ts, idx_ext)
+        if pd.isna(d_eff):
+            continue
+        i = idx_ext.get_loc(d_eff)
+        lo, hi = max(0, i - 6), min(len(idx), max(0, i - 1))
+        if lo < hi:
+            due.iloc[lo:hi, due.columns.get_loc(t)] = 1.0
+        if d_eff > idx[-1]:
+            next_report[t] = min(next_report.get(t, d_eff), d_eff)
+due = due.where(LP.notna())
+
+E = E_all.dropna(subset=['eps_reported', 'eps_estimate']).copy()
 
 E['eff'] = E.dt.map(eff_day)
 E = E.dropna(subset=['eff']).sort_values('eff').drop_duplicates(['ticker', 'eff'], keep='last')
@@ -88,7 +113,7 @@ ear = ear.ffill(limit=62)
 def zf(x):   # z-score; stocks with no recent report count as neutral (0)
     return z(x).fillna(0).where(LP.notna())
 
-score = ((z(pullback_1m).fillna(0) + z(peer_mom).fillna(0) + zf(sue) + zf(ear)) / 4).where(
+score = ((z(pullback_1m).fillna(0) + z(peer_mom).fillna(0) + zf(sue) + zf(ear) + zf(due)) / 5).where(
     pullback_1m.notna() & peer_mom.notna())
 
 # Calibrate: average next-week return vs the group per unit of score, non-overlapping weeks
@@ -105,6 +130,8 @@ names = pd.read_csv('names.csv').set_index('tsx_ticker').company
 out = pd.DataFrame({'score': score.loc[t], 'past_1m_pct': -pullback_1m.loc[t] * 100,
                     'peer_1y_pct': peer_mom.loc[t] * 100, 'eps_surprise_pct': sue.loc[t] * 100,
                     'earnings_reaction_pct': ear.loc[t] * 100}).dropna(subset=['score'])
+out['earnings_this_week'] = np.where(due.loc[t].reindex(out.index) > 0, 'Yes', '')
+out['next_earnings'] = [next_report[s].date().isoformat() if s in next_report else '' for s in out.index]
 out['exp_rel_1w_pct'] = out.score * slope * 100
 q = pd.qcut(out.score.rank(method='first'), 5, labels=False)
 out['rating'] = np.select([q == 4, q == 0], ['Underpriced', 'Overpriced'], 'Fairly priced')
@@ -121,7 +148,7 @@ out['roe_pct'] = out.index.map(fin.returnOnEquity) * 100
 out['revenue_growth_pct'] = out.index.map(fin.revenueGrowth) * 100
 out['debt_to_equity'] = out.index.map(fin.debtToEquity)
 cols = ['ticker', 'company', 'sector', 'rating', 'score', 'exp_rel_1w_pct', 'past_1m_pct', 'peer_1y_pct',
-        'eps_surprise_pct', 'earnings_reaction_pct', 'pe_trailing', 'pe_forward', 'price_to_book', 'roe_pct',
+        'eps_surprise_pct', 'earnings_reaction_pct', 'earnings_this_week', 'next_earnings', 'pe_trailing', 'pe_forward', 'price_to_book', 'roe_pct',
         'revenue_growth_pct', 'debt_to_equity', 'as_of']
 out[cols].round(2).to_csv('ratings.csv', index=False)
 print(f'Rated {len(out)} stocks as of {t.date()}')

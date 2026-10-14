@@ -1,1 +1,11 @@
-date,action,ticker,company,shares,price,amount,cost_basis,profit_loss,reason
+date,action,ticker,company,shares,price,amount,cost_basis,profit_loss,reason,dividends
+2026-10-14,Buy,TECK-B,Teck Resources Limited,1.0842,92.23,100.0,100.0,,Ranked #1 on 2026-10-13,
+2026-10-14,Buy,SAP,Saputo Inc.,2.5323,39.49,100.0,100.0,,Ranked #2 on 2026-10-13,
+2026-10-14,Buy,POW,Power Corporation of Canada,1.1036,90.61,100.0,100.0,,Ranked #3 on 2026-10-13,
+2026-10-14,Buy,BNS,Bank of Nova Scotia,0.7804,128.14,100.0,100.0,,Ranked #4 on 2026-10-13,
+2026-10-14,Buy,BCE,BCE Inc.,3.5714,28.0,100.0,100.0,,Ranked #5 on 2026-10-13,
+2026-10-14,Buy,CCL-B,CCL Industries Inc.,1.044,95.79,100.0,100.0,,Ranked #6 on 2026-10-13,
+2026-10-14,Buy,MG,Magna International Inc.,1.0905,91.7,100.0,100.0,,Ranked #7 on 2026-10-13,
+2026-10-14,Buy,WPM,Wheaton Precious Metals Corp.,0.5426,184.3,100.0,100.0,,Ranked #8 on 2026-10-13,
+2026-10-14,Buy,CVE,Cenovus Energy Inc.,2.1515,46.48,100.0,100.0,,Ranked #9 on 2026-10-13,
+2026-10-14,Buy,WCN,Waste Connections Inc.,0.448,223.2,100.0,100.0,,Ranked #10 on 2026-10-13,

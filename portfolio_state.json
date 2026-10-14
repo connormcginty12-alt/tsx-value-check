@@ -1,3 +1,6 @@
 {
- "cash": 10000.0
+ "cash": 0.0,
+ "started": "2026-10-14",
+ "last_rebalance": "2026-10-14",
+ "last_cost": 10.0
 }

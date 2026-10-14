@@ -1,0 +1,193 @@
+<!-- revision 2019-10-26T18:55:27Z -->
+{{short description|Stock market index}}
+The '''S&P/TSX 60 Index''' is a [[stock market index]] of 60 large companies listed on the [[Toronto Stock Exchange]]. Maintained by the Canadian S&P Index Committee, a unit of [[Standard & Poor's]], it exposes the investor to ten industry sectors. 
+
+Combined with the S&P/TSX Completion Index it forms the [[S&P/TSX Composite Index]].
+
+==Component stocks==
+Effective prior to the open of trading on Monday, September 23, 2019.
+
+{| class="wikitable sortable"
+! Symbol !! Company !! Sector
+|-
+| {{TSX link|AEM}} || [[Agnico Eagle Mines Limited]] || Basic Materials
+|-
+| {{TSX link|ATD.B}} || [[Alimentation Couche-Tard|Alimentation Couche-Tard Inc.]] || Consumer Defensive
+|-
+| {{TSX link|BMO}} || [[Bank of Montreal]] || Financial Services
+|-
+| {{TSX link|BNS}} || [[Scotiabank|Bank of Nova Scotia]] || Financial Services
+|-
+| {{TSX link|ABX}} || [[Barrick Gold|Barrick Gold Corporation]] || Basic Materials
+|-
+| {{TSX link|BHC}} || [[Bausch Health|Bausch Health Companies Inc.]] || Healthcare
+|-
+| {{TSX link|BCE}} || [[BCE Inc.]] || Communication Services
+|-
+| {{TSX link|BB}} || [[BlackBerry Limited]] || Technology
+|-
+| {{TSX link|BBD.B}} || [[Bombardier Inc.]] || Industrials
+|-
+| {{TSX link|BAM.A}} || [[Brookfield Asset Management|Brookfield Asset Management Inc.]] || Financial Services
+|-
+| {{TSX link|BIP.UN}} || [[Brookfield Infrastructure Partners|Brookfield Infrastructure Partners L.P.]] || Utilities
+|-
+| {{TSX link|CCO}} || [[Cameco|Cameco Corporation]] || Basic Materials
+|-
+| {{TSX link|CM}} || [[Canadian Imperial Bank of Commerce]] || Financial Services
+|-
+| {{TSX link|CNR}} || [[Canadian National Railway|Canadian National Railway Company]] || Industrials
+|-
+| {{TSX link|CNQ}} || [[Canadian Natural Resources|Canadian Natural Resources Limited]] || Energy
+|-
+| {{TSX link|CP}} || [[Canadian Pacific Railway|Canadian Pacific Railway Limited]] || Industrials
+|-
+| {{TSX link|CTC.A}} || [[Canadian Tire|Canadian Tire Corporation Limited]] || Consumer Cyclical
+|-
+| {{TSX link|WEED}} || [[Canopy Growth|Canopy Growth Corporation]] || Healthcare
+|-
+| {{TSX link|CCL.B}} || [[CCL Industries|CCL Industries Inc.]] || Consumer Cyclical
+|-
+| {{TSX link|CVE}} || [[Cenovus Energy|Cenovus Energy Inc.]] || Energy
+|-
+| {{TSX link|GIB.A}} || [[CGI Inc.]] || Technology
+|-
+| {{TSX link|CSU}} || [[Constellation Software|Constellation Software Inc.]] || Technology
+|-
+| {{TSX link|DOL}} || [[Dollarama|Dollarama Inc.]] || Consumer Defensive
+|-
+| {{TSX link|EMA}} || [[Emera|Emera Incorporated]] || Utilities
+|-
+| {{TSX link|ENB}} || [[Enbridge|Enbridge Inc.]] || Energy
+|-
+| {{TSX link|ECA}} || [[Encana|Encana Corporation]] || Energy
+|-
+| {{TSX link|FM}} || [[First Quantum Minerals|First Quantum Minerals Ltd.]] || Basic Materials
+|-
+| {{TSX link|FTS}} || [[Fortis Inc.]] || Utilities
+|-
+| {{TSX link|FNV}} || [[Franco-Nevada|Franco-Nevada Corporation]] || Basic Materials
+|-
+| {{TSX link|WN}} || [[George Weston Limited]] || Consumer Defensive
+|-
+| {{TSX link|GIL}} || [[Gildan|Gildan Activewear Inc.]] || Consumer Cyclical
+|-
+| {{TSX link|IMO}} || [[Imperial Oil|Imperial Oil Limited]] || Energy
+|-
+| {{TSX link|IPL}} || [[Inter Pipeline|Inter Pipeline Ltd.]] || Energy
+|-
+| {{TSX link|K}} || [[Kinross Gold|Kinross Gold Corporation]] || Basic Materials
+|-
+| {{TSX link|KL}} || [[Kirkland Lake Gold Ltd.]] || Basic Materials
+|-
+| {{TSX link|L}} || [[Loblaw Companies|Loblaw Companies Limited]] || Consumer Defensive
+|-
+| {{TSX link|MG}} || [[Magna International|Magna International Inc.]] || Consumer Cyclical
+|-
+| {{TSX link|MFC}} || [[Manulife|Manulife Financial Corporation]] || Financial Services
+|-
+| {{TSX link|MRU}} || [[Metro Inc.]] || Consumer Defensive
+|-
+| {{TSX link|NA}} || [[National Bank of Canada]] || Financial Services
+|-
+| {{TSX link|NTR}} || [[Nutrien|Nutrien Ltd.]] || Basic Materials
+|-
+| {{TSX link|OTEX}} || [[OpenText|Open Text Corporation]] || Technology
+|-
+| {{TSX link|PPL}} || [[Pembina Pipeline|Pembina Pipeline Corporation]] || Energy
+|-
+| {{TSX link|POW}} || [[Power Corporation of Canada]] || Financial Services
+|-
+| {{TSX link|QSR}} || [[Restaurant Brands International|Restaurant Brands International Inc.]] || Consumer Cyclical
+|-
+| {{TSX link|RCI.B}} || [[Rogers Communications|Rogers Communications Inc.]] || Communication Services
+|-
+| {{TSX link|RY}} || [[Royal Bank of Canada]] || Financial Services
+|-
+| {{TSX link|SAP}} || [[Saputo Inc.]] || Dairy Products
+|-
+| {{TSX link|SJR.B}} || [[Shaw Communications|Shaw Communications Inc.]] || Communication Services
+|-
+| {{TSX link|SHOP}} || [[Shopify|Shopify Inc.]] || Technology
+|-
+| {{TSX link|SNC}} || [[SNC-Lavalin|SNC-Lavalin Group Inc.]] || Industrials
+|-
+| {{TSX link|SLF}} || [[Sun Life Financial|Sun Life Financial Inc.]] || Financial Services
+|-
+| {{TSX link|SU}} || [[Suncor Energy|Suncor Energy Inc.]] || Energy
+|-
+| {{TSX link|TRP}} || [[TC Energy|TC Energy Corporation]] || Energy
+|-
+| {{TSX link|TECK.B}} || [[Teck Resources|Teck Resources Limited]] || Basic Materials
+|-
+| {{TSX link|T}} || [[Telus|Telus Corporation]] || Communication Services
+|-
+| {{TSX link|TRI}} || [[Thomson Reuters|Thomson Reuters Corporation]] || Financial Services
+|-
+| {{TSX link|TD}} || [[Toronto-Dominion Bank]] || Financial Services
+|-
+| {{TSX link|WCN}} || [[Waste Connections|Waste Connections Inc.]] || Industrials
+|-
+|{{TSX link|WPM}}
+|[[Wheaton Precious Metals Corporation|Wheaton Precious Metals Corp.]] || Basic Materials
+|}
+Group By Category from above table.
+{| class="wikitable"
+|Basic  Materials
+|10
+|-
+|Communication Services
+|4
+|-
+|Consumer Cyclical
+|5
+|-
+|Consumer Defensive
+|6
+|-
+|Energy
+|9
+|-
+|Financial Services
+|11
+|-
+|Healthcare
+|2
+|-
+|Industrials
+|5
+|-
+|Technology
+|5
+|-
+|Utilities
+|3
+|-
+|'''Grand Total'''
+|'''60'''
+|}
+
+==TSX 60-based funds==
+The [[iShares]] S&P/TSX 60 Index Fund ({{tsx2|XIU}}) and the Horizons S&P/TSX 60 Index ETF ({{tsx2|HXT}}) are Canadian [[exchange-traded fund|exchange-traded]] [[index fund]]s that are tied to the S&P/TSX 60.
+
+==See also==
+* [[S&P/TSX Composite Index]]
+* [[List of companies listed on the Toronto Stock Exchange]]
+* [[S&P Global 1200]]
+* [[TSX Venture 50]]
+*[[Jantzi Social Index]]
+
+==References==
+<references />
+
+==External links==
+* [http://web.tmxmoney.com/tmx_indices.php?section=tsx&index=^TX60 S&P/TSX 60 index] at [[Toronto Stock Exchange]]
+* [http://www.spindices.com/indices/equity/sp-tsx-60-index S&P/TSX 60 index] at [[S&P Dow Jones Indices]]
+* [https://www.bloomberg.com/apps/quote?ticker=SPTSX60:IND Bloomberg page for SPTSX60:IND]
+
+{{S&P/TSX 60}}
+
+{{DEFAULTSORT:SandP TSX 60}}
+[[Category:S&P/TSX 60 Index| ]]
+[[Category:Canadian stock market indices]]
+[[Category:Standard & Poor's]]

@@ -1,0 +1,180 @@
+<!-- revision 2022-10-12T18:08:20Z -->
+{{short description|Canadian stock market index}}
+The '''S&P/TSX 60 Index''' is a [[stock market index]] of 60 large companies listed on the [[Toronto Stock Exchange]]. Maintained by the Canadian S&P Index Committee, a unit of [[Standard & Poor's]], it exposes the investor to nine industry sectors. 
+
+Combined with the S&P/TSX Completion Index it forms the [[S&P/TSX Composite Index]].
+
+The S&P/TSX 60 Index is designed to represent leading companies in leading industries. Its 60 stocks make it ideal for coverage of companies with large market capitalizations and a cost-efficient way to achieve Canadian equity exposure. The S&P/TSX 60 Index also represents the Canadian component of [[Standard & Poor's]] flagship [[S&P Global 1200]].<ref name=tmx>{{cite web|url=https://tmxinfoservices.com/tmx-datalinx/products-and-services/sp-tsx-indices?indexinfo=%5ETX60#tsx|title=S&P/TSX 60 Index|publisher=TMX Datalinx|access-date=October 12, 2022}}</ref> The S&P/TSX 60 Index was launched on December 30, 1998.<ref>{{cite web|url=https://ca.spindices.com/indices/equity/sp-tsx-60-index|title=S&P/TSX 60|publisher= - S&P Dow Jones Indices|access-date=May 6, 2020}}</ref>
+
+==Constituents ==
+As of October 12, 2022 the constituents were:<ref name=tmx />
+{| class="wikitable sortable"
+! Symbol !! Company !! Sector
+|-
+| {{TSX link|AEM}} || [[Agnico Eagle Mines Limited]] || Basic Materials
+|-
+| {{TSX link|AQN}} || [[Algonquin Power & Utilities|Algonquin Power & Utilities Corp.]] || Utilities
+|-
+| {{TSX link|ATD}} || [[Alimentation Couche-Tard|Alimentation Couche-Tard Inc.]] || Consumer Staples
+|-
+| {{TSX link|BCE}} || [[BCE Inc.]] || Communication Services
+|-
+| {{TSX link|BMO}} || [[Bank of Montreal]] || Financial Services
+|-
+| {{TSX link|BNS}} || [[Scotiabank|Bank of Nova Scotia]] || Financial Services
+|-
+| {{TSX link|ABX}} || [[Barrick Gold|Barrick Gold Corporation]] || Basic Materials
+|-
+| {{TSX link|BAM.A}} || [[Brookfield Asset Management|Brookfield Asset Management Inc.]] || Financial Services
+|-
+| {{TSX link|BIP.UN}} || [[Brookfield Infrastructure Partners|Brookfield Infrastructure Partners L.P.]] || Utilities
+|-
+| {{TSX link|CAE}} || [[CAE Inc.]] || Industrials
+|-
+| {{TSX link|CCL.B}} || [[CCL Industries|CCL Industries Inc.]] || Consumer Cyclical
+|-
+| {{TSX link|GIB.A}} || [[CGI Inc.]] || Information Technology
+|-
+| {{TSX link|CCO}} || [[Cameco|Cameco Corporation]] || Energy
+|-
+| {{TSX link|CAR.UN}} || [[Canadian Apartment Properties Real Estate Investment Trust]] || Real Estate
+|-
+| {{TSX link|CM}} || [[Canadian Imperial Bank of Commerce]] || Financial Services
+|-
+| {{TSX link|CNR}} || [[Canadian National Railway|Canadian National Railway Company]] || Industrials
+|-
+| {{TSX link|CNQ}} || [[Canadian Natural Resources|Canadian Natural Resources Limited]] || Energy
+|-
+| {{TSX link|CP}} || [[Canadian Pacific Railway|Canadian Pacific Railway Limited]] || Industrials
+|-
+| {{TSX link|CTC.A}} || [[Canadian Tire|Canadian Tire Corporation Limited]] || Consumer Cyclical
+|-
+| {{TSX link|CVE}} || [[Cenovus Energy|Cenovus Energy Inc.]] || Energy
+|-
+| {{TSX link|CSU}} || [[Constellation Software|Constellation Software Inc.]] || Information Technology
+|-
+| {{TSX link|DOL}} || [[Dollarama|Dollarama Inc.]] || Consumer Staples
+|-
+| {{TSX link|EMA}} || [[Emera|Emera Incorporated]] || Utilities
+|-
+| {{TSX link|ENB}} || [[Enbridge|Enbridge Inc.]] || Energy
+|-
+| {{TSX link|FM}} || [[First Quantum Minerals|First Quantum Minerals Ltd.]] || Basic Materials
+|-
+| {{TSX link|FSV}} || [[FirstService|FirstService Corporation]] || Real Estate
+|-
+| {{TSX link|FTS}} || [[Fortis Inc.]] || Utilities
+|-
+| {{TSX link|FNV}} || [[Franco-Nevada|Franco-Nevada Corporation]] || Basic Materials
+|-
+| {{TSX link|WN}} || [[George Weston Limited]] || Consumer Staples
+|-
+| {{TSX link|GIL}} || [[Gildan|Gildan Activewear Inc.]] || Consumer Cyclical
+|-
+| {{TSX link|IMO}} || [[Imperial Oil|Imperial Oil Limited]] || Energy
+|-
+| {{TSX link|IFC}} || [[Intact Financial Corporation]] || Financial Services
+|-
+| {{TSX link|H}} || [[Hydro One Limited]] || Utilities
+|-
+| {{TSX link|K}} || [[Kinross Gold|Kinross Gold Corporation]] || Basic Materials
+|-
+| {{TSX link|L}} || [[Loblaw Companies|Loblaw Companies Limited]] || Consumer Staples
+|-
+| {{TSX link|MG}} || [[Magna International|Magna International Inc.]] || Consumer Cyclical
+|-
+| {{TSX link|MFC}} || [[Manulife|Manulife Financial Corporation]] || Financial Services
+|-
+| {{TSX link|MRU}} || [[Metro Inc.]] || Consumer Staples
+|-
+| {{TSX link|NA}} || [[National Bank of Canada]] || Financial Services
+|-
+| {{TSX link|NTR}} || [[Nutrien|Nutrien Ltd.]] || Basic Materials
+|-
+| {{TSX link|OTEX}} || [[OpenText|Open Text Corporation]] || Information Technology
+|-
+| {{TSX link|PPL}} || [[Pembina Pipeline|Pembina Pipeline Corporation]] || Energy
+|-
+| {{TSX link|POW}} || [[Power Corporation of Canada]] || Financial Services
+|-
+| {{TSX link|QSR}} || [[Restaurant Brands International|Restaurant Brands International Inc.]] || Consumer Cyclical
+|-
+| {{TSX link|RCI.B}} || [[Rogers Communications|Rogers Communications Inc.]] || Communication Services
+|-
+| {{TSX link|RY}} || [[Royal Bank of Canada]] || Financial Services
+|-
+| {{TSX link|SNC}} || [[SNC-Lavalin|SNC-Lavalin Group Inc.]] || Industrials
+|-
+| {{TSX link|SAP}} || [[Saputo Inc.]] || Consumer Staples
+|-
+| {{TSX link|SJR.B}} || [[Shaw Communications|Shaw Communications Inc.]] || Communication Services
+|-
+| {{TSX link|SHOP}} || [[Shopify|Shopify Inc.]] || Information Technology
+|-
+| {{TSX link|SLF}} || [[Sun Life Financial|Sun Life Financial Inc.]] || Financial Services
+|-
+| {{TSX link|SU}} || [[Suncor Energy|Suncor Energy Inc.]] || Energy
+|-
+| {{TSX link|TRP}} || [[TC Energy|TC Energy Corporation]] || Energy
+|-
+| {{TSX link|TECK.B}} || [[Teck Resources|Teck Resources Limited]] || Basic Materials
+|-
+| {{TSX link|T}} || [[Telus Corporation (conglomerate)|Telus Corporation]] || Communication Services
+|-
+| {{TSX link|TRI}} || [[Thomson Reuters|Thomson Reuters Corporation]] || Industrials
+|-
+| {{TSX link|TD}} || [[Toronto-Dominion Bank]] || Financial Services
+|-
+| {{TSX link|TOU}} || [[Tourmaline Oil|Tourmaline Oil Corp.]] || Energy
+|-
+| {{TSX link|WCN}} || [[Waste Connections|Waste Connections Inc.]] || Industrials
+|-
+| {{TSX link|WPM}} || [[Wheaton Precious Metals|Wheaton Precious Metals Corp.]] || Basic Materials
+|}
+
+==Sector weights==
+The weighting of the [[Global Industry Classification Standard]] (GICS) as of October 12, 2022 are:<ref name=tmx />
+{| class="wikitable sortable"
+|Financials || 34.91
+|-
+|Energy || 19.04
+|-
+|Industrials || 12.12
+|-
+|Materials || 10.54
+|-
+|Communication Services || 5.80
+|-
+|Information Technology || 5.16
+|-
+|Consumer Staples || 4.42
+|-
+|Utilities || 3.72
+|-
+|Consumer Discretionary || 3.68
+|}
+
+==TSX 60-based funds==
+The [[iShares]] S&P/TSX 60 Index Fund ({{tsx2|XIU}}) and the Horizons S&P/TSX 60 Index ETF ({{tsx2|HXT}}) are Canadian [[exchange-traded fund|exchange-traded]] [[index fund]]s that are tied to the S&P/TSX 60.
+
+==See also==
+* [[S&P/TSX Composite Index]]
+* [[List of companies listed on the Toronto Stock Exchange]]
+* [[S&P Global 1200]]
+* [[TSX Venture 50]]
+*[[Jantzi Social Index]]
+
+==References==
+<references />
+
+==External links==
+* [https://money.tmx.com/en/quote/%5ETX60 S&P/TSX 60 index] at [[Toronto Stock Exchange]]
+* [http://www.spindices.com/indices/equity/sp-tsx-60-index S&P/TSX 60 index] at [[S&P Dow Jones Indices]]
+* [https://www.bloomberg.com/apps/quote?ticker=SPTSX60:IND Bloomberg page for SPTSX60:IND]
+
+{{S&P/TSX 60}}
+
+{{DEFAULTSORT:SandP TSX 60}}
+[[Category:S&P/TSX 60| ]]
+[[Category:Canadian stock market indices]]
+[[Category:S&P Dow Jones Indices]]

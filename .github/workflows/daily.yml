@@ -19,6 +19,7 @@ jobs:
       - run: pip install yfinance pandas numpy lxml xlrd requests
       - run: python pull_tsx_prices.py
       - run: python daily_rating.py
+      - run: python grade.py
       - name: Record estimates and short positions
         run: python record_data.py
         continue-on-error: true   # never let this block the ratings
@@ -26,7 +27,7 @@ jobs:
         run: |
           git config user.name "tsx-value-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add ratings.csv tsx100_closes.csv earnings.csv financials.csv
+          git add ratings.csv tsx100_closes.csv earnings.csv financials.csv ratings_history.csv scores_history.csv scorecard.csv scorecard_summary.csv
           git add data/ || true
           git commit -m "Ratings for $(date -u +%F)" || echo "No changes"
           git push

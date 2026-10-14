@@ -133,6 +133,13 @@ out = pd.DataFrame({'score': score.loc[t], 'past_1m_pct': -pullback_1m.loc[t] * 
 out['earnings_this_week'] = np.where(due.loc[t].reindex(out.index) > 0, 'Yes', '')
 out['next_earnings'] = [next_report[s].date().isoformat() if s in next_report else '' for s in out.index]
 out['exp_rel_1w_pct'] = out.score * slope * 100
+# One-number forecast for the close 5 trading days out:
+# today's close x (beta x a long-run market drift of ~8%/yr) x (the score's expected edge vs the group)
+tsx_week = np.log(1.08) / 52
+b_now = beta.loc[t].reindex(out.index).fillna(1.0)
+out['close'] = np.exp(LP.loc[t].reindex(out.index))
+out['forecast_1w'] = out['close'] * np.exp(b_now * tsx_week + out.score * slope)
+out['forecast_change_pct'] = (out.forecast_1w / out.close - 1) * 100
 q = pd.qcut(out.score.rank(method='first'), 5, labels=False)
 out['rating'] = np.select([q == 4, q == 0], ['Underpriced', 'Overpriced'], 'Fairly priced')
 out['ticker'] = [s.replace('.TO', '').replace('.V', '') for s in out.index]
@@ -147,8 +154,25 @@ out['price_to_book'] = out.index.map(fin.priceToBook)
 out['roe_pct'] = out.index.map(fin.returnOnEquity) * 100
 out['revenue_growth_pct'] = out.index.map(fin.revenueGrowth) * 100
 out['debt_to_equity'] = out.index.map(fin.debtToEquity)
-cols = ['ticker', 'company', 'sector', 'rating', 'score', 'exp_rel_1w_pct', 'past_1m_pct', 'peer_1y_pct',
+cols = ['ticker', 'company', 'sector', 'rating', 'score', 'exp_rel_1w_pct', 'close', 'forecast_1w', 'forecast_change_pct',
+        'past_1m_pct', 'peer_1y_pct',
         'eps_surprise_pct', 'earnings_reaction_pct', 'earnings_this_week', 'next_earnings', 'pe_trailing', 'pe_forward', 'price_to_book', 'roe_pct',
         'revenue_growth_pct', 'debt_to_equity', 'as_of']
 out[cols].round(2).to_csv('ratings.csv', index=False)
 print(f'Rated {len(out)} stocks as of {t.date()}')
+
+# Score history for the scorecard's backfilled period (recomputed each run; live grading uses
+# ratings_history.csv, which is never rewritten)
+hist_dates = [d for d in score.index if d >= pd.Timestamp('2026-01-01')]
+rows = []
+for d in hist_dates:
+    sc = score.loc[d].dropna()
+    if len(sc) < 30:
+        continue
+    qd = pd.qcut(sc.rank(method='first'), 5, labels=False)
+    bd = beta.loc[d].reindex(sc.index).fillna(1.0)
+    cl = np.exp(LP.loc[d].reindex(sc.index))
+    rows.append(pd.DataFrame({'as_of': d.date().isoformat(), 'ticker': [x.replace('.TO', '').replace('.V', '') for x in sc.index],
+                              'score': sc.values, 'rating': np.select([qd == 4, qd == 0], ['Underpriced', 'Overpriced'], 'Fairly priced'),
+                              'close': cl.values, 'forecast_1w': (cl * np.exp(bd * tsx_week + sc * slope)).values}))
+pd.concat(rows).round(4).to_csv('scores_history.csv', index=False)

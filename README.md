@@ -31,6 +31,12 @@ week is over (`scorecard.csv`, `scorecard_summary.csv`): rank correlation with n
 Underpriced − Overpriced gap, and forecast error vs a no-change forecast. Rows before Oct 13, 2026 are a
 backfill that flatters the model; only `live` rows are a true out-of-sample record.
 
+**Paper portfolio (`portfolio.py`):** runs the backtested rule live from Oct 14, 2026 — hold the 10
+S&P/TSX 60 members with the highest score, equal weight; once a week at the close of the week's first
+trading day (using the previous close's scores) sell what dropped out of the top 10, buy what came in,
+reset to equal size; 0.10% per trade; benchmark XIU. Files: `portfolio_*.csv`, `portfolio_state.json`.
+TSX 60 membership is refreshed daily from Wikipedia (`update_tsx60.py`, `tsx60_members.csv`).
+
 **Data being recorded for future tests (`record_data.py`):** daily analyst estimate snapshots
 (`data/estimates_history.csv`) and CIRO short position reports (`data/short_positions*`).
 

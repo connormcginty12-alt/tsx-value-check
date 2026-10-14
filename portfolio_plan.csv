@@ -1,0 +1,11 @@
+action,ticker,company,rank_today,score,rating
+Buy,TECK-B,Teck Resources Limited,1,0.842,Underpriced
+Buy,SAP,Saputo Inc.,2,0.603,Underpriced
+Buy,POW,Power Corporation of Canada,3,0.549,Underpriced
+Buy,BNS,Bank of Nova Scotia,4,0.443,Underpriced
+Buy,BCE,BCE Inc.,5,0.424,Underpriced
+Buy,CCL-B,CCL Industries Inc.,6,0.418,Underpriced
+Buy,MG,Magna International Inc.,7,0.371,Fairly priced
+Buy,WPM,Wheaton Precious Metals Corp.,8,0.361,Fairly priced
+Buy,CVE,Cenovus Energy Inc.,9,0.347,Fairly priced
+Buy,WCN,Waste Connections Inc.,10,0.346,Fairly priced

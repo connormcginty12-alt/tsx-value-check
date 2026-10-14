@@ -1,0 +1,26 @@
+name: Research data pull
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install yfinance pandas lxml
+      - run: python research/pull_research_data.py
+      - name: Save results
+        run: |
+          git config user.name "tsx-value-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git pull --rebase
+          git add research/
+          git commit -m "Research data pull" || echo "No changes"
+          git push

@@ -1,0 +1,11 @@
+variant,cagr_pct,vs_members_pct_yr,years_beat_members,vs_xiu_pct_yr,sharpe,max_drawdown_pct
+"Top 10, weekly (main)",19.43,6.45,10/12,8.15,0.96,-43.14
+"Top 15, weekly",16.7,3.82,8/12,5.52,0.9,-46.65
+"Top 10, hold until out of top 25",14.45,2.21,8/12,3.91,0.75,-49.23
+"Top 10, max 3 per sector",17.48,4.72,10/12,6.42,0.89,-44.09
+"Top 10, cash when XIU below 200-day avg",14.96,1.58,6/12,3.28,1.01,-25.09
+"Top 10, cut exposure when volatile",14.83,1.45,7/12,3.15,1.01,-26.42
+50% top 10 + 50% XIU,15.48,2.37,10/12,4.07,0.93,-38.85
+"Top 10, weekly, costs 20 bp",14.59,2.31,8/12,4.02,0.76,-43.44
+Members equal-weight (benchmark),13.03,0.0,0/12,1.7,0.86,-38.36
+"XIU, TSX 60 ETF (benchmark)",11.24,-1.7,3/12,0.0,0.79,-35.46

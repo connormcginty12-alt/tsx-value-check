@@ -1,0 +1,10 @@
+check,result,verdict
+Survivorship bias,"On today's 98 largest, equal-weight made 22.7%/yr vs 11.0% for the TSX ETF — winners picked in hindsight. On point-in-time TSX 60 members (71 of 88 with data; 17 missing were takeovers), equal-weight made 13.0%/yr vs 11.2% for XIU.",Main backtest uses the point-in-time universe
+Luck (random picks),"Before costs, the strategy made 24.5%/yr; 80 random 10-stock weekly portfolios from the same members: median 12.4%, best 18.7%.",Beat all 80
+Just extra risk?,"Beta 1.12 vs XIU; risk-adjusted alpha +6.7%/yr (t = 1.86). Random picks from the most volatile third: alpha −3.4%/yr.",Edge is from the score, not from holding volatile stocks
+Concentration,"Gains spread across many names (Shopify, First Quantum, gold miners lead; Bausch, BlackBerry, BCE hurt). Without the top 3 contributors about half the excess remains.",Not one lucky stock
+Start date,"Excess vs members if started in 2017: +3.3%/yr; 2019: +4.9; 2021: +3.8; 2023: +12.2.",Positive from every start tested
+Trading costs,"CAGR 21.9% at 5 bp per trade, 19.4% at 10 bp, 14.6% at 20 bp, 9.9% at 30 bp (XIU 11.2%).",Needs low-cost trading
+Bad years,"Weekly rank correlation was negative in 2018, 2021 and 2022; 2022 lost 30% vs −2.8% for members (Bausch, Shopify, Algonquin, Gildan).",Expect losing years
+Market regimes,"Edge similar in calm and volatile markets, rising and falling rates, earnings season or not; slightly stronger in up-trends.",No regime filter worth adding
+Ideas that failed,"Sector rotation (sector-level corr 0.002); skipping volatile stocks; volatility-penalised score; staggered 4-week holding; long-short (overpriced names still rose in this universe).",Not used

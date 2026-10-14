@@ -1,10 +1,16 @@
-"""Rate each stock as underpriced / fairly priced / overpriced from tsx100_closes.csv.
+"""Rate each stock as underpriced / fairly priced / overpriced.
 
-Score = average of two cross-sectional z-scores (both tested on 2021-2026 data):
+Inputs: tsx100_closes.csv, earnings.csv, financials.csv (from pull_tsx_prices.py).
+Score = average of four cross-sectional z-scores, each of which predicted next-week
+returns in both 2014-2020 and 2021-2026 (positive in every year 2014-2026 combined):
   1. 1-month pullback: minus the stock's last-21-trading-day return
-  2. Peer momentum: the stock's return over the past 12 months excluding the last
-     month, after removing market beta and its sector peers' moves
-Top fifth of scores = Underpriced, bottom fifth = Overpriced.
+  2. Peer momentum: return over the past 12 months excluding the last month,
+     after removing market beta and sector peers' moves
+  3. Earnings surprise: reported vs expected EPS at the latest report (last 63 trading days)
+  4. Earnings-day reaction: the stock's move vs peers on the two days after its latest
+     report (last 63 trading days) -- markets under-react to earnings news
+Top fifth = Underpriced, bottom fifth = Overpriced. Current financials are reported for
+context only; valuation ratios flipped sign between periods so they are not in the score.
 Writes ratings.csv.
 """
 import numpy as np
@@ -51,7 +57,39 @@ peer_mom = cr.shift(21) - cr.shift(252)
 def z(x):
     return x.sub(x.mean(axis=1), axis=0).div(x.std(axis=1), axis=0).clip(-3, 3)
 
-score = pd.concat({'a': z(pullback_1m), 'b': z(peer_mom)}).groupby(level=1).mean().reindex(LP.index)
+# --- Earnings signals (point in time) ---
+E = pd.read_csv('earnings.csv').dropna(subset=['eps_reported', 'eps_estimate'])
+E['dt'] = pd.to_datetime(E.datetime, utc=True).dt.tz_convert('America/Toronto')
+idx = LP.index
+
+def eff_day(ts):
+    """First trading day the market could react: same day if before 9:30 am, else next."""
+    d0 = pd.Timestamp(ts.date())
+    i = idx.searchsorted(d0 if ts.hour + ts.minute / 60 < 9.5 else d0 + pd.Timedelta(days=1))
+    return idx[i] if i < len(idx) else pd.NaT
+
+E['eff'] = E.dt.map(eff_day)
+E = E.dropna(subset=['eff']).sort_values('eff').drop_duplicates(['ticker', 'eff'], keep='last')
+E['sue'] = ((E.eps_reported - E.eps_estimate) / E.eps_estimate.abs().clip(lower=0.05)).clip(-1, 1)
+sue = pd.DataFrame(np.nan, index=idx, columns=stocks)
+ear = pd.DataFrame(np.nan, index=idx, columns=stocks)
+cres = res.fillna(0).cumsum()
+for t, grp in E.groupby('ticker'):
+    if t not in stocks:
+        continue
+    for dt, sv in zip(grp.eff, grp.sue):
+        i = idx.get_loc(dt)
+        sue.iloc[i, sue.columns.get_loc(t)] = sv
+        if i + 1 < len(idx):   # reaction = residual on report day and next day, known after day 2
+            ear.iloc[i + 1, ear.columns.get_loc(t)] = cres[t].iloc[i + 1] - cres[t].iloc[i - 1]
+sue = sue.ffill(limit=62)
+ear = ear.ffill(limit=62)
+
+def zf(x):   # z-score; stocks with no recent report count as neutral (0)
+    return z(x).fillna(0).where(LP.notna())
+
+score = ((z(pullback_1m).fillna(0) + z(peer_mom).fillna(0) + zf(sue) + zf(ear)) / 4).where(
+    pullback_1m.notna() & peer_mom.notna())
 
 # Calibrate: average next-week return vs the group per unit of score, non-overlapping weeks
 fwd = LP.shift(-5) - LP
@@ -65,7 +103,8 @@ slope = np.polyfit(xs[ok], ys[ok], 1)[0]
 t = score.index[-1]
 names = pd.read_csv('names.csv').set_index('tsx_ticker').company
 out = pd.DataFrame({'score': score.loc[t], 'past_1m_pct': -pullback_1m.loc[t] * 100,
-                    'peer_1y_pct': peer_mom.loc[t] * 100}).dropna(subset=['score'])
+                    'peer_1y_pct': peer_mom.loc[t] * 100, 'eps_surprise_pct': sue.loc[t] * 100,
+                    'earnings_reaction_pct': ear.loc[t] * 100}).dropna(subset=['score'])
 out['exp_rel_1w_pct'] = out.score * slope * 100
 q = pd.qcut(out.score.rank(method='first'), 5, labels=False)
 out['rating'] = np.select([q == 4, q == 0], ['Underpriced', 'Overpriced'], 'Fairly priced')
@@ -74,6 +113,15 @@ out['company'] = out.index.map(names)
 out['sector'] = out.index.map(SEC)
 out['as_of'] = str(t.date())
 out = out.sort_values('score', ascending=False)
-cols = ['ticker', 'company', 'sector', 'rating', 'score', 'exp_rel_1w_pct', 'past_1m_pct', 'peer_1y_pct', 'as_of']
+fin = pd.read_csv('financials.csv').set_index('ticker')
+out['pe_trailing'] = out.index.map(fin.trailingPE)
+out['pe_forward'] = out.index.map(fin.forwardPE)
+out['price_to_book'] = out.index.map(fin.priceToBook)
+out['roe_pct'] = out.index.map(fin.returnOnEquity) * 100
+out['revenue_growth_pct'] = out.index.map(fin.revenueGrowth) * 100
+out['debt_to_equity'] = out.index.map(fin.debtToEquity)
+cols = ['ticker', 'company', 'sector', 'rating', 'score', 'exp_rel_1w_pct', 'past_1m_pct', 'peer_1y_pct',
+        'eps_surprise_pct', 'earnings_reaction_pct', 'pe_trailing', 'pe_forward', 'price_to_book', 'roe_pct',
+        'revenue_growth_pct', 'debt_to_equity', 'as_of']
 out[cols].round(2).to_csv('ratings.csv', index=False)
 print(f'Rated {len(out)} stocks as of {t.date()}')

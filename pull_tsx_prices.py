@@ -1,10 +1,10 @@
-"""Pull 5 years of daily closes for the top-100 Canadian stocks plus market factors.
+"""Pull 3 years of daily closes, earnings history and current financials for the stock list.
 
 Run on any computer with internet:
     pip install yfinance pandas
     python pull_tsx_prices.py
 
-Writes tsx100_closes.csv next to this script (one column per ticker, one row per day).
+Writes tsx100_closes.csv, earnings.csv and financials.csv next to this script.
 """
 import pandas as pd
 import yfinance as yf
@@ -14,7 +14,7 @@ BN.TO CP.TO BAM.TO CNR.TO MFC.TO ABX.TO TRP.TO IMO.TO WPM.TO CVE.TO
 GWO.TO NA.TO L.TO ATD.TO FNV.TO CSU.TO TRI.TO CLS.TO SLF.TO POW.TO
 BBD-B.TO CCO.TO DOL.TO FFH.TO NTR.TO TECK-B.TO QSR.TO IFC.TO PPL.TO K.TO
 FTS.TO WN.TO FM.TO H.TO LUN.TO PAAS.TO BCE.TO TOU.TO MG.TO RCI-B.TO
-WCP.TO RBA.TO LUG.TO WSP.TO GFL.TO GIB-A.TO EMA.TO TOI.V MRU.TO ARX.TO
+WCP.TO RBA.TO LUG.TO WSP.TO GFL.TO GIB-A.TO EMA.TO TOI.V MRU.TO
 AGI.TO IGM.TO IAG.TO EQX.TO T.TO ALA.TO TIH.TO ATZ.TO CCL-B.TO HBM.TO
 KEY.TO IVN.TO CGG.TO SAP.TO IMG.TO X.TO HUT.TO QBR-B.TO GMIN.TO ATRL.TO
 FTT.TO ELD.TO TFII.TO CU.TO DPM.TO AG.TO GIL.TO CTC-A.TO EMP-A.TO STN.TO
@@ -33,3 +33,27 @@ missing = [t for t in STOCKS + FACTORS if t not in closes or closes[t].dropna().
 print(f"Saved {closes.shape[0]} days x {closes.shape[1]} series to tsx100_closes.csv")
 if missing:
     print("No data for:", ", ".join(missing))
+
+# Earnings history (reported vs expected EPS) and current financials
+FIELDS = ["financialCurrency", "trailingPE", "forwardPE", "priceToBook", "returnOnEquity",
+          "debtToEquity", "revenueGrowth", "earningsGrowth", "profitMargins", "dividendYield"]
+earn, fin = [], []
+for t in STOCKS:
+    tk = yf.Ticker(t)
+    try:
+        ed = tk.get_earnings_dates(limit=12)
+        if ed is not None and not ed.empty:
+            ed = ed.reset_index().iloc[:, :4]
+            ed.columns = ["datetime", "eps_estimate", "eps_reported", "surprise_pct"]
+            ed["ticker"] = t
+            earn.append(ed)
+    except Exception as exc:
+        print("earnings failed", t, exc)
+    try:
+        info = tk.info
+        fin.append({"ticker": t, **{f: info.get(f) for f in FIELDS}})
+    except Exception as exc:
+        print("info failed", t, exc)
+pd.concat(earn).to_csv("earnings.csv", index=False)
+pd.DataFrame(fin).to_csv("financials.csv", index=False)
+print(f"Earnings for {len(earn)} stocks, financials for {len(fin)}")

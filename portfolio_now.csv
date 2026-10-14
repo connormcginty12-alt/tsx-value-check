@@ -1,11 +1,1 @@
 ticker,company,since,entry_price,close,return_pct,value,weight_pct,rank_today,status
-TECK-B,Teck Resources Limited,2026-10-14,93.05,93.05,0.0,999.0,10.0,2,Hold
-SAP,Saputo Inc.,2026-10-14,39.16,39.16,-0.0,999.0,10.0,3,Hold
-POW,Power Corporation of Canada,2026-10-14,89.28,89.28,-0.0,999.0,10.0,4,Hold
-BNS,Bank of Nova Scotia,2026-10-14,127.6,127.6,-0.0,999.0,10.0,6,Hold
-BCE,BCE Inc.,2026-10-14,27.59,27.59,0.0,999.0,10.0,7,Hold
-CCL-B,CCL Industries Inc.,2026-10-14,95.78,95.78,-0.0,999.0,10.0,5,Hold
-MG,Magna International Inc.,2026-10-14,92.73,92.73,0.0,999.0,10.0,14,Would sell
-WPM,Wheaton Precious Metals Corp.,2026-10-14,185.18,185.18,-0.0,999.0,10.0,9,Hold
-CVE,Cenovus Energy Inc.,2026-10-14,46.8,46.8,-0.0,999.0,10.0,11,Would sell
-WCN,Waste Connections Inc.,2026-10-14,220.71,220.71,0.0,999.0,10.0,1,Hold

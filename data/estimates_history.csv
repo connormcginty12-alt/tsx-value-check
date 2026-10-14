@@ -7,7 +7,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,RY.TO,eps_revisions,+1q,,,,,,CAD,4.0,3.0,0.0,1.0,,,,
 2026-10-14,RY.TO,eps_revisions,0y,,,,,,CAD,1.0,12.0,0.0,0.0,,,,
 2026-10-14,RY.TO,eps_revisions,+1y,,,,,,CAD,3.0,10.0,2.0,1.0,,,,
-2026-10-14,RY.TO,price_target,,274.47,,,,,,,,,,324.0,257.0,302.42856,306.0
+2026-10-14,RY.TO,price_target,,274.76,,,,,,,,,,324.0,257.0,302.42856,306.0
 2026-10-14,SHOP.TO,eps_trend,0q,0.45947,0.45947,0.46266,0.46134,0.44342,USD,,,,,,,,
 2026-10-14,SHOP.TO,eps_trend,+1q,0.64546,0.64477,0.65342,0.65095,0.63009,USD,,,,,,,,
 2026-10-14,SHOP.TO,eps_trend,0y,1.91124,1.91099,1.90694,1.89766,1.84417,USD,,,,,,,,
@@ -16,7 +16,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,SHOP.TO,eps_revisions,+1q,,,,,,USD,2.0,3.0,1.0,1.0,,,,
 2026-10-14,SHOP.TO,eps_revisions,0y,,,,,,USD,2.0,7.0,0.0,0.0,,,,
 2026-10-14,SHOP.TO,eps_revisions,+1y,,,,,,USD,1.0,6.0,2.0,2.0,,,,
-2026-10-14,SHOP.TO,price_target,,253.64,,,,,,,,,,265.1067,208.00621,238.03918,241.00464
+2026-10-14,SHOP.TO,price_target,,251.2,,,,,,,,,,265.0436,207.95671,237.98254,240.9473
 2026-10-14,TD.TO,eps_trend,0q,2.53765,2.53765,2.41225,2.41114,2.41002,CAD,,,,,,,,
 2026-10-14,TD.TO,eps_trend,+1q,2.72797,2.71906,2.62262,2.63385,2.63385,CAD,,,,,,,,
 2026-10-14,TD.TO,eps_trend,0y,10.11859,10.11859,10.11493,9.68788,9.67651,CAD,,,,,,,,
@@ -25,7 +25,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,TD.TO,eps_revisions,+1q,,,,,,CAD,0.0,5.0,2.0,1.0,,,,
 2026-10-14,TD.TO,eps_revisions,0y,,,,,,CAD,0.0,12.0,1.0,1.0,,,,
 2026-10-14,TD.TO,eps_revisions,+1y,,,,,,CAD,0.0,12.0,1.0,1.0,,,,
-2026-10-14,TD.TO,price_target,,166.4,,,,,,,,,,196.0,148.0,180.07143,182.5
+2026-10-14,TD.TO,price_target,,166.72,,,,,,,,,,196.0,148.0,180.07143,182.5
 2026-10-14,BMO.TO,eps_trend,0q,3.72697,3.72697,3.72403,3.62462,3.62462,CAD,,,,,,,,
 2026-10-14,BMO.TO,eps_trend,+1q,4.00017,4.00017,3.9742,3.96275,3.96275,CAD,,,,,,,,
 2026-10-14,BMO.TO,eps_trend,0y,14.74059,14.74059,14.739,14.50303,14.49995,CAD,,,,,,,,
@@ -34,7 +34,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,BMO.TO,eps_revisions,+1q,,,,,,CAD,1.0,3.0,2.0,0.0,,,,
 2026-10-14,BMO.TO,eps_revisions,0y,,,,,,CAD,1.0,12.0,0.0,0.0,,,,
 2026-10-14,BMO.TO,eps_revisions,+1y,,,,,,CAD,1.0,9.0,3.0,2.0,,,,
-2026-10-14,BMO.TO,price_target,,232.47,,,,,,,,,,295.0,206.0,255.06667,261.0
+2026-10-14,BMO.TO,price_target,,232.75,,,,,,,,,,295.0,206.0,255.06667,261.0
 2026-10-14,BNS.TO,eps_trend,0q,2.19804,2.19804,2.14626,2.15726,2.15388,CAD,,,,,,,,
 2026-10-14,BNS.TO,eps_trend,+1q,2.31929,2.30844,2.24941,2.23117,2.23117,CAD,,,,,,,,
 2026-10-14,BNS.TO,eps_trend,0y,8.52977,8.52977,8.52935,8.29599,8.29091,CAD,,,,,,,,
@@ -43,7 +43,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,BNS.TO,eps_revisions,+1q,,,,,,CAD,1.0,4.0,1.0,0.0,,,,
 2026-10-14,BNS.TO,eps_revisions,0y,,,,,,CAD,1.0,12.0,0.0,0.0,,,,
 2026-10-14,BNS.TO,eps_revisions,+1y,,,,,,CAD,2.0,11.0,1.0,0.0,,,,
-2026-10-14,BNS.TO,price_target,,127.8,,,,,,,,,,152.0,109.0,132.85715,132.0
+2026-10-14,BNS.TO,price_target,,127.89,,,,,,,,,,152.0,109.0,132.85715,132.0
 2026-10-14,CNQ.TO,eps_trend,0q,1.47588,1.39935,1.3462,1.2569,1.49813,CAD,,,,,,,,
 2026-10-14,CNQ.TO,eps_trend,+1q,1.6218,1.40614,1.4642,1.31152,1.40901,CAD,,,,,,,,
 2026-10-14,CNQ.TO,eps_trend,0y,6.39055,6.10067,6.01067,5.83426,5.88292,CAD,,,,,,,,
@@ -52,7 +52,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,CNQ.TO,eps_revisions,+1q,,,,,,CAD,1.0,1.0,0.0,0.0,,,,
 2026-10-14,CNQ.TO,eps_revisions,0y,,,,,,CAD,1.0,3.0,0.0,0.0,,,,
 2026-10-14,CNQ.TO,eps_revisions,+1y,,,,,,CAD,1.0,3.0,0.0,0.0,,,,
-2026-10-14,CNQ.TO,price_target,,74.2,,,,,,,,,,86.0,62.0,73.2381,72.0
+2026-10-14,CNQ.TO,price_target,,74.23,,,,,,,,,,86.0,62.0,73.2381,72.0
 2026-10-14,ENB.TO,eps_trend,0q,0.50883,0.5105,0.51913,0.49785,0.53354,CAD,,,,,,,,
 2026-10-14,ENB.TO,eps_trend,+1q,0.8228,0.8203,0.84451,0.83449,0.82986,CAD,,,,,,,,
 2026-10-14,ENB.TO,eps_trend,0y,2.89835,2.89782,2.90865,2.91203,2.89351,CAD,,,,,,,,
@@ -61,7 +61,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,ENB.TO,eps_revisions,+1q,,,,,,CAD,0.0,1.0,8.0,1.0,,,,
 2026-10-14,ENB.TO,eps_revisions,0y,,,,,,CAD,0.0,1.0,10.0,1.0,,,,
 2026-10-14,ENB.TO,eps_revisions,+1y,,,,,,CAD,0.0,5.0,3.0,1.0,,,,
-2026-10-14,ENB.TO,price_target,,67.84,,,,,,,,,,85.0,70.0,78.88636,79.75
+2026-10-14,ENB.TO,price_target,,67.915,,,,,,,,,,85.0,70.0,78.88636,79.75
 2026-10-14,CM.TO,eps_trend,0q,2.55,2.55,2.5307,2.5417,2.54245,CAD,,,,,,,,
 2026-10-14,CM.TO,eps_trend,+1q,2.83,2.82857,2.7275,2.728,2.728,CAD,,,,,,,,
 2026-10-14,CM.TO,eps_trend,0y,10.57214,10.57214,10.49714,10.27508,10.28329,CAD,,,,,,,,
@@ -70,7 +70,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,CM.TO,eps_revisions,+1q,,,,,,CAD,4.0,2.0,2.0,1.0,,,,
 2026-10-14,CM.TO,eps_revisions,0y,,,,,,CAD,1.0,12.0,0.0,2.0,,,,
 2026-10-14,CM.TO,eps_revisions,+1y,,,,,,CAD,3.0,12.0,1.0,0.0,,,,
-2026-10-14,CM.TO,price_target,,156.45,,,,,,,,,,186.0,147.0,170.50333,171.05
+2026-10-14,CM.TO,price_target,,156.73,,,,,,,,,,186.0,147.0,170.50333,171.05
 2026-10-14,AEM.TO,eps_trend,0q,2.92156,2.8135,2.83658,2.83889,3.25522,USD,,,,,,,,
 2026-10-14,AEM.TO,eps_trend,+1q,2.9731,2.99425,2.95758,2.96008,3.37977,USD,,,,,,,,
 2026-10-14,AEM.TO,eps_trend,0y,12.0255,12.06827,12.14605,12.13661,12.44774,USD,,,,,,,,
@@ -79,7 +79,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,AEM.TO,eps_revisions,+1q,,,,,,USD,0.0,0.0,3.0,1.0,,,,
 2026-10-14,AEM.TO,eps_revisions,0y,,,,,,USD,1.0,2.0,2.0,1.0,,,,
 2026-10-14,AEM.TO,eps_revisions,+1y,,,,,,USD,1.0,1.0,2.0,1.0,,,,
-2026-10-14,AEM.TO,price_target,,252.23,,,,,,,,,,391.7802,125.911224,298.94577,315.4313
+2026-10-14,AEM.TO,price_target,,250.81,,,,,,,,,,391.69797,125.884796,298.883,315.36508
 2026-10-14,SU.TO,eps_trend,0q,2.93227,2.67133,2.62633,2.45615,2.51363,CAD,,,,,,,,
 2026-10-14,SU.TO,eps_trend,+1q,2.82043,2.46263,2.40263,2.34191,2.23395,CAD,,,,,,,,
 2026-10-14,SU.TO,eps_trend,0y,10.81334,10.27692,10.13419,9.89791,9.66704,CAD,,,,,,,,
@@ -88,8 +88,8 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,SU.TO,eps_revisions,+1q,,,,,,CAD,1.0,1.0,0.0,0.0,,,,
 2026-10-14,SU.TO,eps_revisions,0y,,,,,,CAD,1.0,3.0,0.0,0.0,,,,
 2026-10-14,SU.TO,eps_revisions,+1y,,,,,,CAD,1.0,3.0,0.0,0.0,,,,
-2026-10-14,SU.TO,price_target,,107.38,,,,,,,,,,146.0,92.0,107.85,107.0
-2026-10-14,BN.TO,price_target,,51.85,,,,,,,,,,85.7628,44.302204,69.24203,73.45155
+2026-10-14,SU.TO,price_target,,107.61,,,,,,,,,,146.0,92.0,107.85,107.0
+2026-10-14,BN.TO,price_target,,51.8,,,,,,,,,,85.7454,44.293217,69.22798,73.43665
 2026-10-14,CP.TO,eps_trend,0q,1.31492,1.32946,1.34052,1.34052,1.32803,CAD,,,,,,,,
 2026-10-14,CP.TO,eps_trend,+1q,1.54218,1.54582,1.54714,1.54714,1.54408,CAD,,,,,,,,
 2026-10-14,CP.TO,eps_trend,0y,5.15376,5.16739,5.17977,5.1757,5.15042,CAD,,,,,,,,
@@ -98,7 +98,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,CP.TO,eps_revisions,+1q,,,,,,CAD,0.0,1.0,2.0,2.0,,,,
 2026-10-14,CP.TO,eps_revisions,0y,,,,,,CAD,2.0,2.0,7.0,8.0,,,,
 2026-10-14,CP.TO,eps_revisions,+1y,,,,,,CAD,1.0,3.0,1.0,6.0,,,,
-2026-10-14,CP.TO,price_target,,121.09,,,,,,,,,,156.0,104.0,139.73685,143.0
+2026-10-14,CP.TO,price_target,,121.14,,,,,,,,,,156.0,104.0,139.73685,143.0
 2026-10-14,BAM.TO,eps_trend,0q,0.46689,0.46438,0.46272,0.46272,0.46409,USD,,,,,,,,
 2026-10-14,BAM.TO,eps_trend,+1q,0.49409,0.49176,0.48843,0.48843,0.49147,USD,,,,,,,,
 2026-10-14,BAM.TO,eps_trend,0y,1.83275,1.83313,1.83434,1.83434,1.8278,USD,,,,,,,,
@@ -107,7 +107,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,BAM.TO,eps_revisions,+1q,,,,,,USD,0.0,5.0,4.0,1.0,,,,
 2026-10-14,BAM.TO,eps_revisions,0y,,,,,,USD,0.0,0.0,3.0,2.0,,,,
 2026-10-14,BAM.TO,eps_revisions,+1y,,,,,,USD,0.0,0.0,1.0,2.0,,,,
-2026-10-14,BAM.TO,price_target,,64.3,,,,,,,,,,89.23334,70.085365,77.12935,74.59934
+2026-10-14,BAM.TO,price_target,,64.07,,,,,,,,,,89.21523,70.071144,77.11369,74.584206
 2026-10-14,CNR.TO,eps_trend,0q,2.07546,2.08004,2.08857,2.08857,2.03066,CAD,,,,,,,,
 2026-10-14,CNR.TO,eps_trend,+1q,2.17112,2.17538,2.1781,2.1781,2.15814,CAD,,,,,,,,
 2026-10-14,CNR.TO,eps_trend,0y,8.11508,8.12306,8.13787,8.13621,7.9189,CAD,,,,,,,,
@@ -116,7 +116,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,CNR.TO,eps_revisions,+1q,,,,,,CAD,2.0,3.0,2.0,0.0,,,,
 2026-10-14,CNR.TO,eps_revisions,0y,,,,,,CAD,1.0,3.0,10.0,2.0,,,,
 2026-10-14,CNR.TO,eps_revisions,+1y,,,,,,CAD,3.0,6.0,2.0,0.0,,,,
-2026-10-14,CNR.TO,price_target,,168.77,,,,,,,,,,205.0,159.0,189.52632,192.0
+2026-10-14,CNR.TO,price_target,,168.97,,,,,,,,,,205.0,159.0,189.52632,192.0
 2026-10-14,MFC.TO,eps_trend,0q,1.18882,1.19327,1.19327,1.19314,1.17094,CAD,,,,,,,,
 2026-10-14,MFC.TO,eps_trend,+1q,1.16905,1.1736,1.1736,1.16564,1.15677,CAD,,,,,,,,
 2026-10-14,MFC.TO,eps_trend,0y,4.4977,4.5049,4.5049,4.51073,4.46801,CAD,,,,,,,,
@@ -125,7 +125,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,MFC.TO,eps_revisions,+1q,,,,,,CAD,1.0,6.0,1.0,0.0,,,,
 2026-10-14,MFC.TO,eps_revisions,0y,,,,,,CAD,0.0,1.0,1.0,0.0,,,,
 2026-10-14,MFC.TO,eps_revisions,+1y,,,,,,CAD,1.0,3.0,0.0,0.0,,,,
-2026-10-14,MFC.TO,price_target,,61.08,,,,,,,,,,74.0,49.0,65.4,67.0
+2026-10-14,MFC.TO,price_target,,61.14,,,,,,,,,,74.0,49.0,65.4,67.0
 2026-10-14,ABX.TO,eps_trend,0q,0.88111,0.88656,0.89294,0.87485,0.9747,USD,,,,,,,,
 2026-10-14,ABX.TO,eps_trend,+1q,0.99204,1.00895,1.01053,0.98432,1.06492,USD,,,,,,,,
 2026-10-14,ABX.TO,eps_trend,0y,3.62691,3.64216,3.65271,3.67112,3.82815,USD,,,,,,,,
@@ -134,7 +134,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,ABX.TO,eps_revisions,+1q,,,,,,USD,3.0,2.0,4.0,3.0,,,,
 2026-10-14,ABX.TO,eps_revisions,0y,,,,,,USD,1.0,3.0,2.0,1.0,,,,
 2026-10-14,ABX.TO,eps_revisions,+1y,,,,,,USD,1.0,2.0,3.0,1.0,,,,
-2026-10-14,ABX.TO,price_target,,55.61,,,,,,,,,,92.30336,32.01901,67.22741,73.2299
+2026-10-14,ABX.TO,price_target,,55.55,,,,,,,,,,92.27947,32.01072,67.21001,73.210945
 2026-10-14,TRP.TO,eps_trend,0q,0.84006,0.83944,0.83631,0.8328,0.83037,CAD,,,,,,,,
 2026-10-14,TRP.TO,eps_trend,+1q,0.98021,0.97554,0.97165,0.97156,0.99456,CAD,,,,,,,,
 2026-10-14,TRP.TO,eps_trend,0y,3.74152,3.73731,3.73573,3.72345,3.63767,CAD,,,,,,,,
@@ -143,7 +143,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,TRP.TO,eps_revisions,+1q,,,,,,CAD,1.0,2.0,0.0,0.0,,,,
 2026-10-14,TRP.TO,eps_revisions,0y,,,,,,CAD,1.0,3.0,0.0,0.0,,,,
 2026-10-14,TRP.TO,eps_revisions,+1y,,,,,,CAD,1.0,2.0,1.0,1.0,,,,
-2026-10-14,TRP.TO,price_target,,87.84,,,,,,,,,,109.0,81.0,100.77273,102.0
+2026-10-14,TRP.TO,price_target,,87.82,,,,,,,,,,109.0,81.0,100.77273,102.0
 2026-10-14,IMO.TO,eps_trend,0q,4.62495,4.49271,4.64475,4.53022,3.78367,CAD,,,,,,,,
 2026-10-14,IMO.TO,eps_trend,+1q,4.29492,4.11941,4.19852,4.17954,3.22365,CAD,,,,,,,,
 2026-10-14,IMO.TO,eps_trend,0y,15.26718,14.8407,14.5167,14.17358,13.42065,CAD,,,,,,,,
@@ -152,7 +152,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,IMO.TO,eps_revisions,+1q,,,,,,CAD,1.0,1.0,0.0,0.0,,,,
 2026-10-14,IMO.TO,eps_revisions,0y,,,,,,CAD,1.0,2.0,0.0,0.0,,,,
 2026-10-14,IMO.TO,eps_revisions,+1y,,,,,,CAD,1.0,5.0,0.0,0.0,,,,
-2026-10-14,IMO.TO,price_target,,184.66,,,,,,,,,,207.0,133.0,160.5294,155.0
+2026-10-14,IMO.TO,price_target,,185.28,,,,,,,,,,207.0,133.0,160.5294,155.0
 2026-10-14,WPM.TO,eps_trend,0q,1.24447,1.19731,1.22731,1.22731,1.28326,USD,,,,,,,,
 2026-10-14,WPM.TO,eps_trend,+1q,1.22543,1.241,1.251,1.251,1.40656,USD,,,,,,,,
 2026-10-14,WPM.TO,eps_trend,0y,4.73179,4.74107,4.81269,4.81125,5.07303,USD,,,,,,,,
@@ -161,7 +161,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,WPM.TO,eps_revisions,+1q,,,,,,USD,4.0,2.0,4.0,0.0,,,,
 2026-10-14,WPM.TO,eps_revisions,0y,,,,,,USD,0.0,1.0,4.0,2.0,,,,
 2026-10-14,WPM.TO,eps_revisions,+1y,,,,,,USD,0.0,2.0,4.0,2.0,,,,
-2026-10-14,WPM.TO,price_target,,184.75,,,,,,,,,,320.62747,189.7026,252.02533,252.36267
+2026-10-14,WPM.TO,price_target,,184.41,,,,,,,,,,320.5445,189.6535,251.9601,252.29733
 2026-10-14,CVE.TO,eps_trend,0q,1.46933,1.00366,1.00366,1.48,0.97868,CAD,,,,,,,,
 2026-10-14,CVE.TO,eps_trend,+1q,1.69298,1.02378,1.02378,1.09,0.91694,CAD,,,,,,,,
 2026-10-14,CVE.TO,eps_trend,0y,5.23423,4.46663,4.45219,4.42,4.26703,CAD,,,,,,,,
@@ -170,7 +170,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,CVE.TO,eps_revisions,+1q,,,,,,CAD,0.0,1.0,0.0,0.0,,,,
 2026-10-14,CVE.TO,eps_revisions,0y,,,,,,CAD,0.0,3.0,2.0,0.0,,,,
 2026-10-14,CVE.TO,eps_revisions,+1y,,,,,,CAD,1.0,5.0,0.0,0.0,,,,
-2026-10-14,CVE.TO,price_target,,46.8,,,,,,,,,,57.0,47.0,51.13333,51.0
+2026-10-14,CVE.TO,price_target,,46.92,,,,,,,,,,57.0,47.0,51.13333,51.0
 2026-10-14,GWO.TO,eps_trend,0q,1.45191,1.45423,1.45465,1.45465,1.41055,CAD,,,,,,,,
 2026-10-14,GWO.TO,eps_trend,+1q,1.49022,1.48755,1.48839,1.48839,1.44959,CAD,,,,,,,,
 2026-10-14,GWO.TO,eps_trend,0y,5.73453,5.72932,5.73017,5.73017,5.59947,CAD,,,,,,,,
@@ -179,7 +179,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,GWO.TO,eps_revisions,+1q,,,,,,CAD,6.0,8.0,0.0,1.0,,,,
 2026-10-14,GWO.TO,eps_revisions,0y,,,,,,CAD,10.0,10.0,0.0,0.0,,,,
 2026-10-14,GWO.TO,eps_revisions,+1y,,,,,,CAD,10.0,10.0,0.0,0.0,,,,
-2026-10-14,GWO.TO,price_target,,88.935,,,,,,,,,,111.0,68.0,95.23077,95.0
+2026-10-14,GWO.TO,price_target,,88.92,,,,,,,,,,111.0,68.0,95.23077,95.0
 2026-10-14,NA.TO,eps_trend,0q,3.27541,3.2615,3.20943,3.20289,3.20289,CAD,,,,,,,,
 2026-10-14,NA.TO,eps_trend,+1q,3.53815,3.51833,3.44835,3.44696,3.44696,CAD,,,,,,,,
 2026-10-14,NA.TO,eps_trend,0y,13.09463,13.09463,13.07966,12.88719,12.88202,CAD,,,,,,,,
@@ -188,7 +188,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,NA.TO,eps_revisions,+1q,,,,,,CAD,2.0,3.0,1.0,1.0,,,,
 2026-10-14,NA.TO,eps_revisions,0y,,,,,,CAD,2.0,11.0,1.0,0.0,,,,
 2026-10-14,NA.TO,eps_revisions,+1y,,,,,,CAD,2.0,10.0,2.0,0.0,,,,
-2026-10-14,NA.TO,price_target,,199.11,,,,,,,,,,248.0,168.0,223.75,225.0
+2026-10-14,NA.TO,price_target,,199.19,,,,,,,,,,248.0,168.0,223.75,225.0
 2026-10-14,L.TO,eps_trend,0q,0.74078,0.74078,0.74078,0.76518,0.75872,CAD,,,,,,,,
 2026-10-14,L.TO,eps_trend,+1q,,,,,,CAD,,,,,,,,
 2026-10-14,L.TO,eps_trend,0y,2.56397,2.56397,2.56397,2.55683,2.58127,CAD,,,,,,,,
@@ -197,7 +197,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,L.TO,eps_revisions,+1q,,,,,,CAD,,,,,,,,
 2026-10-14,L.TO,eps_revisions,0y,,,,,,CAD,1.0,1.0,6.0,0.0,,,,
 2026-10-14,L.TO,eps_revisions,+1y,,,,,,CAD,1.0,1.0,0.0,0.0,,,,
-2026-10-14,L.TO,price_target,,64.54,,,,,,,,,,76.0,47.0,69.2,71.0
+2026-10-14,L.TO,price_target,,64.47,,,,,,,,,,76.0,47.0,69.2,71.0
 2026-10-14,ATD.TO,eps_trend,0q,0.81559,0.81559,0.81426,0.85446,0.85313,USD,,,,,,,,
 2026-10-14,ATD.TO,eps_trend,+1q,0.87937,0.87937,0.87537,0.87422,0.86888,USD,,,,,,,,
 2026-10-14,ATD.TO,eps_trend,0y,3.24751,3.24751,3.24307,3.30173,3.3035,USD,,,,,,,,
@@ -206,7 +206,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,ATD.TO,eps_revisions,+1q,,,,,,USD,1.0,8.0,6.0,1.0,,,,
 2026-10-14,ATD.TO,eps_revisions,0y,,,,,,USD,1.0,3.0,10.0,1.0,,,,
 2026-10-14,ATD.TO,eps_revisions,+1y,,,,,,USD,3.0,9.0,7.0,0.0,,,,
-2026-10-14,ATD.TO,price_target,,79.75,,,,,,,,,,111.200165,90.92985,103.31114,104.31189
+2026-10-14,ATD.TO,price_target,,79.745,,,,,,,,,,111.17138,90.90631,103.28439,104.28489
 2026-10-14,FNV.TO,eps_trend,0q,2.11421,2.03517,2.07517,2.18026,2.002,USD,,,,,,,,
 2026-10-14,FNV.TO,eps_trend,+1q,2.3989,2.3026,2.31093,2.4514,2.11,USD,,,,,,,,
 2026-10-14,FNV.TO,eps_trend,0y,8.22636,8.23818,8.27818,8.438,8.45273,USD,,,,,,,,
@@ -215,7 +215,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,FNV.TO,eps_revisions,+1q,,,,,,USD,0.0,2.0,1.0,0.0,,,,
 2026-10-14,FNV.TO,eps_revisions,0y,,,,,,USD,1.0,1.0,2.0,1.0,,,,
 2026-10-14,FNV.TO,eps_revisions,+1y,,,,,,USD,1.0,1.0,3.0,1.0,,,,
-2026-10-14,FNV.TO,price_target,,337.95,,,,,,,,,,484.32037,272.6304,405.98593,406.45413
+2026-10-14,FNV.TO,price_target,,336.44,,,,,,,,,,484.1882,272.55603,405.87515,406.34323
 2026-10-14,CSU.TO,eps_trend,0q,29.62167,30.05572,30.05572,30.05572,28.34667,USD,,,,,,,,
 2026-10-14,CSU.TO,eps_trend,+1q,31.19333,32.62214,32.62214,32.62214,31.07333,USD,,,,,,,,
 2026-10-14,CSU.TO,eps_trend,0y,116.89714,115.49833,115.49833,115.49833,114.93833,USD,,,,,,,,
@@ -224,7 +224,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,CSU.TO,eps_revisions,+1q,,,,,,USD,1.0,1.0,2.0,2.0,,,,
 2026-10-14,CSU.TO,eps_revisions,0y,,,,,,USD,0.0,2.0,4.0,0.0,,,,
 2026-10-14,CSU.TO,eps_revisions,+1y,,,,,,USD,0.0,1.0,5.0,0.0,,,,
-2026-10-14,CSU.TO,price_target,,3121.44,,,,,,,,,,5647.851,3388.9526,4035.1294,4036.0486
+2026-10-14,CSU.TO,price_target,,3121.44,,,,,,,,,,5646.2705,3388.0042,4034.0,4034.9192
 2026-10-14,TRI.TO,eps_trend,0q,0.90037,0.90495,0.90402,0.90438,0.98527,USD,,,,,,,,
 2026-10-14,TRI.TO,eps_trend,+1q,1.32105,1.31682,1.31411,1.31375,1.25682,USD,,,,,,,,
 2026-10-14,TRI.TO,eps_trend,0y,4.4331,4.44102,4.43674,4.43669,4.42546,USD,,,,,,,,
@@ -233,7 +233,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,TRI.TO,eps_revisions,+1q,,,,,,USD,0.0,2.0,1.0,1.0,,,,
 2026-10-14,TRI.TO,eps_revisions,0y,,,,,,USD,0.0,2.0,1.0,1.0,,,,
 2026-10-14,TRI.TO,eps_revisions,+1y,,,,,,USD,0.0,3.0,1.0,1.0,,,,
-2026-10-14,TRI.TO,price_target,,149.35,,,,,,,,,,203.22778,154.95308,178.96928,176.86337
+2026-10-14,TRI.TO,price_target,,149.3,,,,,,,,,,203.1709,154.9097,178.91919,176.81387
 2026-10-14,CLS.TO,eps_trend,0q,2.98257,2.98248,2.98779,3.00711,2.69027,USD,,,,,,,,
 2026-10-14,CLS.TO,eps_trend,+1q,3.52534,3.57397,0.0,2.9132,2.9132,USD,,,,,,,,
 2026-10-14,CLS.TO,eps_trend,0y,11.20543,11.20528,11.21741,11.32539,10.29063,USD,,,,,,,,
@@ -242,7 +242,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,CLS.TO,eps_revisions,+1q,,,,,,USD,0.0,6.0,0.0,1.0,,,,
 2026-10-14,CLS.TO,eps_revisions,0y,,,,,,USD,0.0,17.0,1.0,2.0,,,,
 2026-10-14,CLS.TO,eps_revisions,+1y,,,,,,USD,0.0,6.0,0.0,1.0,,,,
-2026-10-14,CLS.TO,price_target,,496.26,,,,,,,,,,808.5842,580.3486,687.37427,686.1264
+2026-10-14,CLS.TO,price_target,,497.4,,,,,,,,,,808.358,580.18616,687.1819,685.9344
 2026-10-14,SLF.TO,eps_trend,0q,2.02474,2.03275,2.03275,2.04811,2.01949,CAD,,,,,,,,
 2026-10-14,SLF.TO,eps_trend,+1q,2.09023,2.0933,2.0933,2.104,2.08331,CAD,,,,,,,,
 2026-10-14,SLF.TO,eps_trend,0y,8.02799,8.03993,8.03993,8.01748,7.93626,CAD,,,,,,,,
@@ -251,7 +251,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,SLF.TO,eps_revisions,+1q,,,,,,CAD,0.0,3.0,3.0,1.0,,,,
 2026-10-14,SLF.TO,eps_revisions,0y,,,,,,CAD,2.0,12.0,0.0,0.0,,,,
 2026-10-14,SLF.TO,eps_revisions,+1y,,,,,,CAD,2.0,6.0,2.0,0.0,,,,
-2026-10-14,SLF.TO,price_target,,110.53,,,,,,,,,,125.0,92.0,114.69231,116.0
+2026-10-14,SLF.TO,price_target,,110.55,,,,,,,,,,125.0,92.0,114.69231,116.0
 2026-10-14,POW.TO,eps_trend,0q,1.6083,1.6083,1.6083,1.61714,1.54082,CAD,,,,,,,,
 2026-10-14,POW.TO,eps_trend,+1q,1.65089,1.65089,1.65089,1.65571,1.56836,CAD,,,,,,,,
 2026-10-14,POW.TO,eps_trend,0y,6.22292,6.22292,6.22292,6.23375,6.04637,CAD,,,,,,,,
@@ -260,7 +260,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,POW.TO,eps_revisions,+1q,,,,,,CAD,8.0,8.0,0.0,0.0,,,,
 2026-10-14,POW.TO,eps_revisions,0y,,,,,,CAD,8.0,9.0,0.0,0.0,,,,
 2026-10-14,POW.TO,eps_revisions,+1y,,,,,,CAD,7.0,7.0,1.0,0.0,,,,
-2026-10-14,POW.TO,price_target,,89.39,,,,,,,,,,114.0,77.0,98.88889,101.0
+2026-10-14,POW.TO,price_target,,89.41,,,,,,,,,,114.0,77.0,98.88889,101.0
 2026-10-14,BBD-B.TO,eps_trend,0q,1.67115,1.67115,1.67354,1.61298,1.84923,USD,,,,,,,,
 2026-10-14,BBD-B.TO,eps_trend,+1q,4.36772,4.36772,4.38077,4.27937,3.92273,USD,,,,,,,,
 2026-10-14,BBD-B.TO,eps_trend,0y,10.32769,10.32769,10.32758,10.34373,8.96301,USD,,,,,,,,
@@ -269,7 +269,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,BBD-B.TO,eps_revisions,+1q,,,,,,USD,0.0,1.0,1.0,1.0,,,,
 2026-10-14,BBD-B.TO,eps_revisions,0y,,,,,,USD,1.0,2.0,0.0,0.0,,,,
 2026-10-14,BBD-B.TO,eps_revisions,+1y,,,,,,USD,0.0,0.0,2.0,1.0,,,,
-2026-10-14,BBD-B.TO,price_target,,304.53,,,,,,,,,,421.82587,270.4849,366.42206,379.66525
+2026-10-14,BBD-B.TO,price_target,,302.12,,,,,,,,,,421.7196,270.41678,366.32977,379.56964
 2026-10-14,CCO.TO,eps_trend,0q,0.34233,0.33567,0.33157,0.32762,0.33729,CAD,,,,,,,,
 2026-10-14,CCO.TO,eps_trend,+1q,0.55938,0.52833,0.51062,0.505,0.55505,CAD,,,,,,,,
 2026-10-14,CCO.TO,eps_trend,0y,1.45156,1.44933,1.492,1.48147,1.66946,CAD,,,,,,,,
@@ -278,7 +278,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,CCO.TO,eps_revisions,+1q,,,,,,CAD,0.0,4.0,2.0,0.0,,,,
 2026-10-14,CCO.TO,eps_revisions,0y,,,,,,CAD,0.0,0.0,2.0,2.0,,,,
 2026-10-14,CCO.TO,eps_revisions,+1y,,,,,,CAD,0.0,0.0,2.0,2.0,,,,
-2026-10-14,CCO.TO,price_target,,119.67,,,,,,,,,,195.0,135.0,179.07143,182.0
+2026-10-14,CCO.TO,price_target,,119.61,,,,,,,,,,195.0,135.0,179.07143,182.0
 2026-10-14,DOL.TO,eps_trend,0q,1.22778,1.2475,1.24625,1.24625,1.24556,CAD,,,,,,,,
 2026-10-14,DOL.TO,eps_trend,+1q,1.565,1.56625,1.56375,1.56375,1.56556,CAD,,,,,,,,
 2026-10-14,DOL.TO,eps_trend,0y,5.156,5.133,5.123,5.123,5.12182,CAD,,,,,,,,
@@ -287,7 +287,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,DOL.TO,eps_revisions,+1q,,,,,,CAD,2.0,3.0,2.0,2.0,,,,
 2026-10-14,DOL.TO,eps_revisions,0y,,,,,,CAD,6.0,7.0,1.0,1.0,,,,
 2026-10-14,DOL.TO,eps_revisions,+1y,,,,,,CAD,8.0,8.0,3.0,2.0,,,,
-2026-10-14,DOL.TO,price_target,,193.86,,,,,,,,,,236.0,148.0,207.4706,210.0
+2026-10-14,DOL.TO,price_target,,193.92,,,,,,,,,,236.0,148.0,207.4706,210.0
 2026-10-14,FFH.TO,eps_trend,0q,39.43099,48.66766,48.66766,48.66766,40.45,USD,,,,,,,,
 2026-10-14,FFH.TO,eps_trend,+1q,45.45246,45.60912,45.60912,45.60912,42.805,USD,,,,,,,,
 2026-10-14,FFH.TO,eps_trend,0y,155.845,155.845,155.845,166.50667,157.725,USD,,,,,,,,
@@ -296,7 +296,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,FFH.TO,eps_revisions,+1q,,,,,,USD,3.0,2.0,1.0,1.0,,,,
 2026-10-14,FFH.TO,eps_revisions,0y,,,,,,USD,1.0,0.0,0.0,0.0,,,,
 2026-10-14,FFH.TO,eps_revisions,+1y,,,,,,USD,1.0,0.0,0.0,0.0,,,,
-2026-10-14,FFH.TO,price_target,,2261.39,,,,,,,,,,3505.9976,1966.1487,2718.0994,2547.2603
+2026-10-14,FFH.TO,price_target,,2261.39,,,,,,,,,,3505.0657,1965.6261,2717.377,2546.583
 2026-10-14,NTR.TO,eps_trend,0q,0.84938,0.92409,0.93476,0.94581,1.23121,USD,,,,,,,,
 2026-10-14,NTR.TO,eps_trend,+1q,0.97456,0.97225,0.96092,0.97313,1.07998,USD,,,,,,,,
 2026-10-14,NTR.TO,eps_trend,0y,4.9904,5.0174,4.99149,5.01229,5.721,USD,,,,,,,,
@@ -305,7 +305,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,NTR.TO,eps_revisions,+1q,,,,,,USD,3.0,3.0,9.0,9.0,,,,
 2026-10-14,NTR.TO,eps_revisions,0y,,,,,,USD,1.0,2.0,0.0,0.0,,,,
 2026-10-14,NTR.TO,eps_revisions,+1y,,,,,,USD,1.0,2.0,0.0,0.0,,,,
-2026-10-14,NTR.TO,price_target,,99.79,,,,,,,,,,114.83159,99.79565,110.70582,112.803116
+2026-10-14,NTR.TO,price_target,,100.1,,,,,,,,,,114.83239,99.79634,110.7066,112.80391
 2026-10-14,TECK-B.TO,eps_trend,0q,1.45719,1.3287,1.29427,1.3357,1.06323,CAD,,,,,,,,
 2026-10-14,TECK-B.TO,eps_trend,+1q,1.02871,1.03672,1.04702,1.04572,1.02648,CAD,,,,,,,,
 2026-10-14,TECK-B.TO,eps_trend,0y,6.14582,6.0457,5.91269,5.88602,5.1895,CAD,,,,,,,,
@@ -314,7 +314,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,TECK-B.TO,eps_revisions,+1q,,,,,,CAD,1.0,2.0,1.0,0.0,,,,
 2026-10-14,TECK-B.TO,eps_revisions,0y,,,,,,CAD,1.0,3.0,0.0,0.0,,,,
 2026-10-14,TECK-B.TO,eps_revisions,+1y,,,,,,CAD,1.0,2.0,1.0,0.0,,,,
-2026-10-14,TECK-B.TO,price_target,,93.01,,,,,,,,,,125.0,57.0,91.17647,89.0
+2026-10-14,TECK-B.TO,price_target,,93.06,,,,,,,,,,125.0,57.0,91.17647,89.0
 2026-10-14,QSR.TO,eps_trend,0q,1.51761,1.51279,1.50824,1.51027,1.50935,CAD,,,,,,,,
 2026-10-14,QSR.TO,eps_trend,+1q,1.47056,1.4666,1.46156,1.46501,1.46411,CAD,,,,,,,,
 2026-10-14,QSR.TO,eps_trend,0y,5.69911,5.68975,5.68531,5.65485,5.6218,CAD,,,,,,,,
@@ -323,7 +323,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,QSR.TO,eps_revisions,+1q,,,,,,CAD,2.0,3.0,1.0,0.0,,,,
 2026-10-14,QSR.TO,eps_revisions,0y,,,,,,CAD,2.0,4.0,0.0,1.0,,,,
 2026-10-14,QSR.TO,eps_revisions,+1y,,,,,,CAD,2.0,4.0,1.0,1.0,,,,
-2026-10-14,QSR.TO,price_target,,101.61,,,,,,,,,,123.32,112.0,117.08,116.5
+2026-10-14,QSR.TO,price_target,,101.59,,,,,,,,,,123.32,112.0,117.08,116.5
 2026-10-14,IFC.TO,eps_trend,0q,3.73442,4.26913,4.26913,4.26913,4.36779,CAD,,,,,,,,
 2026-10-14,IFC.TO,eps_trend,+1q,4.86876,4.97119,4.97119,4.97119,5.00958,CAD,,,,,,,,
 2026-10-14,IFC.TO,eps_trend,0y,16.35576,16.93572,16.93572,16.93572,17.8446,CAD,,,,,,,,
@@ -332,7 +332,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,IFC.TO,eps_revisions,+1q,,,,,,CAD,4.0,6.0,5.0,4.0,,,,
 2026-10-14,IFC.TO,eps_revisions,0y,,,,,,CAD,3.0,0.0,13.0,10.0,,,,
 2026-10-14,IFC.TO,eps_revisions,+1y,,,,,,CAD,2.0,4.0,9.0,11.0,,,,
-2026-10-14,IFC.TO,price_target,,242.76,,,,,,,,,,379.0,265.0,317.84616,315.0
+2026-10-14,IFC.TO,price_target,,242.49,,,,,,,,,,379.0,265.0,317.84616,315.0
 2026-10-14,PPL.TO,eps_trend,0q,0.63463,0.63578,0.63578,0.63578,0.68674,CAD,,,,,,,,
 2026-10-14,PPL.TO,eps_trend,+1q,0.8881,0.888,0.888,0.888,0.8594,CAD,,,,,,,,
 2026-10-14,PPL.TO,eps_trend,0y,3.13078,3.13124,3.1064,3.11015,3.0233,CAD,,,,,,,,
@@ -341,7 +341,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,PPL.TO,eps_revisions,+1q,,,,,,CAD,1.0,1.0,0.0,0.0,,,,
 2026-10-14,PPL.TO,eps_revisions,0y,,,,,,CAD,0.0,4.0,4.0,1.0,,,,
 2026-10-14,PPL.TO,eps_revisions,+1y,,,,,,CAD,1.0,6.0,2.0,0.0,,,,
-2026-10-14,PPL.TO,price_target,,69.52,,,,,,,,,,77.0,66.0,73.10526,73.0
+2026-10-14,PPL.TO,price_target,,69.51,,,,,,,,,,77.0,66.0,73.10526,73.0
 2026-10-14,K.TO,eps_trend,0q,0.55187,0.54723,0.588,0.595,0.74739,USD,,,,,,,,
 2026-10-14,K.TO,eps_trend,+1q,0.63546,0.64538,0.698,0.68,0.81514,USD,,,,,,,,
 2026-10-14,K.TO,eps_trend,0y,2.45,2.47067,2.67385,2.67385,2.85627,USD,,,,,,,,
@@ -350,7 +350,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,K.TO,eps_revisions,+1q,,,,,,USD,0.0,0.0,4.0,4.0,,,,
 2026-10-14,K.TO,eps_revisions,0y,,,,,,USD,0.0,0.0,10.0,9.0,,,,
 2026-10-14,K.TO,eps_revisions,+1y,,,,,,USD,0.0,0.0,12.0,11.0,,,,
-2026-10-14,K.TO,price_target,,31.93,,,,,,,,,,66.42187,41.211887,51.79609,49.96398
+2026-10-14,K.TO,price_target,,31.835,,,,,,,,,,66.40467,41.201218,51.78268,49.95105
 2026-10-14,FTS.TO,eps_trend,0q,0.90189,0.91418,0.91439,0.91315,0.90941,CAD,,,,,,,,
 2026-10-14,FTS.TO,eps_trend,+1q,0.92552,0.93666,0.93739,0.94601,0.93743,CAD,,,,,,,,
 2026-10-14,FTS.TO,eps_trend,0y,3.61482,3.62382,3.62429,3.62159,3.61389,CAD,,,,,,,,
@@ -359,7 +359,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,FTS.TO,eps_revisions,+1q,,,,,,CAD,0.0,0.0,2.0,1.0,,,,
 2026-10-14,FTS.TO,eps_revisions,0y,,,,,,CAD,0.0,1.0,2.0,1.0,,,,
 2026-10-14,FTS.TO,eps_revisions,+1y,,,,,,CAD,0.0,0.0,3.0,1.0,,,,
-2026-10-14,FTS.TO,price_target,,77.22,,,,,,,,,,89.0,70.0,80.96429,82.0
+2026-10-14,FTS.TO,price_target,,77.2,,,,,,,,,,89.0,70.0,80.96429,82.0
 2026-10-14,WN.TO,eps_trend,0q,1.42333,1.455,1.4575,1.4625,1.44288,CAD,,,,,,,,
 2026-10-14,WN.TO,eps_trend,+1q,1.23,1.2325,1.235,1.2175,1.26693,CAD,,,,,,,,
 2026-10-14,WN.TO,eps_trend,0y,4.714,4.745,4.77,4.848,4.83416,CAD,,,,,,,,
@@ -368,7 +368,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,WN.TO,eps_revisions,+1q,,,,,,CAD,0.0,1.0,2.0,2.0,,,,
 2026-10-14,WN.TO,eps_revisions,0y,,,,,,CAD,1.0,1.0,2.0,0.0,,,,
 2026-10-14,WN.TO,eps_revisions,+1y,,,,,,CAD,1.0,3.0,0.0,0.0,,,,
-2026-10-14,WN.TO,price_target,,104.03,,,,,,,,,,121.0,78.0,109.83333,115.5
+2026-10-14,WN.TO,price_target,,103.92,,,,,,,,,,121.0,78.0,109.83333,115.5
 2026-10-14,FM.TO,eps_trend,0q,0.19188,0.17786,0.21929,0.22214,0.23445,USD,,,,,,,,
 2026-10-14,FM.TO,eps_trend,+1q,0.18086,0.21325,0.26325,0.2595,0.2425,USD,,,,,,,,
 2026-10-14,FM.TO,eps_trend,0y,0.21512,0.23095,0.24659,0.25859,0.42474,USD,,,,,,,,
@@ -377,7 +377,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,FM.TO,eps_revisions,+1q,,,,,,USD,1.0,1.0,0.0,0.0,,,,
 2026-10-14,FM.TO,eps_revisions,0y,,,,,,USD,1.0,3.0,2.0,1.0,,,,
 2026-10-14,FM.TO,eps_revisions,+1y,,,,,,USD,3.0,1.0,3.0,1.0,,,,
-2026-10-14,FM.TO,price_target,,37.93,,,,,,,,,,60.14184,41.369133,50.103794,50.325943
+2026-10-14,FM.TO,price_target,,37.92,,,,,,,,,,60.12627,41.358425,50.090824,50.312916
 2026-10-14,H.TO,eps_trend,0q,0.6917,0.6917,0.69059,0.70069,0.70322,CAD,,,,,,,,
 2026-10-14,H.TO,eps_trend,+1q,0.36608,0.36608,0.3683,0.37135,0.37997,CAD,,,,,,,,
 2026-10-14,H.TO,eps_trend,0y,2.32256,2.32256,2.3234,2.2993,2.29562,CAD,,,,,,,,
@@ -386,7 +386,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,H.TO,eps_revisions,+1q,,,,,,CAD,0.0,0.0,1.0,1.0,,,,
 2026-10-14,H.TO,eps_revisions,0y,,,,,,CAD,0.0,0.0,1.0,1.0,,,,
 2026-10-14,H.TO,eps_revisions,+1y,,,,,,CAD,0.0,0.0,1.0,1.0,,,,
-2026-10-14,H.TO,price_target,,51.63,,,,,,,,,,61.0,47.0,56.67308,58.0
+2026-10-14,H.TO,price_target,,51.64,,,,,,,,,,61.0,47.0,56.67308,58.0
 2026-10-14,LUN.TO,eps_trend,0q,0.3253,0.3272,0.31891,0.34076,0.35413,USD,,,,,,,,
 2026-10-14,LUN.TO,eps_trend,+1q,0.37764,0.36534,0.35743,0.36486,0.35457,USD,,,,,,,,
 2026-10-14,LUN.TO,eps_trend,0y,1.31839,1.3105,1.29207,1.31446,1.33439,USD,,,,,,,,
@@ -395,7 +395,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,LUN.TO,eps_revisions,+1q,,,,,,USD,0.0,2.0,5.0,4.0,,,,
 2026-10-14,LUN.TO,eps_revisions,0y,,,,,,USD,2.0,4.0,1.0,0.0,,,,
 2026-10-14,LUN.TO,eps_revisions,+1y,,,,,,USD,1.0,2.0,2.0,1.0,,,,
-2026-10-14,LUN.TO,price_target,,33.77,,,,,,,,,,54.31644,33.203068,43.87369,43.19229
+2026-10-14,LUN.TO,price_target,,33.67,,,,,,,,,,54.30428,33.195633,43.86387,43.18262
 2026-10-14,PAAS.TO,eps_trend,0q,0.897,0.8876,0.9336,1.012,1.027,USD,,,,,,,,
 2026-10-14,PAAS.TO,eps_trend,+1q,1.07599,1.09279,1.10479,1.15349,1.14744,USD,,,,,,,,
 2026-10-14,PAAS.TO,eps_trend,0y,3.56877,3.61677,3.68977,3.97308,4.089,USD,,,,,,,,
@@ -404,7 +404,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,PAAS.TO,eps_revisions,+1q,,,,,,USD,1.0,1.0,1.0,1.0,,,,
 2026-10-14,PAAS.TO,eps_revisions,0y,,,,,,USD,2.0,2.0,2.0,2.0,,,,
 2026-10-14,PAAS.TO,eps_revisions,+1y,,,,,,USD,1.0,2.0,3.0,3.0,,,,
-2026-10-14,PAAS.TO,price_target,,60.69,,,,,,,,,,109.08123,76.09571,93.43183,95.11856
+2026-10-14,PAAS.TO,price_target,,60.48,,,,,,,,,,109.05299,76.07601,93.407646,95.09394
 2026-10-14,BCE.TO,eps_trend,0q,0.69255,0.69584,0.70236,0.69883,0.69115,CAD,,,,,,,,
 2026-10-14,BCE.TO,eps_trend,+1q,0.60129,0.60258,0.60803,0.54069,0.50778,CAD,,,,,,,,
 2026-10-14,BCE.TO,eps_trend,0y,2.57502,2.57843,2.58902,2.57768,2.57749,CAD,,,,,,,,
@@ -413,7 +413,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,BCE.TO,eps_revisions,+1q,,,,,,CAD,4.0,4.0,3.0,4.0,,,,
 2026-10-14,BCE.TO,eps_revisions,0y,,,,,,CAD,0.0,1.0,1.0,2.0,,,,
 2026-10-14,BCE.TO,eps_revisions,+1y,,,,,,CAD,1.0,4.0,1.0,0.0,,,,
-2026-10-14,BCE.TO,price_target,,27.59,,,,,,,,,,44.0,32.0,37.11111,37.0
+2026-10-14,BCE.TO,price_target,,27.61,,,,,,,,,,44.0,32.0,37.11111,37.0
 2026-10-14,TOU.TO,eps_trend,0q,1.06,0.935,0.93,0.93,1.22,CAD,,,,,,,,
 2026-10-14,TOU.TO,eps_trend,+1q,1.275,1.36,0.0,0.0,1.43,CAD,,,,,,,,
 2026-10-14,TOU.TO,eps_trend,0y,3.9625,3.86,3.88667,3.88667,4.4475,CAD,,,,,,,,
@@ -422,7 +422,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,TOU.TO,eps_revisions,+1q,,,,,,CAD,0.0,0.0,0.0,0.0,,,,
 2026-10-14,TOU.TO,eps_revisions,0y,,,,,,CAD,0.0,0.0,0.0,0.0,,,,
 2026-10-14,TOU.TO,eps_revisions,+1y,,,,,,CAD,0.0,0.0,1.0,1.0,,,,
-2026-10-14,TOU.TO,price_target,,65.0,,,,,,,,,,83.0,49.0,70.47727,70.0
+2026-10-14,TOU.TO,price_target,,64.91,,,,,,,,,,83.0,49.0,70.47727,70.0
 2026-10-14,MG.TO,eps_trend,0q,1.61136,1.60484,1.62267,1.64408,1.80029,USD,,,,,,,,
 2026-10-14,MG.TO,eps_trend,+1q,2.23096,2.24934,2.22555,2.21292,2.13145,USD,,,,,,,,
 2026-10-14,MG.TO,eps_trend,0y,7.02864,7.03953,7.03745,7.01405,6.78949,USD,,,,,,,,
@@ -431,7 +431,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,MG.TO,eps_revisions,+1q,,,,,,USD,1.0,2.0,0.0,0.0,,,,
 2026-10-14,MG.TO,eps_revisions,0y,,,,,,USD,0.0,17.0,1.0,1.0,,,,
 2026-10-14,MG.TO,eps_revisions,+1y,,,,,,USD,0.0,0.0,2.0,1.0,,,,
-2026-10-14,MG.TO,price_target,,92.74,,,,,,,,,,115.29353,70.04207,94.993996,94.649704
+2026-10-14,MG.TO,price_target,,92.83,,,,,,,,,,115.265305,70.02492,94.97073,94.626526
 2026-10-14,RCI-B.TO,eps_trend,0q,1.24471,1.25148,1.25809,1.25809,1.27329,CAD,,,,,,,,
 2026-10-14,RCI-B.TO,eps_trend,+1q,1.33687,1.35096,1.35301,1.35301,1.3629,CAD,,,,,,,,
 2026-10-14,RCI-B.TO,eps_trend,0y,4.75478,4.76997,4.7815,4.76553,4.79123,CAD,,,,,,,,
@@ -440,7 +440,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,RCI-B.TO,eps_revisions,+1q,,,,,,CAD,0.0,0.0,3.0,2.0,,,,
 2026-10-14,RCI-B.TO,eps_revisions,0y,,,,,,CAD,0.0,0.0,4.0,4.0,,,,
 2026-10-14,RCI-B.TO,eps_revisions,+1y,,,,,,CAD,0.0,2.0,3.0,3.0,,,,
-2026-10-14,RCI-B.TO,price_target,,43.32,,,,,,,,,,74.0,42.0,59.13889,60.0
+2026-10-14,RCI-B.TO,price_target,,43.47,,,,,,,,,,74.0,42.0,59.13889,60.0
 2026-10-14,WCP.TO,eps_trend,0q,0.3275,0.335,0.335,0.32,0.315,CAD,,,,,,,,
 2026-10-14,WCP.TO,eps_trend,+1q,0.3875,0.375,0.375,0.34,0.31,CAD,,,,,,,,
 2026-10-14,WCP.TO,eps_trend,0y,1.4925,1.485,1.485,1.54,1.225,CAD,,,,,,,,
@@ -449,7 +449,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,WCP.TO,eps_revisions,+1q,,,,,,CAD,0.0,1.0,0.0,0.0,,,,
 2026-10-14,WCP.TO,eps_revisions,0y,,,,,,CAD,0.0,1.0,0.0,0.0,,,,
 2026-10-14,WCP.TO,eps_revisions,+1y,,,,,,CAD,1.0,2.0,0.0,0.0,,,,
-2026-10-14,WCP.TO,price_target,,19.485,,,,,,,,,,27.0,18.0,20.89474,21.0
+2026-10-14,WCP.TO,price_target,,19.53,,,,,,,,,,27.0,18.0,20.89474,21.0
 2026-10-14,RBA.TO,eps_trend,0q,1.00011,1.00189,1.00189,0.99839,1.03012,USD,,,,,,,,
 2026-10-14,RBA.TO,eps_trend,+1q,1.23178,1.21456,1.21456,1.21439,1.24682,USD,,,,,,,,
 2026-10-14,RBA.TO,eps_trend,0y,4.35825,4.349,4.35536,4.35058,4.44091,USD,,,,,,,,
@@ -458,7 +458,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,RBA.TO,eps_revisions,+1q,,,,,,USD,0.0,2.0,6.0,1.0,,,,
 2026-10-14,RBA.TO,eps_revisions,0y,,,,,,USD,0.0,0.0,2.0,1.0,,,,
 2026-10-14,RBA.TO,eps_revisions,+1y,,,,,,USD,0.0,0.0,2.0,1.0,,,,
-2026-10-14,RBA.TO,price_target,,124.55,,,,,,,,,,157.2362,143.27791,150.25705,150.25705
+2026-10-14,RBA.TO,price_target,,124.54,,,,,,,,,,157.201,143.24585,150.22342,150.22342
 2026-10-14,LUG.TO,eps_trend,0q,1.738,1.615,1.58514,1.64817,1.6909,CAD,,,,,,,,
 2026-10-14,LUG.TO,eps_trend,+1q,1.716,1.68767,1.61943,1.6555,1.7028,CAD,,,,,,,,
 2026-10-14,LUG.TO,eps_trend,0y,5.98633,5.85867,5.83317,5.84417,5.99653,CAD,,,,,,,,
@@ -467,7 +467,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,LUG.TO,eps_revisions,+1q,,,,,,CAD,1.0,2.0,0.0,0.0,,,,
 2026-10-14,LUG.TO,eps_revisions,0y,,,,,,CAD,2.0,3.0,3.0,0.0,,,,
 2026-10-14,LUG.TO,eps_revisions,+1y,,,,,,CAD,2.0,4.0,2.0,0.0,,,,
-2026-10-14,LUG.TO,price_target,,92.75,,,,,,,,,,131.0,82.0,97.75,97.0
+2026-10-14,LUG.TO,price_target,,92.08,,,,,,,,,,131.0,82.0,97.75,97.0
 2026-10-14,WSP.TO,eps_trend,0q,3.19507,3.19507,3.24447,3.25133,3.28428,CAD,,,,,,,,
 2026-10-14,WSP.TO,eps_trend,+1q,3.12083,3.16494,3.16494,3.18806,3.19833,CAD,,,,,,,,
 2026-10-14,WSP.TO,eps_trend,0y,11.36817,11.36817,11.45259,11.44643,11.51075,CAD,,,,,,,,
@@ -476,7 +476,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,WSP.TO,eps_revisions,+1q,,,,,,CAD,1.0,0.0,2.0,6.0,,,,
 2026-10-14,WSP.TO,eps_revisions,0y,,,,,,CAD,0.0,0.0,1.0,8.0,,,,
 2026-10-14,WSP.TO,eps_revisions,+1y,,,,,,CAD,1.0,1.0,6.0,6.0,,,,
-2026-10-14,WSP.TO,price_target,,163.78,,,,,,,,,,359.0,216.0,283.57144,278.5
+2026-10-14,WSP.TO,price_target,,163.58,,,,,,,,,,359.0,216.0,283.57144,278.5
 2026-10-14,GFL.TO,eps_trend,0q,0.28199,0.28168,0.29252,0.28046,0.34729,CAD,,,,,,,,
 2026-10-14,GFL.TO,eps_trend,+1q,0.27893,0.29585,0.3102,0.24617,0.24637,CAD,,,,,,,,
 2026-10-14,GFL.TO,eps_trend,0y,0.83937,0.8708,0.89513,0.8232,0.94446,CAD,,,,,,,,
@@ -485,7 +485,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,GFL.TO,eps_revisions,+1q,,,,,,CAD,0.0,5.0,0.0,0.0,,,,
 2026-10-14,GFL.TO,eps_revisions,0y,,,,,,CAD,0.0,5.0,0.0,0.0,,,,
 2026-10-14,GFL.TO,eps_revisions,+1y,,,,,,CAD,0.0,5.0,0.0,0.0,,,,
-2026-10-14,GFL.TO,price_target,,61.1,,,,,,,,,,90.0,57.0,72.66667,73.0
+2026-10-14,GFL.TO,price_target,,61.16,,,,,,,,,,90.0,57.0,72.66667,73.0
 2026-10-14,GIB-A.TO,eps_trend,0q,2.30198,2.30198,2.30198,2.30198,2.2927,CAD,,,,,,,,
 2026-10-14,GIB-A.TO,eps_trend,+1q,2.36418,2.36542,2.36542,2.36542,2.36888,CAD,,,,,,,,
 2026-10-14,GIB-A.TO,eps_trend,0y,8.92727,8.92727,8.92727,8.92727,8.90392,CAD,,,,,,,,
@@ -494,7 +494,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,GIB-A.TO,eps_revisions,+1q,,,,,,CAD,4.0,4.0,3.0,3.0,,,,
 2026-10-14,GIB-A.TO,eps_revisions,0y,,,,,,CAD,9.0,9.0,4.0,4.0,,,,
 2026-10-14,GIB-A.TO,eps_revisions,+1y,,,,,,CAD,11.0,10.0,4.0,3.0,,,,
-2026-10-14,GIB-A.TO,price_target,,103.1,,,,,,,,,,150.0,95.0,120.69231,119.0
+2026-10-14,GIB-A.TO,price_target,,102.88,,,,,,,,,,150.0,95.0,120.69231,119.0
 2026-10-14,EMA.TO,eps_trend,0q,0.96686,0.96277,0.96277,0.96552,0.9677,CAD,,,,,,,,
 2026-10-14,EMA.TO,eps_trend,+1q,0.70999,0.71555,0.71555,0.70685,0.69302,CAD,,,,,,,,
 2026-10-14,EMA.TO,eps_trend,0y,3.72121,3.72266,3.72266,3.72584,3.73526,CAD,,,,,,,,
@@ -503,7 +503,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,EMA.TO,eps_revisions,+1q,,,,,,CAD,0.0,4.0,3.0,1.0,,,,
 2026-10-14,EMA.TO,eps_revisions,0y,,,,,,CAD,0.0,4.0,7.0,2.0,,,,
 2026-10-14,EMA.TO,eps_revisions,+1y,,,,,,CAD,1.0,3.0,3.0,0.0,,,,
-2026-10-14,EMA.TO,price_target,,65.61,,,,,,,,,,84.0,64.0,74.0,74.0
+2026-10-14,EMA.TO,price_target,,65.78,,,,,,,,,,84.0,64.0,74.0,74.0
 2026-10-14,TOI.V,eps_trend,0q,0.645,0.7,0.7,0.7,0.7,EUR,,,,,,,,
 2026-10-14,TOI.V,eps_trend,+1q,0.78,0.79,0.79,0.79,0.79,EUR,,,,,,,,
 2026-10-14,TOI.V,eps_trend,0y,2.27333,2.45667,2.45667,2.45667,2.45667,EUR,,,,,,,,
@@ -512,7 +512,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,TOI.V,eps_revisions,+1q,,,,,,EUR,0.0,0.0,1.0,1.0,,,,
 2026-10-14,TOI.V,eps_revisions,0y,,,,,,EUR,1.0,1.0,1.0,1.0,,,,
 2026-10-14,TOI.V,eps_revisions,+1y,,,,,,EUR,1.0,1.0,1.0,1.0,,,,
-2026-10-14,TOI.V,price_target,,92.22,,,,,,,,,,143.50711,142.39447,143.13623,143.50711
+2026-10-14,TOI.V,price_target,,92.21,,,,,,,,,,143.46196,142.34967,143.0912,143.46196
 2026-10-14,MRU.TO,eps_trend,0q,0.97736,1.18005,1.20172,1.23328,1.23328,CAD,,,,,,,,
 2026-10-14,MRU.TO,eps_trend,+1q,1.23769,1.26358,1.26358,1.26556,1.26556,CAD,,,,,,,,
 2026-10-14,MRU.TO,eps_trend,0y,4.5226,4.82449,4.91226,5.08532,5.08532,CAD,,,,,,,,
@@ -521,7 +521,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,MRU.TO,eps_revisions,+1q,,,,,,CAD,0.0,0.0,4.0,4.0,,,,
 2026-10-14,MRU.TO,eps_revisions,0y,,,,,,CAD,0.0,0.0,8.0,8.0,,,,
 2026-10-14,MRU.TO,eps_revisions,+1y,,,,,,CAD,1.0,1.0,7.0,7.0,,,,
-2026-10-14,MRU.TO,price_target,,92.24,,,,,,,,,,110.0,86.0,98.9,97.5
+2026-10-14,MRU.TO,price_target,,92.05,,,,,,,,,,110.0,86.0,98.9,97.5
 2026-10-14,ARX.TO,eps_trend,0q,0.68963,0.57872,0.57228,0.4134,0.50736,CAD,,,,,,,,
 2026-10-14,ARX.TO,eps_trend,+1q,0.76247,0.65308,0.68245,0.5024,0.59365,CAD,,,,,,,,
 2026-10-14,ARX.TO,eps_trend,0y,3.17276,2.8604,2.494,1.93929,2.16946,CAD,,,,,,,,
@@ -539,7 +539,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,AGI.TO,eps_revisions,+1q,,,,,,USD,1.0,3.0,2.0,3.0,,,,
 2026-10-14,AGI.TO,eps_revisions,0y,,,,,,USD,0.0,0.0,4.0,4.0,,,,
 2026-10-14,AGI.TO,eps_revisions,+1y,,,,,,USD,2.0,2.0,1.0,1.0,,,,
-2026-10-14,AGI.TO,price_target,,43.54,,,,,,,,,,82.57474,51.09319,68.219986,66.23074
+2026-10-14,AGI.TO,price_target,,43.4,,,,,,,,,,82.55567,51.081394,68.20423,66.215454
 2026-10-14,IGM.TO,eps_trend,0q,1.46834,1.45558,1.36189,1.36189,1.32684,CAD,,,,,,,,
 2026-10-14,IGM.TO,eps_trend,+1q,1.47704,1.44492,1.3583,1.3583,1.30165,CAD,,,,,,,,
 2026-10-14,IGM.TO,eps_trend,0y,5.49051,5.49051,5.49051,5.49051,5.16421,CAD,,,,,,,,
@@ -548,7 +548,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,IGM.TO,eps_revisions,+1q,,,,,,CAD,2.0,7.0,0.0,1.0,,,,
 2026-10-14,IGM.TO,eps_revisions,0y,,,,,,CAD,7.0,7.0,0.0,0.0,,,,
 2026-10-14,IGM.TO,eps_revisions,+1y,,,,,,CAD,5.0,8.0,0.0,2.0,,,,
-2026-10-14,IGM.TO,price_target,,80.27,,,,,,,,,,94.0,78.0,87.25,88.0
+2026-10-14,IGM.TO,price_target,,80.39,,,,,,,,,,94.0,78.0,87.25,88.0
 2026-10-14,IAG.TO,eps_trend,0q,3.71534,3.59182,3.60799,3.60799,3.60799,CAD,,,,,,,,
 2026-10-14,IAG.TO,eps_trend,+1q,3.68636,3.59219,3.53238,3.53238,3.53238,CAD,,,,,,,,
 2026-10-14,IAG.TO,eps_trend,0y,14.29796,13.85221,13.81021,13.81021,13.81021,CAD,,,,,,,,
@@ -557,7 +557,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,IAG.TO,eps_revisions,+1q,,,,,,CAD,5.0,6.0,0.0,0.0,,,,
 2026-10-14,IAG.TO,eps_revisions,0y,,,,,,CAD,7.0,7.0,0.0,0.0,,,,
 2026-10-14,IAG.TO,eps_revisions,+1y,,,,,,CAD,7.0,7.0,0.0,0.0,,,,
-2026-10-14,IAG.TO,price_target,,207.51,,,,,,,,,,225.0,213.0,219.2857,220.0
+2026-10-14,IAG.TO,price_target,,207.0,,,,,,,,,,225.0,213.0,219.2857,220.0
 2026-10-14,EQX.TO,eps_trend,0q,0.24446,0.23705,0.28461,0.28038,0.305,USD,,,,,,,,
 2026-10-14,EQX.TO,eps_trend,+1q,0.41045,0.39204,0.40204,0.42445,0.33,USD,,,,,,,,
 2026-10-14,EQX.TO,eps_trend,0y,1.08069,1.10705,1.10306,1.10751,1.2125,USD,,,,,,,,
@@ -566,7 +566,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,EQX.TO,eps_revisions,+1q,,,,,,USD,0.0,0.0,2.0,2.0,,,,
 2026-10-14,EQX.TO,eps_revisions,0y,,,,,,USD,1.0,1.0,2.0,1.0,,,,
 2026-10-14,EQX.TO,eps_revisions,+1y,,,,,,USD,0.0,2.0,2.0,1.0,,,,
-2026-10-14,EQX.TO,price_target,,14.78,,,,,,,,,,31.212816,20.024744,24.990263,25.067024
+2026-10-14,EQX.TO,price_target,,14.72,,,,,,,,,,31.20583,20.020262,24.984669,25.061415
 2026-10-14,T.TO,eps_trend,0q,0.169,0.17228,0.18164,0.18164,0.24601,CAD,,,,,,,,
 2026-10-14,T.TO,eps_trend,+1q,0.158,0.15721,0.15721,0.15721,0.22368,CAD,,,,,,,,
 2026-10-14,T.TO,eps_trend,0y,0.70182,0.70476,0.70943,0.71676,0.91735,CAD,,,,,,,,
@@ -575,7 +575,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,T.TO,eps_revisions,+1q,,,,,,CAD,0.0,0.0,9.0,9.0,,,,
 2026-10-14,T.TO,eps_revisions,0y,,,,,,CAD,1.0,1.0,1.0,0.0,,,,
 2026-10-14,T.TO,eps_revisions,+1y,,,,,,CAD,1.0,2.0,0.0,0.0,,,,
-2026-10-14,T.TO,price_target,,11.295,,,,,,,,,,17.0,11.5,14.05556,14.0
+2026-10-14,T.TO,price_target,,11.3,,,,,,,,,,17.0,11.5,14.05556,14.0
 2026-10-14,ALA.TO,eps_trend,0q,0.08476,0.08041,0.08041,0.06996,0.11223,CAD,,,,,,,,
 2026-10-14,ALA.TO,eps_trend,+1q,0.79614,0.79511,0.79511,0.77332,0.78826,CAD,,,,,,,,
 2026-10-14,ALA.TO,eps_trend,0y,2.51344,2.51244,2.51244,2.51033,2.44192,CAD,,,,,,,,
@@ -584,7 +584,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,ALA.TO,eps_revisions,+1q,,,,,,CAD,1.0,0.0,3.0,2.0,,,,
 2026-10-14,ALA.TO,eps_revisions,0y,,,,,,CAD,1.0,9.0,1.0,0.0,,,,
 2026-10-14,ALA.TO,eps_revisions,+1y,,,,,,CAD,3.0,4.0,1.0,1.0,,,,
-2026-10-14,ALA.TO,price_target,,56.49,,,,,,,,,,63.0,57.0,60.18182,60.0
+2026-10-14,ALA.TO,price_target,,56.57,,,,,,,,,,63.0,57.0,60.18182,60.0
 2026-10-14,TIH.TO,eps_trend,0q,2.08964,2.09387,2.09387,2.09387,1.98567,CAD,,,,,,,,
 2026-10-14,TIH.TO,eps_trend,+1q,2.40293,2.43621,2.43621,2.43621,2.34242,CAD,,,,,,,,
 2026-10-14,TIH.TO,eps_trend,0y,7.43948,7.44276,7.44276,7.46387,7.16563,CAD,,,,,,,,
@@ -602,7 +602,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,ATZ.TO,eps_revisions,+1q,,,,,,CAD,1.0,1.0,2.0,1.0,,,,
 2026-10-14,ATZ.TO,eps_revisions,0y,,,,,,CAD,2.0,4.0,1.0,0.0,,,,
 2026-10-14,ATZ.TO,eps_revisions,+1y,,,,,,CAD,1.0,2.0,4.0,2.0,,,,
-2026-10-14,ATZ.TO,price_target,,147.06,,,,,,,,,,228.0,135.0,182.42857,185.5
+2026-10-14,ATZ.TO,price_target,,146.92,,,,,,,,,,228.0,135.0,182.42857,185.5
 2026-10-14,CCL-B.TO,eps_trend,0q,1.32971,1.32971,1.31112,1.3086,1.3086,CAD,,,,,,,,
 2026-10-14,CCL-B.TO,eps_trend,+1q,1.22223,1.22223,1.2105,1.2066,1.2066,CAD,,,,,,,,
 2026-10-14,CCL-B.TO,eps_trend,0y,5.08974,5.08974,4.96987,4.95777,4.95777,CAD,,,,,,,,
@@ -611,7 +611,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,CCL-B.TO,eps_revisions,+1q,,,,,,CAD,3.0,3.0,2.0,2.0,,,,
 2026-10-14,CCL-B.TO,eps_revisions,0y,,,,,,CAD,0.0,9.0,1.0,2.0,,,,
 2026-10-14,CCL-B.TO,eps_revisions,+1y,,,,,,CAD,3.0,9.0,0.0,1.0,,,,
-2026-10-14,CCL-B.TO,price_target,,95.64,,,,,,,,,,115.0,98.0,108.1,107.5
+2026-10-14,CCL-B.TO,price_target,,95.86,,,,,,,,,,115.0,98.0,108.1,107.5
 2026-10-14,HBM.TO,eps_trend,0q,0.36576,0.3744,0.37035,0.36944,0.42033,USD,,,,,,,,
 2026-10-14,HBM.TO,eps_trend,+1q,0.41869,0.41339,0.41588,0.41407,0.42733,USD,,,,,,,,
 2026-10-14,HBM.TO,eps_trend,0y,1.51094,1.46598,1.52538,1.52203,1.42357,USD,,,,,,,,
@@ -620,7 +620,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,HBM.TO,eps_revisions,+1q,,,,,,USD,1.0,2.0,0.0,0.0,,,,
 2026-10-14,HBM.TO,eps_revisions,0y,,,,,,USD,1.0,3.0,0.0,1.0,,,,
 2026-10-14,HBM.TO,eps_revisions,+1y,,,,,,USD,3.0,3.0,6.0,5.0,,,,
-2026-10-14,HBM.TO,price_target,,35.25,,,,,,,,,,53.19978,40.070652,45.372875,45.15935
+2026-10-14,HBM.TO,price_target,,35.17,,,,,,,,,,53.187126,40.06112,45.362083,45.14861
 2026-10-14,KEY.TO,eps_trend,0q,0.5302,0.5533,0.5533,0.64286,0.80679,CAD,,,,,,,,
 2026-10-14,KEY.TO,eps_trend,+1q,0.85625,0.81819,0.81819,0.88132,0.84593,CAD,,,,,,,,
 2026-10-14,KEY.TO,eps_trend,0y,1.85276,1.8378,1.8378,2.07184,1.9303,CAD,,,,,,,,
@@ -629,7 +629,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,KEY.TO,eps_revisions,+1q,,,,,,CAD,0.0,1.0,3.0,4.0,,,,
 2026-10-14,KEY.TO,eps_revisions,0y,,,,,,CAD,0.0,1.0,3.0,4.0,,,,
 2026-10-14,KEY.TO,eps_revisions,+1y,,,,,,CAD,0.0,0.0,4.0,1.0,,,,
-2026-10-14,KEY.TO,price_target,,55.26,,,,,,,,,,67.0,56.0,63.66667,64.0
+2026-10-14,KEY.TO,price_target,,55.27,,,,,,,,,,67.0,56.0,63.66667,64.0
 2026-10-14,IVN.TO,eps_trend,0q,0.06365,0.06066,0.06066,0.05941,0.07559,USD,,,,,,,,
 2026-10-14,IVN.TO,eps_trend,+1q,0.06701,0.07321,0.07321,0.07321,0.07766,USD,,,,,,,,
 2026-10-14,IVN.TO,eps_trend,0y,0.17634,0.18297,0.17797,0.17329,0.18981,USD,,,,,,,,
@@ -638,7 +638,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,IVN.TO,eps_revisions,+1q,,,,,,USD,1.0,1.0,2.0,1.0,,,,
 2026-10-14,IVN.TO,eps_revisions,0y,,,,,,USD,1.0,2.0,0.0,0.0,,,,
 2026-10-14,IVN.TO,eps_revisions,+1y,,,,,,USD,0.0,1.0,1.0,1.0,,,,
-2026-10-14,IVN.TO,price_target,,10.78,,,,,,,,,,19.359928,12.0213375,15.547593,15.564845
+2026-10-14,IVN.TO,price_target,,10.76,,,,,,,,,,19.355324,12.018478,15.543895,15.561143
 2026-10-14,CGG.TO,eps_trend,0q,,,,,,CAD,,,,,,,,
 2026-10-14,CGG.TO,eps_trend,+1q,,,,,,CAD,,,,,,,,
 2026-10-14,CGG.TO,eps_trend,0y,3.358,2.821,2.821,2.821,2.821,CAD,,,,,,,,
@@ -647,7 +647,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,CGG.TO,eps_revisions,+1q,,,,,,CAD,,,,,,,,
 2026-10-14,CGG.TO,eps_revisions,0y,,,,,,CAD,1.0,2.0,0.0,0.0,,,,
 2026-10-14,CGG.TO,eps_revisions,+1y,,,,,,CAD,0.0,0.0,0.0,0.0,,,,
-2026-10-14,CGG.TO,price_target,,37.58,,,,,,,,,,,,,
+2026-10-14,CGG.TO,price_target,,37.7,,,,,,,,,,,,,
 2026-10-14,SAP.TO,eps_trend,0q,0.4925,0.505,0.505,0.51125,0.52125,CAD,,,,,,,,
 2026-10-14,SAP.TO,eps_trend,+1q,0.57875,0.59125,0.59125,0.60875,0.62125,CAD,,,,,,,,
 2026-10-14,SAP.TO,eps_trend,0y,2.05222,2.07889,2.07889,2.08857,2.10778,CAD,,,,,,,,
@@ -656,7 +656,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,SAP.TO,eps_revisions,+1q,,,,,,CAD,0.0,0.0,1.0,1.0,,,,
 2026-10-14,SAP.TO,eps_revisions,0y,,,,,,CAD,0.0,0.0,1.0,1.0,,,,
 2026-10-14,SAP.TO,eps_revisions,+1y,,,,,,CAD,0.0,1.0,1.0,1.0,,,,
-2026-10-14,SAP.TO,price_target,,39.12,,,,,,,,,,53.0,41.0,46.7,47.0
+2026-10-14,SAP.TO,price_target,,39.2,,,,,,,,,,53.0,41.0,46.7,47.0
 2026-10-14,IMG.TO,eps_trend,0q,0.435,0.43875,0.4575,0.43714,0.56743,USD,,,,,,,,
 2026-10-14,IMG.TO,eps_trend,+1q,0.49714,0.52125,0.53375,0.50714,0.70302,USD,,,,,,,,
 2026-10-14,IMG.TO,eps_trend,0y,1.99583,2.01667,2.03417,2.00727,2.25016,USD,,,,,,,,
@@ -665,7 +665,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,IMG.TO,eps_revisions,+1q,,,,,,USD,0.0,0.0,4.0,3.0,,,,
 2026-10-14,IMG.TO,eps_revisions,0y,,,,,,USD,1.0,1.0,4.0,1.0,,,,
 2026-10-14,IMG.TO,eps_revisions,+1y,,,,,,USD,1.0,3.0,2.0,1.0,,,,
-2026-10-14,IMG.TO,price_target,,24.83,,,,,,,,,,36.92023,23.053524,33.182682,34.65676
+2026-10-14,IMG.TO,price_target,,24.72,,,,,,,,,,36.91145,23.04804,33.17479,34.648518
 2026-10-14,X.TO,eps_trend,0q,0.57097,0.57097,0.57097,0.57,0.578,CAD,,,,,,,,
 2026-10-14,X.TO,eps_trend,+1q,0.62513,0.62513,0.62513,0.61667,0.6185,CAD,,,,,,,,
 2026-10-14,X.TO,eps_trend,0y,2.45726,2.45726,2.45726,2.445,2.42825,CAD,,,,,,,,
@@ -674,8 +674,8 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,X.TO,eps_revisions,+1q,,,,,,CAD,1.0,1.0,2.0,0.0,,,,
 2026-10-14,X.TO,eps_revisions,0y,,,,,,CAD,1.0,4.0,1.0,0.0,,,,
 2026-10-14,X.TO,eps_revisions,+1y,,,,,,CAD,0.0,4.0,2.0,0.0,,,,
-2026-10-14,X.TO,price_target,,53.23,,,,,,,,,,71.0,61.0,65.42857,64.5
-2026-10-14,HUT.TO,price_target,,109.28,,,,,,,,,,,,,
+2026-10-14,X.TO,price_target,,53.12,,,,,,,,,,71.0,61.0,65.42857,64.5
+2026-10-14,HUT.TO,price_target,,107.8,,,,,,,,,,,,,
 2026-10-14,QBR-B.TO,eps_trend,0q,1.12523,1.14528,1.14528,1.14528,1.11558,CAD,,,,,,,,
 2026-10-14,QBR-B.TO,eps_trend,+1q,1.08354,1.07234,1.07123,1.07123,1.06135,CAD,,,,,,,,
 2026-10-14,QBR-B.TO,eps_trend,0y,4.27339,4.26133,4.25802,4.24373,4.28212,CAD,,,,,,,,
@@ -684,7 +684,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,QBR-B.TO,eps_revisions,+1q,,,,,,CAD,4.0,5.0,1.0,1.0,,,,
 2026-10-14,QBR-B.TO,eps_revisions,0y,,,,,,CAD,1.0,6.0,6.0,0.0,,,,
 2026-10-14,QBR-B.TO,eps_revisions,+1y,,,,,,CAD,1.0,6.0,5.0,0.0,,,,
-2026-10-14,QBR-B.TO,price_target,,64.0,,,,,,,,,,80.0,66.0,73.40133,74.0
+2026-10-14,QBR-B.TO,price_target,,64.09,,,,,,,,,,80.0,66.0,73.40133,74.0
 2026-10-14,GMIN.TO,eps_trend,0q,0.53217,0.5944,0.56033,0.58267,0.76333,CAD,,,,,,,,
 2026-10-14,GMIN.TO,eps_trend,+1q,0.538,0.55025,0.54667,0.5204,0.87833,CAD,,,,,,,,
 2026-10-14,GMIN.TO,eps_trend,0y,1.83567,1.85311,1.851,1.8915,1.9556,CAD,,,,,,,,
@@ -693,7 +693,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,GMIN.TO,eps_revisions,+1q,,,,,,CAD,2.0,1.0,1.0,0.0,,,,
 2026-10-14,GMIN.TO,eps_revisions,0y,,,,,,CAD,2.0,3.0,3.0,2.0,,,,
 2026-10-14,GMIN.TO,eps_revisions,+1y,,,,,,CAD,2.0,2.0,2.0,1.0,,,,
-2026-10-14,GMIN.TO,price_target,,45.17,,,,,,,,,,70.0,57.0,63.46154,64.0
+2026-10-14,GMIN.TO,price_target,,44.9,,,,,,,,,,70.0,57.0,63.46154,64.0
 2026-10-14,ATRL.TO,eps_trend,0q,1.10802,1.10802,1.10802,1.10711,1.12804,CAD,,,,,,,,
 2026-10-14,ATRL.TO,eps_trend,+1q,1.1276,1.1276,1.1276,1.13518,1.1255,CAD,,,,,,,,
 2026-10-14,ATRL.TO,eps_trend,0y,4.00685,4.00685,4.00685,3.9927,4.00777,CAD,,,,,,,,
@@ -702,7 +702,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,ATRL.TO,eps_revisions,+1q,,,,,,CAD,3.0,3.0,2.0,2.0,,,,
 2026-10-14,ATRL.TO,eps_revisions,0y,,,,,,CAD,1.0,6.0,3.0,0.0,,,,
 2026-10-14,ATRL.TO,eps_revisions,+1y,,,,,,CAD,1.0,7.0,2.0,0.0,,,,
-2026-10-14,ATRL.TO,price_target,,87.9,,,,,,,,,,131.0,105.0,115.66667,119.0
+2026-10-14,ATRL.TO,price_target,,87.67,,,,,,,,,,131.0,105.0,115.66667,119.0
 2026-10-14,FTT.TO,eps_trend,0q,1.25889,1.25143,1.25143,1.26748,1.26717,CAD,,,,,,,,
 2026-10-14,FTT.TO,eps_trend,+1q,1.19778,1.20714,1.20714,1.20973,1.2116,CAD,,,,,,,,
 2026-10-14,FTT.TO,eps_trend,0y,4.694,4.695,4.695,4.66262,4.6751,CAD,,,,,,,,
@@ -711,7 +711,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,FTT.TO,eps_revisions,+1q,,,,,,CAD,0.0,0.0,0.0,0.0,,,,
 2026-10-14,FTT.TO,eps_revisions,0y,,,,,,CAD,6.0,6.0,1.0,1.0,,,,
 2026-10-14,FTT.TO,eps_revisions,+1y,,,,,,CAD,6.0,6.0,2.0,2.0,,,,
-2026-10-14,FTT.TO,price_target,,103.87,,,,,,,,,,129.0,118.0,122.2,122.0
+2026-10-14,FTT.TO,price_target,,103.46,,,,,,,,,,129.0,118.0,122.2,122.0
 2026-10-14,ELD.TO,eps_trend,0q,0.76821,0.75547,0.9459,0.95,1.07978,USD,,,,,,,,
 2026-10-14,ELD.TO,eps_trend,+1q,1.43739,1.39116,1.41779,1.41711,1.64121,USD,,,,,,,,
 2026-10-14,ELD.TO,eps_trend,0y,3.29395,3.37234,3.45449,3.41863,3.87633,USD,,,,,,,,
@@ -720,7 +720,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,ELD.TO,eps_revisions,+1q,,,,,,USD,1.0,1.0,1.0,0.0,,,,
 2026-10-14,ELD.TO,eps_revisions,0y,,,,,,USD,0.0,1.0,4.0,1.0,,,,
 2026-10-14,ELD.TO,eps_revisions,+1y,,,,,,USD,0.0,1.0,3.0,1.0,,,,
-2026-10-14,ELD.TO,price_target,,49.89,,,,,,,,,,78.09615,64.01523,71.29607,71.82041
+2026-10-14,ELD.TO,price_target,,49.76,,,,,,,,,,78.080315,64.00224,71.28161,71.80585
 2026-10-14,TFII.TO,eps_trend,0q,1.74181,1.76479,1.7837,1.7837,1.61487,USD,,,,,,,,
 2026-10-14,TFII.TO,eps_trend,+1q,1.66545,1.66934,1.67612,1.67612,1.52263,USD,,,,,,,,
 2026-10-14,TFII.TO,eps_trend,0y,5.92216,5.96064,5.98687,5.98687,5.40883,USD,,,,,,,,
@@ -729,7 +729,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,TFII.TO,eps_revisions,+1q,,,,,,USD,1.0,1.0,0.0,0.0,,,,
 2026-10-14,TFII.TO,eps_revisions,0y,,,,,,USD,0.0,0.0,1.0,2.0,,,,
 2026-10-14,TFII.TO,eps_revisions,+1y,,,,,,USD,1.0,1.0,0.0,0.0,,,,
-2026-10-14,TFII.TO,price_target,,159.49,,,,,,,,,,266.38968,187.38445,233.1702,228.91252
+2026-10-14,TFII.TO,price_target,,159.86,,,,,,,,,,266.33566,187.34644,233.12291,228.86609
 2026-10-14,CU.TO,eps_trend,0q,0.42627,0.42302,0.42302,0.42302,0.41167,CAD,,,,,,,,
 2026-10-14,CU.TO,eps_trend,+1q,0.76797,0.77038,0.77038,0.77038,0.7487,CAD,,,,,,,,
 2026-10-14,CU.TO,eps_trend,0y,2.59117,2.59098,2.59098,2.59098,2.53736,CAD,,,,,,,,
@@ -738,7 +738,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,CU.TO,eps_revisions,+1q,,,,,,CAD,2.0,2.0,1.0,1.0,,,,
 2026-10-14,CU.TO,eps_revisions,0y,,,,,,CAD,3.0,3.0,1.0,1.0,,,,
 2026-10-14,CU.TO,eps_revisions,+1y,,,,,,CAD,2.0,4.0,1.0,1.0,,,,
-2026-10-14,CU.TO,price_target,,48.6,,,,,,,,,,63.0,52.0,57.0,57.0
+2026-10-14,CU.TO,price_target,,48.69,,,,,,,,,,63.0,52.0,57.0,57.0
 2026-10-14,DPM.TO,eps_trend,0q,0.85515,0.86434,0.88515,0.936,0.90301,USD,,,,,,,,
 2026-10-14,DPM.TO,eps_trend,+1q,1.092,1.092,1.09314,1.102,1.12136,USD,,,,,,,,
 2026-10-14,DPM.TO,eps_trend,0y,3.40918,3.385,3.28667,3.28667,3.33288,USD,,,,,,,,
@@ -747,7 +747,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,DPM.TO,eps_revisions,+1q,,,,,,USD,1.0,2.0,1.0,1.0,,,,
 2026-10-14,DPM.TO,eps_revisions,0y,,,,,,USD,1.0,0.0,1.0,0.0,,,,
 2026-10-14,DPM.TO,eps_revisions,+1y,,,,,,USD,1.0,1.0,1.0,1.0,,,,
-2026-10-14,DPM.TO,price_target,,57.38,,,,,,,,,,82.19135,59.222485,69.09099,67.68519
+2026-10-14,DPM.TO,price_target,,57.29,,,,,,,,,,82.17468,59.210472,69.07698,67.67146
 2026-10-14,AG.TO,eps_trend,0q,0.292,0.297,0.3215,0.3215,0.424,CAD,,,,,,,,
 2026-10-14,AG.TO,eps_trend,+1q,0.384,0.385,0.404,0.404,0.0,CAD,,,,,,,,
 2026-10-14,AG.TO,eps_trend,0y,1.31467,1.31733,1.335,1.335,1.38633,CAD,,,,,,,,
@@ -756,7 +756,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,AG.TO,eps_revisions,+1q,,,,,,CAD,0.0,1.0,1.0,1.0,,,,
 2026-10-14,AG.TO,eps_revisions,0y,,,,,,CAD,0.0,0.0,4.0,1.0,,,,
 2026-10-14,AG.TO,eps_revisions,+1y,,,,,,CAD,2.0,2.0,2.0,0.0,,,,
-2026-10-14,AG.TO,price_target,,22.07,,,,,,,,,,43.0,30.0,34.75,33.0
+2026-10-14,AG.TO,price_target,,21.98,,,,,,,,,,43.0,30.0,34.75,33.0
 2026-10-14,GIL.TO,eps_trend,0q,1.5911,1.60051,1.60146,1.60146,1.38327,USD,,,,,,,,
 2026-10-14,GIL.TO,eps_trend,+1q,1.35246,1.36239,1.36239,1.36239,1.38688,USD,,,,,,,,
 2026-10-14,GIL.TO,eps_trend,0y,4.63454,4.64792,4.67254,4.67663,4.30084,USD,,,,,,,,
@@ -765,7 +765,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,GIL.TO,eps_revisions,+1q,,,,,,USD,0.0,0.0,1.0,1.0,,,,
 2026-10-14,GIL.TO,eps_revisions,0y,,,,,,USD,0.0,0.0,2.0,1.0,,,,
 2026-10-14,GIL.TO,eps_revisions,+1y,,,,,,USD,0.0,0.0,2.0,1.0,,,,
-2026-10-14,GIL.TO,price_target,,59.31,,,,,,,,,,136.53247,67.18133,104.04577,109.59705
+2026-10-14,GIL.TO,price_target,,58.92,,,,,,,,,,136.50667,67.16864,104.02611,109.57635
 2026-10-14,CTC-A.TO,eps_trend,0q,3.81125,3.81125,3.81125,3.81125,4.00143,CAD,,,,,,,,
 2026-10-14,CTC-A.TO,eps_trend,+1q,4.38571,4.44571,4.44429,4.45017,4.42448,CAD,,,,,,,,
 2026-10-14,CTC-A.TO,eps_trend,0y,14.25333,14.25444,14.25444,14.25444,14.50111,CAD,,,,,,,,
@@ -774,7 +774,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,CTC-A.TO,eps_revisions,+1q,,,,,,CAD,2.0,3.0,4.0,5.0,,,,
 2026-10-14,CTC-A.TO,eps_revisions,0y,,,,,,CAD,2.0,2.0,6.0,6.0,,,,
 2026-10-14,CTC-A.TO,eps_revisions,+1y,,,,,,CAD,2.0,2.0,6.0,6.0,,,,
-2026-10-14,CTC-A.TO,price_target,,194.34,,,,,,,,,,230.0,185.0,206.6,206.5
+2026-10-14,CTC-A.TO,price_target,,194.005,,,,,,,,,,230.0,185.0,206.6,206.5
 2026-10-14,EMP-A.TO,eps_trend,0q,0.765,0.765,0.77167,0.77167,0.78796,CAD,,,,,,,,
 2026-10-14,EMP-A.TO,eps_trend,+1q,0.82167,0.845,0.84667,0.845,0.83898,CAD,,,,,,,,
 2026-10-14,EMP-A.TO,eps_trend,0y,3.575,3.59,3.59333,3.59,3.56479,CAD,,,,,,,,
@@ -783,7 +783,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,EMP-A.TO,eps_revisions,+1q,,,,,,CAD,0.0,0.0,5.0,5.0,,,,
 2026-10-14,EMP-A.TO,eps_revisions,0y,,,,,,CAD,1.0,1.0,3.0,3.0,,,,
 2026-10-14,EMP-A.TO,eps_revisions,+1y,,,,,,CAD,1.0,2.0,3.0,4.0,,,,
-2026-10-14,EMP-A.TO,price_target,,48.84,,,,,,,,,,58.0,48.0,53.0,53.0
+2026-10-14,EMP-A.TO,price_target,,48.78,,,,,,,,,,58.0,48.0,53.0,53.0
 2026-10-14,STN.TO,eps_trend,0q,1.77375,1.78125,1.78,1.80971,1.80174,CAD,,,,,,,,
 2026-10-14,STN.TO,eps_trend,+1q,1.47286,1.4875,1.48556,1.47332,1.46399,CAD,,,,,,,,
 2026-10-14,STN.TO,eps_trend,0y,6.19,6.2,6.20364,6.18309,6.18309,CAD,,,,,,,,
@@ -792,7 +792,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,STN.TO,eps_revisions,+1q,,,,,,CAD,3.0,4.0,4.0,4.0,,,,
 2026-10-14,STN.TO,eps_revisions,0y,,,,,,CAD,0.0,0.0,1.0,1.0,,,,
 2026-10-14,STN.TO,eps_revisions,+1y,,,,,,CAD,0.0,0.0,1.0,1.0,,,,
-2026-10-14,STN.TO,price_target,,95.93,,,,,,,,,,169.0,113.0,137.90909,135.0
+2026-10-14,STN.TO,price_target,,95.91,,,,,,,,,,169.0,113.0,137.90909,135.0
 2026-10-14,CAE.TO,eps_trend,0q,0.26666,0.2658,0.2658,0.26497,0.27072,CAD,,,,,,,,
 2026-10-14,CAE.TO,eps_trend,+1q,0.33684,0.33664,0.33664,0.33301,0.33413,CAD,,,,,,,,
 2026-10-14,CAE.TO,eps_trend,0y,1.26749,1.26866,1.26866,1.27516,1.25646,CAD,,,,,,,,
@@ -801,7 +801,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,CAE.TO,eps_revisions,+1q,,,,,,CAD,5.0,6.0,4.0,4.0,,,,
 2026-10-14,CAE.TO,eps_revisions,0y,,,,,,CAD,0.0,9.0,4.0,1.0,,,,
 2026-10-14,CAE.TO,eps_revisions,+1y,,,,,,CAD,7.0,8.0,3.0,3.0,,,,
-2026-10-14,CAE.TO,price_target,,33.41,,,,,,,,,,54.0,26.0,44.33333,47.0
+2026-10-14,CAE.TO,price_target,,33.39,,,,,,,,,,54.0,26.0,44.33333,47.0
 2026-10-14,CHP-UN.TO,eps_trend,0q,,,,,,CAD,,,,,,,,
 2026-10-14,CHP-UN.TO,eps_trend,+1q,,,,,,CAD,,,,,,,,
 2026-10-14,CHP-UN.TO,eps_trend,0y,0.38,0.79,0.79,0.0,0.0,CAD,,,,,,,,
@@ -810,7 +810,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,CHP-UN.TO,eps_revisions,+1q,,,,,,CAD,,,,,,,,
 2026-10-14,CHP-UN.TO,eps_revisions,0y,,,,,,CAD,0.0,0.0,1.0,1.0,,,,
 2026-10-14,CHP-UN.TO,eps_revisions,+1y,,,,,,CAD,0.0,0.0,1.0,1.0,,,,
-2026-10-14,CHP-UN.TO,price_target,,14.82,,,,,,,,,,17.5,16.5,16.96875,17.0
+2026-10-14,CHP-UN.TO,price_target,,14.8,,,,,,,,,,17.5,16.5,16.96875,17.0
 2026-10-14,DSG.TO,eps_trend,0q,0.705,0.73,0.73,0.705,0.705,USD,,,,,,,,
 2026-10-14,DSG.TO,eps_trend,+1q,0.735,0.735,0.735,0.735,0.735,USD,,,,,,,,
 2026-10-14,DSG.TO,eps_trend,0y,2.81589,2.92107,2.91704,2.93254,2.93254,USD,,,,,,,,
@@ -819,7 +819,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,DSG.TO,eps_revisions,+1q,,,,,,USD,1.0,1.0,1.0,1.0,,,,
 2026-10-14,DSG.TO,eps_revisions,0y,,,,,,USD,1.0,4.0,1.0,0.0,,,,
 2026-10-14,DSG.TO,eps_revisions,+1y,,,,,,USD,1.0,6.0,0.0,0.0,,,,
-2026-10-14,DSG.TO,price_target,,120.8,,,,,,,,,,,,,
+2026-10-14,DSG.TO,price_target,,120.535,,,,,,,,,,,,,
 2026-10-14,CS.TO,eps_trend,0q,0.17962,0.19545,0.19125,0.18833,0.185,CAD,,,,,,,,
 2026-10-14,CS.TO,eps_trend,+1q,0.27327,0.26291,0.27158,0.27,0.23911,CAD,,,,,,,,
 2026-10-14,CS.TO,eps_trend,0y,0.84194,0.84153,0.82607,0.82807,0.76843,CAD,,,,,,,,
@@ -837,7 +837,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,CPX.TO,eps_revisions,+1q,,,,,,CAD,0.0,0.0,1.0,1.0,,,,
 2026-10-14,CPX.TO,eps_revisions,0y,,,,,,CAD,0.0,0.0,1.0,1.0,,,,
 2026-10-14,CPX.TO,eps_revisions,+1y,,,,,,CAD,0.0,0.0,1.0,1.0,,,,
-2026-10-14,CPX.TO,price_target,,63.58,,,,,,,,,,88.0,57.0,77.46154,80.0
+2026-10-14,CPX.TO,price_target,,63.645,,,,,,,,,,88.0,57.0,77.46154,80.0
 2026-10-14,SOBO.TO,eps_trend,0q,0.43221,0.42979,0.42979,0.43298,0.43452,USD,,,,,,,,
 2026-10-14,SOBO.TO,eps_trend,+1q,0.44494,0.44603,0.44603,0.44921,0.45227,USD,,,,,,,,
 2026-10-14,SOBO.TO,eps_trend,0y,1.81763,1.8187,1.8187,1.82163,1.75574,USD,,,,,,,,
@@ -846,7 +846,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,SOBO.TO,eps_revisions,+1q,,,,,,USD,0.0,1.0,3.0,1.0,,,,
 2026-10-14,SOBO.TO,eps_revisions,0y,,,,,,USD,0.0,9.0,1.0,1.0,,,,
 2026-10-14,SOBO.TO,eps_revisions,+1y,,,,,,USD,1.0,4.0,5.0,0.0,,,,
-2026-10-14,SOBO.TO,price_target,,48.61,,,,,,,,,,63.262043,37.94522,51.28061,53.65675
+2026-10-14,SOBO.TO,price_target,,48.7,,,,,,,,,,63.248764,37.937256,51.269844,53.645485
 2026-10-14,DSV.TO,eps_trend,0q,0.1565,0.15533,0.1525,0.155,0.19767,CAD,,,,,,,,
 2026-10-14,DSV.TO,eps_trend,+1q,0.171,0.16933,0.1665,0.169,0.23067,CAD,,,,,,,,
 2026-10-14,DSV.TO,eps_trend,0y,0.61375,0.6126,0.5235,0.54,0.64717,CAD,,,,,,,,
@@ -855,7 +855,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,DSV.TO,eps_revisions,+1q,,,,,,CAD,1.0,2.0,0.0,0.0,,,,
 2026-10-14,DSV.TO,eps_revisions,0y,,,,,,CAD,1.0,4.0,1.0,0.0,,,,
 2026-10-14,DSV.TO,eps_revisions,+1y,,,,,,CAD,1.0,4.0,1.0,0.0,,,,
-2026-10-14,DSV.TO,price_target,,11.54,,,,,,,,,,16.0,13.8,15.13333,15.0
+2026-10-14,DSV.TO,price_target,,11.47,,,,,,,,,,16.0,13.8,15.13333,15.0
 2026-10-14,BTO.TO,eps_trend,0q,0.11802,0.13333,0.14949,0.14061,0.18429,USD,,,,,,,,
 2026-10-14,BTO.TO,eps_trend,+1q,0.18736,0.18889,0.17989,0.1719,0.22,USD,,,,,,,,
 2026-10-14,BTO.TO,eps_trend,0y,0.5609,0.55917,0.527,0.53818,0.623,USD,,,,,,,,
@@ -864,7 +864,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,BTO.TO,eps_revisions,+1q,,,,,,USD,1.0,2.0,4.0,1.0,,,,
 2026-10-14,BTO.TO,eps_revisions,0y,,,,,,USD,1.0,1.0,2.0,1.0,,,,
 2026-10-14,BTO.TO,eps_revisions,+1y,,,,,,USD,0.0,0.0,2.0,2.0,,,,
-2026-10-14,BTO.TO,price_target,,7.085,,,,,,,,,,11.120421,5.255757,9.591164,10.0298195
+2026-10-14,BTO.TO,price_target,,7.06,,,,,,,,,,11.118087,5.2546535,9.589149,10.027714
 2026-10-14,SSRM.TO,eps_trend,0q,0.94131,0.92451,0.89835,0.89835,1.00844,USD,,,,,,,,
 2026-10-14,SSRM.TO,eps_trend,+1q,1.65126,1.75668,1.77604,1.77604,1.48434,USD,,,,,,,,
 2026-10-14,SSRM.TO,eps_trend,0y,3.98993,4.04729,4.11654,4.08954,4.17564,USD,,,,,,,,
@@ -873,7 +873,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,SSRM.TO,eps_revisions,+1q,,,,,,USD,0.0,0.0,1.0,1.0,,,,
 2026-10-14,SSRM.TO,eps_revisions,0y,,,,,,USD,1.0,2.0,5.0,3.0,,,,
 2026-10-14,SSRM.TO,eps_revisions,+1y,,,,,,USD,0.0,0.0,1.0,1.0,,,,
-2026-10-14,SSRM.TO,price_target,,43.32,,,,,,,,,,68.41775,52.318867,59.72662,60.36759
+2026-10-14,SSRM.TO,price_target,,43.24,,,,,,,,,,68.40339,52.307884,59.714085,60.35492
 2026-10-14,BIP-UN.TO,eps_trend,0q,0.11098,0.11098,0.11098,0.11098,0.24475,USD,,,,,,,,
 2026-10-14,BIP-UN.TO,eps_trend,+1q,0.11684,0.11684,0.11684,0.11684,0.28784,USD,,,,,,,,
 2026-10-14,BIP-UN.TO,eps_trend,0y,0.56593,0.72791,0.72791,0.72791,1.02548,USD,,,,,,,,
@@ -882,7 +882,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,BIP-UN.TO,eps_revisions,+1q,,,,,,USD,0.0,0.0,1.0,1.0,,,,
 2026-10-14,BIP-UN.TO,eps_revisions,0y,,,,,,USD,0.0,0.0,3.0,1.0,,,,
 2026-10-14,BIP-UN.TO,eps_revisions,+1y,,,,,,USD,0.0,1.0,2.0,1.0,,,,
-2026-10-14,BIP-UN.TO,price_target,,51.07,,,,,,,,,,62.556168,62.556168,62.556168,62.556168
+2026-10-14,BIP-UN.TO,price_target,,51.13,,,,,,,,,,62.545666,62.545666,62.545666,62.545666
 2026-10-14,FSV.TO,eps_trend,0q,1.86894,1.86783,1.86449,1.88227,1.91469,USD,,,,,,,,
 2026-10-14,FSV.TO,eps_trend,+1q,1.57892,1.57892,1.58336,1.56447,1.56952,USD,,,,,,,,
 2026-10-14,FSV.TO,eps_trend,0y,6.12514,6.12414,6.12614,6.11461,6.13096,USD,,,,,,,,
@@ -891,7 +891,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,FSV.TO,eps_revisions,+1q,,,,,,USD,0.0,1.0,1.0,1.0,,,,
 2026-10-14,FSV.TO,eps_revisions,0y,,,,,,USD,1.0,0.0,1.0,0.0,,,,
 2026-10-14,FSV.TO,eps_revisions,+1y,,,,,,USD,0.0,0.0,1.0,1.0,,,,
-2026-10-14,FSV.TO,price_target,,184.52,,,,,,,,,,241.55025,241.55025,241.55025,241.55025
+2026-10-14,FSV.TO,price_target,,184.52,,,,,,,,,,241.51477,241.51477,241.51477,241.51477
 2026-10-14,OTEX.TO,eps_trend,0q,0.92737,0.92752,0.92821,0.92821,1.07143,USD,,,,,,,,
 2026-10-14,OTEX.TO,eps_trend,+1q,1.02806,1.01114,1.01349,1.01349,1.15138,USD,,,,,,,,
 2026-10-14,OTEX.TO,eps_trend,0y,3.91746,3.90077,3.90448,3.90448,4.48316,USD,,,,,,,,
@@ -900,7 +900,7 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,OTEX.TO,eps_revisions,+1q,,,,,,USD,0.0,0.0,5.0,6.0,,,,
 2026-10-14,OTEX.TO,eps_revisions,0y,,,,,,USD,0.0,0.0,0.0,0.0,,,,
 2026-10-14,OTEX.TO,eps_revisions,+1y,,,,,,USD,0.0,0.0,3.0,4.0,,,,
-2026-10-14,OTEX.TO,price_target,,35.54,,,,,,,,,,34.3032,34.3032,34.3032,34.3032
+2026-10-14,OTEX.TO,price_target,,35.49,,,,,,,,,,34.29744,34.29744,34.29744,34.29744
 2026-10-14,WCN.TO,eps_trend,0q,1.52347,1.52225,1.52057,1.51479,1.51222,USD,,,,,,,,
 2026-10-14,WCN.TO,eps_trend,+1q,1.39875,1.39922,1.39761,1.39096,1.40141,USD,,,,,,,,
 2026-10-14,WCN.TO,eps_trend,0y,5.65304,5.64793,5.64992,5.63899,5.50765,USD,,,,,,,,
@@ -909,4 +909,4 @@ snapshot_date,ticker,kind,period,current,7daysAgo,30daysAgo,60daysAgo,90daysAgo,
 2026-10-14,WCN.TO,eps_revisions,+1q,,,,,,USD,2.0,2.0,1.0,0.0,,,,
 2026-10-14,WCN.TO,eps_revisions,0y,,,,,,USD,2.0,6.0,2.0,0.0,,,,
 2026-10-14,WCN.TO,eps_revisions,+1y,,,,,,USD,2.0,2.0,1.0,0.0,,,,
-2026-10-14,WCN.TO,price_target,,220.59,,,,,,,,,,309.55063,231.24501,274.7293,278.89072
+2026-10-14,WCN.TO,price_target,,220.52,,,,,,,,,,309.503,231.20943,274.68704,278.8478

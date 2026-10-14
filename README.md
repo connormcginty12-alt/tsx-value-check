@@ -38,7 +38,10 @@ reset to equal size; 0.10% per trade; benchmark XIU. Files: `portfolio_*.csv`, `
 TSX 60 membership is refreshed daily from Wikipedia (`update_tsx60.py`, `tsx60_members.csv`).
 
 **Data being recorded for future tests (`record_data.py`):** daily analyst estimate snapshots
-(`data/estimates_history.csv`) and CIRO short position reports (`data/short_positions*`).
+(`data/estimates_history.csv`), CIRO short position reports (`data/short_positions*`), and option chains
+for the US listings of the ~58 interlisted names (`record_options.py`, `.github/workflows/options.yml`,
+`data/options/YYYY-MM-DD.csv.gz`; recorded mid-afternoon while quotes are live — Yahoo carries no
+Montréal Exchange option chains).
 
 The edge is small (rank correlation ~0.03 with next-week returns; top-fifth minus bottom-fifth about
 5–7%/yr after 10 bp trading costs in both periods) and noisy week to week.

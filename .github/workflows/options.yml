@@ -1,0 +1,28 @@
+name: Daily option chains
+
+on:
+  schedule:
+    - cron: '15 19 * * 1-5'   # 3:15 pm Toronto (EDT), while quotes are live; 2:15 pm in winter
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install yfinance pandas
+      - run: python record_options.py
+      - name: Save
+        run: |
+          git config user.name "tsx-value-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git pull --rebase
+          git add data/options data/options_coverage.csv
+          git commit -m "Option chains $(date -u +%F)" || echo "No changes"
+          git push

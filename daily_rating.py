@@ -23,18 +23,31 @@ SECTORS = {
     'Insurance & asset mgmt': 'MFC GWO SLF POW IFC FFH IGM IAG X BN BAM',
     'Oil & gas producers': 'CNQ SU IMO CVE TOU WCP',
     'Pipelines': 'ENB TRP PPL KEY ALA SOBO',
-    'Utilities & REIT': 'FTS H EMA CU CPX CHP-UN',
+    'Utilities & REIT': 'FTS H EMA CU CPX CHP-UN BIP-UN',
     'Gold & silver': 'AEM ABX WPM FNV K PAAS LUG AGI EQX CGG IMG GMIN ELD DPM AG DSV BTO SSRM',
     'Base metals': 'TECK-B FM LUN HBM IVN CS',
     'Fertilizer, uranium, packaging': 'NTR CCO CCL-B',
     'Rail & trucking': 'CP CNR TFII',
-    'Industrials': 'BBD-B WSP GFL RBA TIH ATRL FTT STN CAE',
-    'Tech': 'SHOP CSU CLS GIB-A TOI DSG HUT TRI',
+    'Industrials': 'BBD-B WSP GFL RBA TIH ATRL FTT STN CAE WCN FSV',
+    'Tech': 'SHOP CSU CLS GIB-A TOI DSG HUT TRI OTEX',
     'Telecom': 'BCE RCI-B T QBR-B',
     'Staples & retail': 'L ATD WN MRU SAP EMP-A DOL',
     'Consumer discretionary': 'QSR MG ATZ GIL CTC-A',
 }
 SEC = {t + ('.V' if t == 'TOI' else '.TO'): s for s, ts in SECTORS.items() for t in ts.split()}
+# Current S&P/TSX 60 members (for the paper portfolio); any member not in the list above gets a
+# sector from its GICS label so it can be scored
+GICS_TO_SECTOR = {'Financial Services': 'Insurance & asset mgmt', 'Energy': 'Pipelines', 'Utilities': 'Utilities & REIT',
+                  'Basic Materials': 'Base metals', 'Industrials': 'Industrials', 'Information Technology': 'Tech',
+                  'Communication Services': 'Telecom', 'Consumer Staples': 'Staples & retail',
+                  'Consumer Cyclical': 'Consumer discretionary', 'Real Estate': 'Utilities & REIT', 'Health Care': 'Industrials'}
+try:
+    TSX60 = pd.read_csv('tsx60_members.csv')
+    for y, g in zip(TSX60.yahoo, TSX60.gics_sector):
+        SEC.setdefault(y, GICS_TO_SECTOR.get(g, 'Industrials'))
+    MEMBERS = set(TSX60.yahoo)
+except FileNotFoundError:
+    MEMBERS = set()
 
 d = pd.read_csv('tsx100_closes.csv', index_col=0, parse_dates=True)
 days = d['^GSPTSE'].dropna().index
@@ -115,6 +128,18 @@ def zf(x):   # z-score; stocks with no recent report count as neutral (0)
 
 score = ((z(pullback_1m).fillna(0) + z(peer_mom).fillna(0) + zf(sue) + zf(ear) + zf(due)) / 5).where(
     pullback_1m.notna() & peer_mom.notna())
+
+# Same score ranked among current S&P/TSX 60 members only (as in the portfolio backtest)
+mcols = [c for c in stocks if c in MEMBERS]
+if mcols:
+    zm = lambda x: z(x[mcols])
+    zfm = lambda x: z(x[mcols]).fillna(0).where(LP[mcols].notna())
+    score60 = ((zm(pullback_1m).fillna(0) + zm(peer_mom).fillna(0) + zfm(sue) + zfm(ear) + zfm(due)) / 5).where(
+        pullback_1m[mcols].notna() & peer_mom[mcols].notna())
+    s60 = score60.iloc[-30:].stack().rename('score').reset_index()
+    s60.columns = ['date', 'yahoo', 'score']
+    s60['date'] = s60.date.dt.date
+    s60.round(4).to_csv('portfolio_scores.csv', index=False)
 
 # Calibrate: average next-week return vs the group per unit of score, non-overlapping weeks
 fwd = LP.shift(-5) - LP

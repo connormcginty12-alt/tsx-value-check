@@ -18,10 +18,18 @@ WCP.TO RBA.TO LUG.TO WSP.TO GFL.TO GIB-A.TO EMA.TO TOI.V MRU.TO
 AGI.TO IGM.TO IAG.TO EQX.TO T.TO ALA.TO TIH.TO ATZ.TO CCL-B.TO HBM.TO
 KEY.TO IVN.TO CGG.TO SAP.TO IMG.TO X.TO HUT.TO QBR-B.TO GMIN.TO ATRL.TO
 FTT.TO ELD.TO TFII.TO CU.TO DPM.TO AG.TO GIL.TO CTC-A.TO EMP-A.TO STN.TO
-CAE.TO CHP-UN.TO DSG.TO CS.TO CPX.TO SOBO.TO DSV.TO BTO.TO SSRM.TO""".split()
+CAE.TO CHP-UN.TO DSG.TO CS.TO CPX.TO SOBO.TO DSV.TO BTO.TO SSRM.TO
+BIP-UN.TO FSV.TO OTEX.TO WCN.TO""".split()
+# Any current S&P/TSX 60 member not already listed (index changes) is added automatically
+try:
+    for y in pd.read_csv("tsx60_members.csv").yahoo:
+        if y not in STOCKS:
+            STOCKS.append(y)
+except FileNotFoundError:
+    pass
 
 # Market and macro drivers: TSX index, S&P 500, oil, gold, copper, nat gas, USD/CAD, US 10y yield, VIX
-FACTORS = ["^GSPTSE", "^GSPC", "CL=F", "GC=F", "HG=F", "NG=F", "CAD=X", "^TNX", "^VIX"]
+FACTORS = ["^GSPTSE", "^GSPC", "CL=F", "GC=F", "HG=F", "NG=F", "CAD=X", "^TNX", "^VIX", "XIU.TO"]
 
 data = yf.download(STOCKS + FACTORS, period="3y", interval="1d",
                    auto_adjust=True, progress=True, threads=True)

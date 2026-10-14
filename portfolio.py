@@ -4,6 +4,8 @@ Rule (as in research/backtest): hold the 10 S&P/TSX 60 stocks with the highest s
 Rebalance once a week at the close of the week's first trading day, using the previous trading day's
 scores (normally Friday's). Sell anything that dropped out of the top 10, buy what came in, reset
 all ten to equal weight. Trading costs: 0.10% of every dollar traded. Benchmark: XIU (TSX 60 ETF).
+Values are total return (dividends credited), measured from Yahoo's dividend-adjusted closes: each
+position is worth basis x (adjusted close now / adjusted close on the day it was last sized).
 
 Runs daily after daily_rating.py. State lives in portfolio_holdings.csv and portfolio_state.json.
 Outputs: portfolio_summary.csv, portfolio_now.csv (holdings), portfolio_plan.csv (provisional
@@ -43,13 +45,21 @@ def ranking(day):
 
 state = json.load(open('portfolio_state.json')) if os.path.exists('portfolio_state.json') else {}
 hold = (pd.read_csv('portfolio_holdings.csv') if os.path.exists('portfolio_holdings.csv')
-        else pd.DataFrame(columns=['yahoo', 'shares', 'entry_date', 'entry_price']))
+        else pd.DataFrame(columns=['yahoo', 'shares', 'entry_date', 'entry_price', 'basis', 'basis_date']))
+if 'basis' not in hold:   # files written before dividends were credited
+    hold['basis'] = hold.shares * hold.entry_price
+    hold['basis_date'] = hold.entry_date
 trades = (pd.read_csv('portfolio_trades.csv') if os.path.exists('portfolio_trades.csv')
           else pd.DataFrame(columns=['date', 'action', 'ticker', 'company', 'price', 'value']))
 vals = (pd.read_csv('portfolio_value.csv') if os.path.exists('portfolio_value.csv')
         else pd.DataFrame(columns=['date', 'portfolio', 'xiu']))
 cash = float(state.get('cash', CAPITAL))
 close = px.loc[t]
+
+def pos_value(y, basis, basis_date):
+    """Value incl. dividends since the position was last sized."""
+    return basis * close[y] / px.at[pd.Timestamp(basis_date), y]
+
 
 first_of_week = t.isocalendar()[1] != prev.isocalendar()[1] or t.year != prev.year
 already = str(t.date()) in set(trades.date.astype(str))
@@ -59,11 +69,11 @@ rebalance = (start_now or (state.get('started') and first_of_week)) and not alre
 if rebalance:
     rk = ranking(sc.date[sc.date < t].max())          # previous trading day's scores
     target = list(rk.index[:N])
-    held = dict(zip(hold.yahoo, hold.shares))
-    value = cash + sum(sh * close[y] for y, sh in held.items())
+    held = {r.yahoo: pos_value(r.yahoo, r.basis, r.basis_date) for r in hold.itertuples()}   # $ now
+    value = cash + sum(held.values())
     per = value / len(target)
-    traded = sum(abs(per - held.get(y, 0) * close[y]) for y in target) + \
-        sum(held[y] * close[y] for y in held if y not in target)
+    traded = sum(abs(per - held.get(y, 0)) for y in target) + \
+        sum(v for y, v in held.items() if y not in target)
     cost = traded * COST
     per = (value - cost) / len(target)
     old = hold.set_index('yahoo')
@@ -71,21 +81,21 @@ if rebalance:
     for y in held:
         if y not in target:
             log.append({'date': str(t.date()), 'action': 'Sell', 'ticker': short(y), 'company': names.get(y, y),
-                        'price': round(close[y], 2), 'value': round(held[y] * close[y], 2)})
+                        'price': round(close[y], 2), 'value': round(held[y], 2)})
     for y in target:
         if y in held:
             rows.append({'yahoo': y, 'shares': per / close[y], 'entry_date': old.at[y, 'entry_date'],
-                         'entry_price': old.at[y, 'entry_price']})
+                         'entry_price': old.at[y, 'entry_price'], 'basis': per, 'basis_date': str(t.date())})
         else:
             rows.append({'yahoo': y, 'shares': per / close[y], 'entry_date': str(t.date()),
-                         'entry_price': round(close[y], 4)})
+                         'entry_price': round(close[y], 4), 'basis': per, 'basis_date': str(t.date())})
             log.append({'date': str(t.date()), 'action': 'Buy', 'ticker': short(y), 'company': names.get(y, y),
                         'price': round(close[y], 2), 'value': round(per, 2)})
     hold = pd.DataFrame(rows)
     cash = 0.0
     trades = pd.concat([trades, pd.DataFrame(log)], ignore_index=True)
     if not state.get('started'):
-        state.update(started=str(t.date()), xiu_start=float(close['XIU.TO']))
+        state.update(started=str(t.date()))
     state['last_rebalance'] = str(t.date())
     state['last_cost'] = round(cost, 2)
 
@@ -95,9 +105,9 @@ trades.to_csv('portfolio_trades.csv', index=False)
 json.dump(state, open('portfolio_state.json', 'w'), indent=1)
 
 # ---- daily value vs XIU ----
-value = cash + float(sum(r.shares * close[r.yahoo] for r in hold.itertuples()))
+value = cash + float(sum(pos_value(r.yahoo, r.basis, r.basis_date) for r in hold.itertuples()))
 if state.get('started'):
-    xiu = CAPITAL * close['XIU.TO'] / state['xiu_start']
+    xiu = CAPITAL * close['XIU.TO'] / px.at[pd.Timestamp(state['started']), 'XIU.TO']   # incl. distributions
     vals = vals[vals.date.astype(str) != str(t.date())]
     vals = pd.concat([vals, pd.DataFrame([{'date': str(t.date()), 'portfolio': round(value, 2),
                                            'xiu': round(xiu, 2)}])], ignore_index=True)
@@ -109,10 +119,12 @@ rank_of = {y: i + 1 for i, y in enumerate(rk_today.index)}
 now = []
 for r in hold.itertuples():
     p = close[r.yahoo]
+    v = pos_value(r.yahoo, r.basis, r.basis_date)
     now.append({'ticker': short(r.yahoo), 'company': names.get(r.yahoo, r.yahoo), 'since': r.entry_date,
                 'entry_price': round(r.entry_price, 2), 'close': round(p, 2),
-                'return_pct': round((p / r.entry_price - 1) * 100, 2), 'value': round(r.shares * p, 2),
-                'weight_pct': round(r.shares * p / value * 100, 1) if value else None,
+                'return_pct': round((p / px.at[pd.Timestamp(r.entry_date), r.yahoo] - 1) * 100, 2),
+                'value': round(v, 2),
+                'weight_pct': round(v / value * 100, 1) if value else None,
                 'rank_today': rank_of.get(r.yahoo),
                 'status': 'Hold' if rank_of.get(r.yahoo, 99) <= N else 'Would sell'})
 pd.DataFrame(now, columns=['ticker', 'company', 'since', 'entry_price', 'close', 'return_pct', 'value',

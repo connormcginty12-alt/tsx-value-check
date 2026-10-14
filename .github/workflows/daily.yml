@@ -25,6 +25,9 @@ jobs:
       - run: python grade.py
       - name: Paper portfolio
         run: python portfolio.py
+      - name: One-month $1,000 trial (Oct 14 - Nov 13, 2026)
+        run: python trial.py
+        continue-on-error: true
       - name: Record estimates and short positions
         run: python record_data.py
         continue-on-error: true   # never let this block the ratings
@@ -34,6 +37,7 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add ratings.csv tsx100_closes.csv earnings.csv financials.csv ratings_history.csv scores_history.csv scorecard.csv scorecard_summary.csv
           git add tsx60_members.csv portfolio_*.csv portfolio_state.json || true
+          git add trial_*.csv trial_state.json || true
           git add data/ || true
           git commit -m "Ratings for $(date -u +%F)" || echo "No changes"
           git pull --rebase

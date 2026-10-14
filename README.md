@@ -37,6 +37,11 @@ trading day (using the previous close's scores) sell what dropped out of the top
 reset to equal size; 0.10% per trade; benchmark XIU. Files: `portfolio_*.csv`, `portfolio_state.json`.
 TSX 60 membership is refreshed daily from Wikipedia (`update_tsx60.py`, `tsx60_members.csv`).
 
+**One-month trial (`trial.py`):** $1,000, Oct 14 – Nov 13, 2026, on Wealthsimple terms (fractional shares,
+no commissions). Same weekly picks as the paper portfolio, but positions that stay aren't resized: exits
+are sold and the proceeds split across new entries. Every move is in `trial_trades.csv` with shares, price,
+cost basis, profit/loss and the reason.
+
 **Data being recorded for future tests (`record_data.py`):** daily analyst estimate snapshots
 (`data/estimates_history.csv`), CIRO short position reports (`data/short_positions*`), and option chains
 for the US listings of the ~58 interlisted names (`record_options.py`, `.github/workflows/options.yml`,

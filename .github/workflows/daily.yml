@@ -2,7 +2,7 @@ name: Daily TSX value check
 
 on:
   schedule:
-    - cron: '30 21 * * 1-5'   # 5:30 pm Toronto (EDT); 4:30 pm in winter
+    - cron: '45 21 * * 1-5'   # 5:45 pm Toronto (EDT); 4:45 pm in winter (after the 4 pm close)
   workflow_dispatch:
 
 permissions:

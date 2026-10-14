@@ -19,7 +19,20 @@ Also tested and rejected (not consistent across both periods): valuation ratios 
 P/B — helped 2021–26, hurt 2014–20, not explained by interest-rate trends), earnings growth, dividend yield
 and dividend growth, share buybacks, analyst upgrades and price-target changes, abnormal volume, ~50
 price-only variants, and a gradient-boosted model (worse out of sample than simple averaging).
-Financial ratios are shown in `ratings.csv` for context.
+Financial ratios are shown in `ratings.csv` for context. Short interest (CIRO reports, Sep 2025–Sep 2026)
+was tested too: heavily shorted stocks did *better* the following week, against theory, on only 24 reports
+during a strong rally — not used; to be retested as reports accumulate.
+
+**Week-ahead forecast:** `forecast_1w` = today's close × (beta × a long-run ~8%/yr market drift) × the
+score's expected edge. It is essentially "no change plus a small tilt" — weekly prices are close to a coin flip.
+
+**Live grading (`grade.py`):** every rating is saved in `ratings_history.csv` and graded once the following
+week is over (`scorecard.csv`, `scorecard_summary.csv`): rank correlation with next-week returns,
+Underpriced − Overpriced gap, and forecast error vs a no-change forecast. Rows before Oct 13, 2026 are a
+backfill that flatters the model; only `live` rows are a true out-of-sample record.
+
+**Data being recorded for future tests (`record_data.py`):** daily analyst estimate snapshots
+(`data/estimates_history.csv`) and CIRO short position reports (`data/short_positions*`).
 
 The edge is small (rank correlation ~0.03 with next-week returns; top-fifth minus bottom-fifth about
 5–7%/yr after 10 bp trading costs in both periods) and noisy week to week.

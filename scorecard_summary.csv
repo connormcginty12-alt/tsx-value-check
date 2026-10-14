@@ -1,0 +1,3 @@
+source,rating_dates,first,last,avg_rank_corr,weeks_corr_positive_pct,avg_weekly_gap_pct,weeks_gap_positive_pct,avg_forecast_error_pct,avg_no_change_error_pct
+live,0,,,,,,,,
+backfill,190,2026-01-02,2026-10-02,0.041,63.158,0.635,65.789,4.084,4.087

@@ -35,6 +35,14 @@ data = yf.download(STOCKS + FACTORS, period="3y", interval="1d",
                    auto_adjust=True, progress=True, threads=True)
 closes = data["Close"].sort_index()
 closes.index = pd.to_datetime(closes.index).date
+# Never treat a partial day as a close: if this runs before 4:30 pm Toronto time on a trading day,
+# Yahoo's row for today is an intraday price, so drop it.
+import datetime as _dt
+from zoneinfo import ZoneInfo
+_now = _dt.datetime.now(ZoneInfo("America/Toronto"))
+if len(closes) and closes.index[-1] == _now.date() and (_now.hour, _now.minute) < (16, 30):
+    print("Before 4:30 pm Toronto — dropping today's partial row", _now.date())
+    closes = closes.iloc[:-1]
 closes.to_csv("tsx100_closes.csv", index_label="date")
 
 missing = [t for t in STOCKS + FACTORS if t not in closes or closes[t].dropna().empty]

@@ -1,11 +1,11 @@
 ticker,company,since,entry_price,close,return_pct,value,weight_pct,rank_today,status
-TECK-B,Teck Resources Limited,2026-10-14,92.23,92.23,0.0,999.0,10.0,1,Hold
-SAP,Saputo Inc.,2026-10-14,39.49,39.49,0.0,999.0,10.0,3,Hold
-POW,Power Corporation of Canada,2026-10-14,90.61,90.61,0.0,999.0,10.0,4,Hold
-BNS,Bank of Nova Scotia,2026-10-14,128.14,128.14,0.0,999.0,10.0,6,Hold
-BCE,BCE Inc.,2026-10-14,28.0,28.0,0.0,999.0,10.0,9,Hold
-CCL-B,CCL Industries Inc.,2026-10-14,95.79,95.79,0.0,999.0,10.0,5,Hold
-MG,Magna International Inc.,2026-10-14,91.7,91.7,0.0,999.0,10.0,12,Would sell
-WPM,Wheaton Precious Metals Corp.,2026-10-14,184.3,184.3,0.0,999.0,10.0,8,Hold
-CVE,Cenovus Energy Inc.,2026-10-14,46.48,46.48,0.0,999.0,10.0,11,Would sell
-WCN,Waste Connections Inc.,2026-10-14,223.2,223.2,0.0,999.0,10.0,2,Hold
+TECK-B,Teck Resources Limited,2026-10-14,92.23,93.37,1.24,1011.35,9.9,1,Hold
+SAP,Saputo Inc.,2026-10-14,39.49,39.88,0.99,1008.87,9.9,4,Hold
+POW,Power Corporation of Canada,2026-10-14,90.61,93.54,3.23,1031.3,10.1,8,Hold
+BNS,Bank of Nova Scotia,2026-10-14,128.14,129.22,0.84,1007.42,9.9,7,Hold
+BCE,BCE Inc.,2026-10-14,28.0,28.58,2.07,1019.69,10.0,11,Would sell
+CCL-B,CCL Industries Inc.,2026-10-14,95.79,96.75,1.0,1009.01,9.9,6,Hold
+MG,Magna International Inc.,2026-10-14,91.7,94.09,2.61,1025.04,10.1,16,Would sell
+WPM,Wheaton Precious Metals Corp.,2026-10-14,184.3,188.88,2.49,1023.83,10.1,10,Hold
+CVE,Cenovus Energy Inc.,2026-10-14,46.48,45.42,-2.28,976.22,9.6,5,Hold
+WCN,Waste Connections Inc.,2026-10-14,223.2,235.1,5.33,1052.26,10.4,2,Hold

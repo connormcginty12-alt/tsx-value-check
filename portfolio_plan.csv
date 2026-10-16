@@ -1,13 +1,14 @@
 action,ticker,company,rank_today,score,rating
-Buy,RCI-B,Rogers Communications Inc.,3,0.76,Underpriced
-Buy,NTR,Nutrien Ltd.,9,0.398,Underpriced
-Sell,BCE,BCE Inc.,11,0.331,Fairly priced
-Sell,MG,Magna International Inc.,16,0.224,Fairly priced
-Hold,TECK-B,Teck Resources Limited,1,0.881,Underpriced
-Hold,WCN,Waste Connections Inc.,2,0.79,Underpriced
-Hold,SAP,Saputo Inc.,4,0.555,Underpriced
-Hold,CVE,Cenovus Energy Inc.,5,0.491,Underpriced
-Hold,CCL-B,CCL Industries Inc.,6,0.472,Underpriced
-Hold,BNS,Bank of Nova Scotia,7,0.416,Underpriced
-Hold,POW,Power Corporation of Canada,8,0.41,Fairly priced
-Hold,WPM,Wheaton Precious Metals Corp.,10,0.352,Fairly priced
+Buy,RCI-B,Rogers Communications Inc.,2,0.806,Underpriced
+Buy,CLS,Celestica Inc.,7,0.459,Underpriced
+Buy,GIL,Gildan Activewear Inc.,9,0.336,Fairly priced
+Sell,WPM,Wheaton Precious Metals Corp.,11,0.325,Fairly priced
+Sell,MG,Magna International Inc.,14,0.298,Fairly priced
+Sell,BCE,BCE Inc.,16,0.268,Fairly priced
+Hold,TECK-B,Teck Resources Limited,1,0.901,Underpriced
+Hold,WCN,Waste Connections Inc.,3,0.723,Underpriced
+Hold,SAP,Saputo Inc.,4,0.556,Underpriced
+Hold,CCL-B,CCL Industries Inc.,5,0.51,Underpriced
+Hold,POW,Power Corporation of Canada,6,0.475,Underpriced
+Hold,BNS,Bank of Nova Scotia,8,0.422,Fairly priced
+Hold,CVE,Cenovus Energy Inc.,10,0.331,Fairly priced

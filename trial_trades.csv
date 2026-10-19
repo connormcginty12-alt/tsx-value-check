@@ -9,3 +9,9 @@ date,action,ticker,company,shares,price,amount,cost_basis,profit_loss,reason,div
 2026-10-14,Buy,WPM,Wheaton Precious Metals Corp.,0.5426,184.3,100.0,100.0,,Ranked #8 on 2026-10-13,
 2026-10-14,Buy,CVE,Cenovus Energy Inc.,2.1515,46.48,100.0,100.0,,Ranked #9 on 2026-10-13,
 2026-10-14,Buy,WCN,Waste Connections Inc.,0.448,223.2,100.0,100.0,,Ranked #10 on 2026-10-13,
+2026-10-19,Sell,BCE,BCE Inc.,3.5714,28.0,100.0,100.0,0.0,Fell to #16 on 2026-10-16 (out of top 10),-0.0
+2026-10-19,Sell,MG,Magna International Inc.,1.0905,92.34,100.7,100.0,0.7,Fell to #14 on 2026-10-16 (out of top 10),-0.0
+2026-10-19,Sell,WPM,Wheaton Precious Metals Corp.,0.5426,186.49,101.19,100.0,1.19,Fell to #11 on 2026-10-16 (out of top 10),0.0
+2026-10-19,Buy,RCI-B,Rogers Communications Inc.,2.2537,44.65,100.63,100.63,,Ranked #2 on 2026-10-16,
+2026-10-19,Buy,CLS,Celestica Inc.,0.2372,424.15,100.63,100.63,,Ranked #7 on 2026-10-16,
+2026-10-19,Buy,GIL,Gildan Activewear Inc.,1.747,57.6,100.63,100.63,,Ranked #9 on 2026-10-16,

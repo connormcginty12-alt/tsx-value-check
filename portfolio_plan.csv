@@ -1,13 +1,13 @@
 action,ticker,company,rank_today,score,rating
-Buy,NTR,Nutrien Ltd.,9,0.396,Fairly priced
-Buy,WPM,Wheaton Precious Metals Corp.,10,0.39,Fairly priced
-Sell,CVE,Cenovus Energy Inc.,12,0.326,Fairly priced
-Sell,GIL,Gildan Activewear Inc.,16,0.243,Fairly priced
-Hold,CLS,Celestica Inc.,1,1.076,Underpriced
-Hold,TECK-B,Teck Resources Limited,2,0.932,Underpriced
-Hold,RCI-B,Rogers Communications Inc.,3,0.698,Underpriced
-Hold,WCN,Waste Connections Inc.,4,0.696,Underpriced
-Hold,SAP,Saputo Inc.,5,0.554,Underpriced
-Hold,POW,Power Corporation of Canada,6,0.456,Underpriced
-Hold,CCL-B,CCL Industries Inc.,7,0.436,Underpriced
-Hold,BNS,Bank of Nova Scotia,8,0.425,Underpriced
+Buy,WPM,Wheaton Precious Metals Corp.,8,0.395,Fairly priced
+Buy,NTR,Nutrien Ltd.,10,0.365,Fairly priced
+Sell,CVE,Cenovus Energy Inc.,11,0.35,Fairly priced
+Sell,GIL,Gildan Activewear Inc.,13,0.309,Fairly priced
+Hold,CLS,Celestica Inc.,1,1.144,Underpriced
+Hold,TECK-B,Teck Resources Limited,2,0.904,Underpriced
+Hold,WCN,Waste Connections Inc.,3,0.722,Underpriced
+Hold,RCI-B,Rogers Communications Inc.,4,0.696,Underpriced
+Hold,SAP,Saputo Inc.,5,0.549,Underpriced
+Hold,POW,Power Corporation of Canada,6,0.456,Fairly priced
+Hold,BNS,Bank of Nova Scotia,7,0.444,Underpriced
+Hold,CCL-B,CCL Industries Inc.,9,0.367,Fairly priced

@@ -1,16 +1,18 @@
 action,ticker,company,rank_today,score,rating
-Buy,K,Kinross Gold Corporation,4,0.672,Underpriced
-Buy,FM,First Quantum Minerals Ltd.,5,0.643,Underpriced
-Buy,AEM,Agnico Eagle Mines Limited,6,0.63,Underpriced
-Buy,QSR,Restaurant Brands International Inc.,7,0.612,Underpriced
-Buy,CP,Canadian Pacific Kansas City Limited,10,0.468,Fairly priced
-Sell,BNS,Bank of Nova Scotia,11,0.416,Fairly priced
-Sell,POW,Power Corporation of Canada,12,0.409,Fairly priced
-Sell,CCL-B,CCL Industries Inc.,15,0.289,Fairly priced
-Sell,GIL,Gildan Activewear Inc.,17,0.279,Fairly priced
-Sell,WCN,Waste Connections Inc.,25,0.037,Fairly priced
-Hold,TECK-B,Teck Resources Limited,1,1.579,Underpriced
-Hold,CLS,Celestica Inc.,2,1.116,Underpriced
-Hold,CVE,Cenovus Energy Inc.,3,0.808,Underpriced
-Hold,RCI-B,Rogers Communications Inc.,8,0.568,Underpriced
-Hold,SAP,Saputo Inc.,9,0.479,Fairly priced
+Buy,MG,Magna International Inc.,4,0.795,Underpriced
+Buy,AEM,Agnico Eagle Mines Limited,5,0.669,Underpriced
+Buy,K,Kinross Gold Corporation,6,0.653,Underpriced
+Buy,CNR,Canadian National Railway Company,7,0.629,Underpriced
+Buy,FM,First Quantum Minerals Ltd.,8,0.552,Fairly priced
+Buy,QSR,Restaurant Brands International Inc.,9,0.489,Fairly priced
+Buy,WPM,Wheaton Precious Metals Corp.,10,0.449,Fairly priced
+Sell,SAP,Saputo Inc.,11,0.447,Fairly priced
+Sell,BNS,Bank of Nova Scotia,14,0.376,Fairly priced
+Sell,POW,Power Corporation of Canada,15,0.359,Fairly priced
+Sell,CCL-B,CCL Industries Inc.,16,0.272,Fairly priced
+Sell,GIL,Gildan Activewear Inc.,19,0.206,Fairly priced
+Sell,WCN,Waste Connections Inc.,38,-0.15,Fairly priced
+Sell,RCI-B,Rogers Communications Inc.,45,-0.244,Fairly priced
+Hold,TECK-B,Teck Resources Limited,1,1.578,Underpriced
+Hold,CLS,Celestica Inc.,2,1.266,Underpriced
+Hold,CVE,Cenovus Energy Inc.,3,0.81,Underpriced

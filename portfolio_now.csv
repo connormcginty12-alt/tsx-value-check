@@ -1,11 +1,11 @@
 ticker,company,since,entry_price,close,return_pct,value,weight_pct,rank_today,status
-TECK-B,Teck Resources Limited,2026-10-14,92.23,82.58,-10.46,927.89,9.2,1,Hold
-RCI-B,Rogers Communications Inc.,2026-10-19,44.65,46.43,3.99,1046.79,10.4,45,Would sell
-WCN,Waste Connections Inc.,2026-10-14,223.2,258.95,16.02,1114.61,11.1,38,Would sell
-SAP,Saputo Inc.,2026-10-14,39.49,41.05,3.95,1038.8,10.3,11,Would sell
-CCL-B,CCL Industries Inc.,2026-10-14,95.79,98.77,3.11,1026.4,10.2,16,Would sell
-POW,Power Corporation of Canada,2026-10-14,90.61,94.45,4.24,1036.06,10.3,15,Would sell
-CLS,Celestica Inc.,2026-10-19,424.15,376.69,-11.19,894.02,8.9,2,Hold
-BNS,Bank of Nova Scotia,2026-10-14,128.14,130.72,2.01,1023.18,10.2,14,Would sell
-GIL,Gildan Activewear Inc.,2026-10-19,57.6,57.5,-0.17,1004.91,10.0,19,Would sell
-CVE,Cenovus Energy Inc.,2026-10-14,46.48,44.88,-3.44,962.69,9.6,3,Hold
+TECK-B,Teck Resources Limited,2026-10-14,92.23,82.68,-10.35,929.02,9.3,2,Hold
+RCI-B,Rogers Communications Inc.,2026-10-19,44.65,45.36,1.59,1022.67,10.2,27,Would sell
+WCN,Waste Connections Inc.,2026-10-14,223.2,261.1,16.98,1123.87,11.2,26,Would sell
+SAP,Saputo Inc.,2026-10-14,39.49,40.48,2.51,1024.37,10.2,10,Hold
+CCL-B,CCL Industries Inc.,2026-10-14,95.79,99.12,3.48,1030.04,10.3,16,Would sell
+POW,Power Corporation of Canada,2026-10-14,90.61,92.42,2.0,1013.79,10.1,13,Would sell
+CLS,Celestica Inc.,2026-10-19,424.15,364.4,-14.09,864.85,8.6,1,Hold
+BNS,Bank of Nova Scotia,2026-10-14,128.14,130.0,1.45,1017.54,10.2,15,Would sell
+GIL,Gildan Activewear Inc.,2026-10-19,57.6,56.68,-1.6,990.58,9.9,19,Would sell
+CVE,Cenovus Energy Inc.,2026-10-14,46.48,45.98,-1.08,986.28,9.9,4,Hold

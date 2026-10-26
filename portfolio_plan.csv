@@ -1,17 +1,12 @@
 action,ticker,company,rank_today,score,rating
-Buy,MG,Magna International Inc.,3,0.872,Underpriced
-Buy,AEM,Agnico Eagle Mines Limited,5,0.641,Underpriced
-Buy,CNR,Canadian National Railway Company,6,0.638,Underpriced
-Buy,K,Kinross Gold Corporation,7,0.619,Underpriced
-Buy,FM,First Quantum Minerals Ltd.,8,0.548,Fairly priced
-Buy,QSR,Restaurant Brands International Inc.,9,0.519,Fairly priced
-Sell,POW,Power Corporation of Canada,13,0.381,Fairly priced
-Sell,BNS,Bank of Nova Scotia,15,0.37,Fairly priced
-Sell,CCL-B,CCL Industries Inc.,16,0.24,Fairly priced
-Sell,GIL,Gildan Activewear Inc.,19,0.214,Fairly priced
-Sell,WCN,Waste Connections Inc.,26,0.053,Fairly priced
-Sell,RCI-B,Rogers Communications Inc.,27,0.027,Fairly priced
-Hold,CLS,Celestica Inc.,1,1.359,Underpriced
-Hold,TECK-B,Teck Resources Limited,2,1.196,Underpriced
-Hold,CVE,Cenovus Energy Inc.,4,0.748,Underpriced
-Hold,SAP,Saputo Inc.,10,0.444,Fairly priced
+Buy,SHOP,Shopify Inc.,5,0.649,Underpriced
+Sell,K,Kinross Gold Corporation,17,0.295,Fairly priced
+Hold,CLS,Celestica Inc.,1,0.857,Underpriced
+Hold,TECK-B,Teck Resources Limited,2,0.84,Underpriced
+Hold,MG,Magna International Inc.,3,0.818,Underpriced
+Hold,CVE,Cenovus Energy Inc.,4,0.716,Underpriced
+Hold,AEM,Agnico Eagle Mines Limited,6,0.616,Underpriced
+Hold,QSR,Restaurant Brands International Inc.,7,0.549,Fairly priced
+Hold,CNR,Canadian National Railway Company,8,0.542,Fairly priced
+Hold,SAP,Saputo Inc.,9,0.508,Fairly priced
+Hold,FM,First Quantum Minerals Ltd.,10,0.507,Fairly priced

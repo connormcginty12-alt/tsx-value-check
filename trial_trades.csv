@@ -15,3 +15,15 @@ date,action,ticker,company,shares,price,amount,cost_basis,profit_loss,reason,div
 2026-10-19,Buy,RCI-B,Rogers Communications Inc.,2.2537,44.65,100.63,100.63,,Ranked #2 on 2026-10-16,
 2026-10-19,Buy,CLS,Celestica Inc.,0.2372,424.15,100.63,100.63,,Ranked #7 on 2026-10-16,
 2026-10-19,Buy,GIL,Gildan Activewear Inc.,1.747,57.6,100.63,100.63,,Ranked #9 on 2026-10-16,
+2026-10-26,Sell,POW,Power Corporation of Canada,1.1036,94.16,103.92,100.0,3.92,Fell to #13 on 2026-10-23 (out of top 10),0.0
+2026-10-26,Sell,BNS,Bank of Nova Scotia,0.7804,130.73,102.02,100.0,2.02,Fell to #15 on 2026-10-23 (out of top 10),0.0
+2026-10-26,Sell,CCL-B,CCL Industries Inc.,1.044,97.57,101.86,100.0,1.86,Fell to #16 on 2026-10-23 (out of top 10),0.0
+2026-10-26,Sell,WCN,Waste Connections Inc.,0.448,261.69,117.24,100.0,17.24,Fell to #26 on 2026-10-23 (out of top 10),-0.0
+2026-10-26,Sell,RCI-B,Rogers Communications Inc.,2.2537,45.34,102.18,100.63,1.56,Fell to #27 on 2026-10-23 (out of top 10),0.0
+2026-10-26,Sell,GIL,Gildan Activewear Inc.,1.747,56.52,98.74,100.63,-1.89,Fell to #19 on 2026-10-23 (out of top 10),-0.0
+2026-10-26,Buy,MG,Magna International Inc.,1.1646,89.58,104.33,104.33,,Ranked #3 on 2026-10-23,
+2026-10-26,Buy,AEM,Agnico Eagle Mines Limited,0.4233,246.48,104.33,104.33,,Ranked #5 on 2026-10-23,
+2026-10-26,Buy,CNR,Canadian National Railway Company,0.6031,173.0,104.33,104.33,,Ranked #6 on 2026-10-23,
+2026-10-26,Buy,K,Kinross Gold Corporation,3.3215,31.41,104.33,104.33,,Ranked #7 on 2026-10-23,
+2026-10-26,Buy,FM,First Quantum Minerals Ltd.,3.0452,34.26,104.33,104.33,,Ranked #8 on 2026-10-23,
+2026-10-26,Buy,QSR,Restaurant Brands International Inc.,0.999,104.43,104.33,104.33,,Ranked #9 on 2026-10-23,

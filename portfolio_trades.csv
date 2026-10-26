@@ -15,3 +15,15 @@ date,action,ticker,company,price,value
 2026-10-19,Buy,RCI-B,Rogers Communications Inc.,44.65,1006.66
 2026-10-19,Buy,CLS,Celestica Inc.,424.15,1006.66
 2026-10-19,Buy,GIL,Gildan Activewear Inc.,57.6,1006.66
+2026-10-26,Sell,RCI-B,Rogers Communications Inc.,45.34,1022.22
+2026-10-26,Sell,WCN,Waste Connections Inc.,261.69,1126.41
+2026-10-26,Sell,CCL-B,CCL Industries Inc.,97.57,1013.93
+2026-10-26,Sell,POW,Power Corporation of Canada,94.16,1032.88
+2026-10-26,Sell,BNS,Bank of Nova Scotia,130.73,1023.25
+2026-10-26,Sell,GIL,Gildan Activewear Inc.,56.52,987.79
+2026-10-26,Buy,MG,Magna International Inc.,89.58,998.96
+2026-10-26,Buy,AEM,Agnico Eagle Mines Limited,246.48,998.96
+2026-10-26,Buy,CNR,Canadian National Railway Company,173.0,998.96
+2026-10-26,Buy,K,Kinross Gold Corporation,31.41,998.96
+2026-10-26,Buy,FM,First Quantum Minerals Ltd.,34.26,998.96
+2026-10-26,Buy,QSR,Restaurant Brands International Inc.,104.43,998.96

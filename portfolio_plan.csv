@@ -1,12 +1,12 @@
 action,ticker,company,rank_today,score,rating
-Buy,SHOP,Shopify Inc.,5,0.649,Underpriced
-Sell,K,Kinross Gold Corporation,17,0.295,Fairly priced
-Hold,CLS,Celestica Inc.,1,0.857,Underpriced
-Hold,TECK-B,Teck Resources Limited,2,0.84,Underpriced
-Hold,MG,Magna International Inc.,3,0.818,Underpriced
-Hold,CVE,Cenovus Energy Inc.,4,0.716,Underpriced
-Hold,AEM,Agnico Eagle Mines Limited,6,0.616,Underpriced
-Hold,QSR,Restaurant Brands International Inc.,7,0.549,Fairly priced
-Hold,CNR,Canadian National Railway Company,8,0.542,Fairly priced
-Hold,SAP,Saputo Inc.,9,0.508,Fairly priced
-Hold,FM,First Quantum Minerals Ltd.,10,0.507,Fairly priced
+Buy,SHOP,Shopify Inc.,6,0.536,Underpriced
+Sell,K,Kinross Gold Corporation,16,0.321,Fairly priced
+Hold,MG,Magna International Inc.,1,0.904,Underpriced
+Hold,CLS,Celestica Inc.,2,0.834,Underpriced
+Hold,TECK-B,Teck Resources Limited,3,0.772,Underpriced
+Hold,CVE,Cenovus Energy Inc.,4,0.768,Underpriced
+Hold,AEM,Agnico Eagle Mines Limited,5,0.579,Fairly priced
+Hold,QSR,Restaurant Brands International Inc.,7,0.528,Fairly priced
+Hold,FM,First Quantum Minerals Ltd.,8,0.526,Fairly priced
+Hold,SAP,Saputo Inc.,9,0.525,Fairly priced
+Hold,CNR,Canadian National Railway Company,10,0.43,Fairly priced

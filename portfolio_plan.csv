@@ -1,17 +1,16 @@
 action,ticker,company,rank_today,score,rating
-Buy,NTR,Nutrien Ltd.,5,0.609,Underpriced
-Buy,WPM,Wheaton Precious Metals Corp.,6,0.593,Underpriced
-Buy,SHOP,Shopify Inc.,7,0.586,Underpriced
-Buy,SLF,Sun Life Financial Inc.,8,0.487,Underpriced
-Buy,BCE,BCE Inc.,9,0.378,Fairly priced
-Buy,GIL,Gildan Activewear Inc.,10,0.37,Fairly priced
-Sell,MG,Magna International Inc.,11,0.367,Fairly priced
-Sell,TECK-B,Teck Resources Limited,13,0.358,Fairly priced
-Sell,AEM,Agnico Eagle Mines Limited,25,0.017,Fairly priced
-Sell,QSR,Restaurant Brands International Inc.,26,-0.0,Fairly priced
-Sell,CNR,Canadian National Railway Company,27,-0.028,Fairly priced
-Sell,K,Kinross Gold Corporation,30,-0.069,Fairly priced
-Hold,CLS,Celestica Inc.,1,1.302,Underpriced
-Hold,FM,First Quantum Minerals Ltd.,2,1.161,Underpriced
-Hold,SAP,Saputo Inc.,3,0.777,Underpriced
-Hold,CVE,Cenovus Energy Inc.,4,0.663,Underpriced
+Buy,SHOP,Shopify Inc.,5,0.651,Underpriced
+Buy,WPM,Wheaton Precious Metals Corp.,6,0.622,Underpriced
+Buy,NTR,Nutrien Ltd.,7,0.462,Fairly priced
+Buy,SLF,Sun Life Financial Inc.,8,0.435,Fairly priced
+Buy,CCL-B,CCL Industries Inc.,10,0.296,Fairly priced
+Sell,MG,Magna International Inc.,11,0.289,Fairly priced
+Sell,K,Kinross Gold Corporation,27,0.017,Fairly priced
+Sell,AEM,Agnico Eagle Mines Limited,28,-0.021,Fairly priced
+Sell,CNR,Canadian National Railway Company,31,-0.045,Fairly priced
+Sell,QSR,Restaurant Brands International Inc.,38,-0.194,Fairly priced
+Hold,CLS,Celestica Inc.,1,1.226,Underpriced
+Hold,FM,First Quantum Minerals Ltd.,2,0.753,Underpriced
+Hold,SAP,Saputo Inc.,3,0.73,Underpriced
+Hold,TECK-B,Teck Resources Limited,4,0.698,Underpriced
+Hold,CVE,Cenovus Energy Inc.,9,0.433,Fairly priced

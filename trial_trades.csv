@@ -27,3 +27,13 @@ date,action,ticker,company,shares,price,amount,cost_basis,profit_loss,reason,div
 2026-10-26,Buy,K,Kinross Gold Corporation,3.3215,31.41,104.33,104.33,,Ranked #7 on 2026-10-23,
 2026-10-26,Buy,FM,First Quantum Minerals Ltd.,3.0452,34.26,104.33,104.33,,Ranked #8 on 2026-10-23,
 2026-10-26,Buy,QSR,Restaurant Brands International Inc.,0.999,104.43,104.33,104.33,,Ranked #9 on 2026-10-23,
+2026-11-02,Sell,MG,Magna International Inc.,1.1646,91.57,106.65,104.33,2.32,Fell to #11 on 2026-10-30 (out of top 10),0.0
+2026-11-02,Sell,AEM,Agnico Eagle Mines Limited,0.4233,238.41,100.91,104.33,-3.42,Fell to #28 on 2026-10-30 (out of top 10),-0.0
+2026-11-02,Sell,CNR,Canadian National Railway Company,0.6031,177.35,106.95,104.33,2.62,Fell to #31 on 2026-10-30 (out of top 10),-0.0
+2026-11-02,Sell,K,Kinross Gold Corporation,3.3215,28.74,95.46,104.33,-8.87,Fell to #27 on 2026-10-30 (out of top 10),0.0
+2026-11-02,Sell,QSR,Restaurant Brands International Inc.,0.999,104.43,104.33,104.33,0.0,Fell to #39 on 2026-10-30 (out of top 10),0.0
+2026-11-02,Buy,SHOP,Shopify Inc.,0.4726,217.64,102.86,102.86,,Ranked #5 on 2026-10-30,
+2026-11-02,Buy,WPM,Wheaton Precious Metals Corp.,0.6165,166.84,102.86,102.86,,Ranked #6 on 2026-10-30,
+2026-11-02,Buy,NTR,Nutrien Ltd.,1.0474,98.2,102.86,102.86,,Ranked #7 on 2026-10-30,
+2026-11-02,Buy,SLF,Sun Life Financial Inc.,0.912,112.79,102.86,102.86,,Ranked #8 on 2026-10-30,
+2026-11-02,Buy,CCL-B,CCL Industries Inc.,1.0286,100.0,102.86,102.86,,Ranked #10 on 2026-10-30,

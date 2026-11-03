@@ -1,3 +1,3 @@
 source,rating_dates,first,last,avg_rank_corr,weeks_corr_positive_pct,avg_weekly_gap_pct,weeks_gap_positive_pct,avg_forecast_error_pct,avg_no_change_error_pct
-live,9,2026-10-13,2026-10-23,-0.183,0.0,-2.508,0.0,3.451,3.358
-backfill,195,2026-01-02,2026-10-09,0.038,66.667,0.591,69.231,4.054,4.055
+live,10,2026-10-13,2026-10-26,-0.207,0.0,-2.973,0.0,3.409,3.319
+backfill,195,2026-01-02,2026-10-09,0.036,64.103,0.559,71.795,4.053,4.055

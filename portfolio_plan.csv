@@ -1,12 +1,14 @@
 action,ticker,company,rank_today,score,rating
-Buy,MG,Magna International Inc.,10,0.418,Fairly priced
-Sell,CVE,Cenovus Energy Inc.,13,0.267,Fairly priced
-Hold,CLS,Celestica Inc.,1,1.239,Underpriced
-Hold,FM,First Quantum Minerals Ltd.,2,0.833,Underpriced
-Hold,TECK-B,Teck Resources Limited,3,0.726,Underpriced
-Hold,CCL-B,CCL Industries Inc.,4,0.628,Underpriced
-Hold,WPM,Wheaton Precious Metals Corp.,5,0.603,Underpriced
-Hold,SAP,Saputo Inc.,6,0.575,Underpriced
-Hold,SHOP,Shopify Inc.,7,0.521,Underpriced
-Hold,SLF,Sun Life Financial Inc.,8,0.444,Fairly priced
-Hold,NTR,Nutrien Ltd.,9,0.422,Fairly priced
+Buy,POW,Power Corporation of Canada,6,0.552,Underpriced
+Buy,PPL,Pembina Pipeline Corporation,9,0.379,Fairly priced
+Buy,MG,Magna International Inc.,10,0.349,Fairly priced
+Sell,SLF,Sun Life Financial Inc.,21,0.076,Fairly priced
+Sell,NTR,Nutrien Ltd.,26,-0.003,Fairly priced
+Sell,SHOP,Shopify Inc.,31,-0.095,Fairly priced
+Hold,CLS,Celestica Inc.,1,1.207,Underpriced
+Hold,FM,First Quantum Minerals Ltd.,2,0.887,Underpriced
+Hold,CCL-B,CCL Industries Inc.,3,0.726,Underpriced
+Hold,SAP,Saputo Inc.,4,0.652,Underpriced
+Hold,TECK-B,Teck Resources Limited,5,0.594,Underpriced
+Hold,CVE,Cenovus Energy Inc.,7,0.476,Underpriced
+Hold,WPM,Wheaton Precious Metals Corp.,8,0.452,Underpriced

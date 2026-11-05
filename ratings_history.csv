@@ -1731,3 +1731,105 @@ as_of,ticker,score,rating,close,forecast_1w
 2026-11-04,LUG,-0.62,Overpriced,91.28,91.39
 2026-11-04,STN,-0.78,Overpriced,110.15,109.84
 2026-11-04,TOI,-0.9,Overpriced,96.93,96.5
+2026-11-05,CLS,1.19,Underpriced,288.43,291.25
+2026-11-05,DSV,1.1,Underpriced,10.78,10.9
+2026-11-05,HBM,0.94,Underpriced,28.83,29.1
+2026-11-05,FTT,0.92,Underpriced,91.97,92.59
+2026-11-05,CGG,0.88,Underpriced,31.95,32.21
+2026-11-05,HUT,0.86,Underpriced,64.35,64.94
+2026-11-05,GMIN,0.76,Underpriced,45.13,45.52
+2026-11-05,DPM,0.7,Underpriced,53.42,53.83
+2026-11-05,FM,0.7,Underpriced,31.96,32.2
+2026-11-05,CCL-B,0.63,Underpriced,100.14,100.54
+2026-11-05,POW,0.58,Underpriced,91.75,92.09
+2026-11-05,TIH,0.56,Underpriced,189.04,189.79
+2026-11-05,ALA,0.53,Underpriced,53.83,53.96
+2026-11-05,TECK-B,0.49,Underpriced,83.93,84.42
+2026-11-05,QBR-B,0.46,Underpriced,74.36,74.53
+2026-11-05,KEY,0.45,Underpriced,51.11,51.22
+2026-11-05,FFH,0.43,Underpriced,2710.27,2717.89
+2026-11-05,IAG,0.37,Underpriced,212.23,212.76
+2026-11-05,CTC-A,0.3,Underpriced,205.05,205.49
+2026-11-05,ATZ,0.28,Underpriced,157.39,157.96
+2026-11-05,MG,0.28,Underpriced,88.01,88.3
+2026-11-05,EQX,0.28,Fairly priced,15.81,15.91
+2026-11-05,CHP-UN,0.27,Fairly priced,15.31,15.34
+2026-11-05,GIB-A,0.22,Fairly priced,115.51,115.7
+2026-11-05,H,0.22,Fairly priced,57.6,57.66
+2026-11-05,CVE,0.22,Fairly priced,38.76,38.8
+2026-11-05,IGM,0.19,Fairly priced,79.51,79.7
+2026-11-05,FNV,0.16,Fairly priced,351.81,353.19
+2026-11-05,BNS,0.16,Fairly priced,128.57,128.81
+2026-11-05,AG,0.16,Fairly priced,20.84,20.97
+2026-11-05,LUN,0.14,Fairly priced,28.05,28.18
+2026-11-05,BBD-B,0.13,Fairly priced,313.18,314.19
+2026-11-05,IMG,0.12,Fairly priced,24.46,24.6
+2026-11-05,CNR,0.11,Fairly priced,177.24,177.49
+2026-11-05,SAP,0.11,Fairly priced,41.62,41.65
+2026-11-05,SU,0.09,Fairly priced,96.75,96.76
+2026-11-05,RBA,0.08,Fairly priced,132.99,133.17
+2026-11-05,SLF,0.08,Fairly priced,102.83,102.92
+2026-11-05,GWO,0.08,Fairly priced,90.09,90.16
+2026-11-05,TD,0.07,Fairly priced,172.55,172.8
+2026-11-05,SOBO,0.06,Fairly priced,44.33,44.34
+2026-11-05,CU,0.05,Fairly priced,52.68,52.68
+2026-11-05,CS,-0.01,Fairly priced,10.73,10.78
+2026-11-05,CP,-0.03,Fairly priced,131.37,131.47
+2026-11-05,ABX,-0.04,Fairly priced,56.53,56.74
+2026-11-05,IFC,-0.05,Fairly priced,282.27,282.32
+2026-11-05,SSRM,-0.05,Fairly priced,39.14,39.33
+2026-11-05,CAE,-0.05,Fairly priced,37.5,37.54
+2026-11-05,CNQ,-0.06,Fairly priced,68.48,68.43
+2026-11-05,SHOP,-0.07,Fairly priced,201.23,201.77
+2026-11-05,WCN,-0.07,Fairly priced,268.18,268.12
+2026-11-05,IMO,-0.08,Fairly priced,176.02,175.98
+2026-11-05,MFC,-0.09,Fairly priced,61.63,61.67
+2026-11-05,WPM,-0.09,Fairly priced,185.96,186.67
+2026-11-05,PPL,-0.12,Fairly priced,66.84,66.8
+2026-11-05,WN,-0.14,Fairly priced,109.72,109.65
+2026-11-05,BIP-UN,-0.14,Fairly priced,53.02,53.0
+2026-11-05,CSU,-0.15,Fairly priced,3511.69,3511.44
+2026-11-05,CCO,-0.16,Fairly priced,95.85,96.1
+2026-11-05,ELD,-0.16,Fairly priced,48.53,48.7
+2026-11-05,GFL,-0.17,Fairly priced,64.57,64.55
+2026-11-05,TRP,-0.17,Fairly priced,87.72,87.66
+2026-11-05,BCE,-0.18,Fairly priced,30.83,30.8
+2026-11-05,X,-0.19,Fairly priced,60.89,60.87
+2026-11-05,BN,-0.2,Fairly priced,58.5,58.55
+2026-11-05,EMP-A,-0.2,Fairly priced,50.17,50.12
+2026-11-05,L,-0.2,Fairly priced,68.97,68.9
+2026-11-05,FTS,-0.22,Fairly priced,85.79,85.69
+2026-11-05,DSG,-0.23,Fairly priced,132.82,132.74
+2026-11-05,STN,-0.23,Fairly priced,106.07,106.06
+2026-11-05,NTR,-0.23,Fairly priced,101.1,101.02
+2026-11-05,ATRL,-0.24,Fairly priced,86.96,87.0
+2026-11-05,CM,-0.24,Fairly priced,161.97,161.98
+2026-11-05,RY,-0.24,Fairly priced,285.86,285.8
+2026-11-05,WCP,-0.28,Fairly priced,16.7,16.67
+2026-11-05,BMO,-0.29,Fairly priced,241.7,241.68
+2026-11-05,CPX,-0.3,Fairly priced,63.58,63.56
+2026-11-05,EMA,-0.31,Fairly priced,71.83,71.7
+2026-11-05,ENB,-0.32,Fairly priced,67.33,67.23
+2026-11-05,BTO,-0.32,Fairly priced,7.4,7.42
+2026-11-05,AEM,-0.32,Fairly priced,264.85,265.49
+2026-11-05,K,-0.33,Overpriced,30.26,30.34
+2026-11-05,DOL,-0.36,Overpriced,218.7,218.47
+2026-11-05,FSV,-0.36,Overpriced,214.97,214.84
+2026-11-05,NA,-0.39,Overpriced,213.95,213.79
+2026-11-05,QSR,-0.4,Overpriced,109.89,109.72
+2026-11-05,GIL,-0.4,Overpriced,49.04,49.01
+2026-11-05,MRU,-0.43,Overpriced,99.47,99.26
+2026-11-05,TOU,-0.43,Overpriced,62.27,62.11
+2026-11-05,ATD,-0.44,Overpriced,83.59,83.46
+2026-11-05,RCI-B,-0.44,Overpriced,47.74,47.64
+2026-11-05,TOI,-0.49,Overpriced,104.09,103.84
+2026-11-05,AGI,-0.52,Overpriced,43.52,43.59
+2026-11-05,WSP,-0.53,Overpriced,189.48,189.22
+2026-11-05,TRI,-0.54,Overpriced,165.25,164.85
+2026-11-05,OTEX,-0.56,Overpriced,36.58,36.52
+2026-11-05,PAAS,-0.62,Overpriced,56.86,56.94
+2026-11-05,TFII,-0.62,Overpriced,135.67,135.48
+2026-11-05,BAM,-0.64,Overpriced,73.61,73.49
+2026-11-05,IVN,-0.68,Overpriced,8.17,8.17
+2026-11-05,LUG,-0.73,Overpriced,95.87,95.94
+2026-11-05,T,-0.78,Overpriced,13.19,13.14

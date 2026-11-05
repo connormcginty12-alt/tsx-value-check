@@ -1,11 +1,11 @@
 ticker,company,since,entry_price,close,return_pct,value,weight_pct,rank_today,status
-CLS,Celestica Inc.,2026-10-19,424.15,330.24,-22.14,932.4,9.4,1,Hold
-FM,First Quantum Minerals Ltd.,2026-10-26,34.26,33.23,-3.01,1009.64,10.2,2,Hold
-SAP,Saputo Inc.,2026-10-14,39.49,41.58,5.29,992.17,10.0,4,Hold
-TECK-B,Teck Resources Limited,2026-10-14,92.23,89.94,-2.48,1008.83,10.2,5,Hold
-SHOP,Shopify Inc.,2026-11-02,217.64,212.71,-2.27,961.53,9.7,31,Would sell
-WPM,Wheaton Precious Metals Corp.,2026-11-02,166.84,183.73,10.12,1083.41,11.0,8,Hold
-NTR,Nutrien Ltd.,2026-11-02,98.2,100.36,2.2,1005.46,10.2,26,Would sell
-SLF,Sun Life Financial Inc.,2026-11-02,112.79,114.52,1.53,998.91,10.1,21,Would sell
-CVE,Cenovus Energy Inc.,2026-10-14,46.48,39.66,-14.67,908.46,9.2,7,Hold
-CCL-B,CCL Industries Inc.,2026-11-02,100.0,100.43,0.43,988.05,10.0,3,Hold
+CLS,Celestica Inc.,2026-10-19,424.15,288.43,-32.0,814.36,8.6,1,Hold
+FM,First Quantum Minerals Ltd.,2026-10-26,34.26,31.96,-6.71,971.06,10.2,2,Hold
+SAP,Saputo Inc.,2026-10-14,39.49,41.62,5.39,993.12,10.4,15,Would sell
+TECK-B,Teck Resources Limited,2026-10-14,92.23,83.93,-9.0,941.42,9.9,5,Hold
+SHOP,Shopify Inc.,2026-11-02,217.64,201.23,-7.54,909.64,9.6,23,Would sell
+WPM,Wheaton Precious Metals Corp.,2026-11-02,166.84,185.96,11.46,1096.56,11.5,29,Would sell
+NTR,Nutrien Ltd.,2026-11-02,98.2,101.1,2.95,1012.87,10.7,39,Would sell
+SLF,Sun Life Financial Inc.,2026-11-02,112.79,102.83,-8.83,896.94,9.4,17,Would sell
+CVE,Cenovus Energy Inc.,2026-10-14,46.48,38.76,-16.61,887.84,9.3,10,Hold
+CCL-B,CCL Industries Inc.,2026-11-02,100.0,100.14,0.14,985.19,10.4,3,Hold

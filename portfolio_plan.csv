@@ -1,14 +1,16 @@
 action,ticker,company,rank_today,score,rating
-Buy,POW,Power Corporation of Canada,6,0.552,Underpriced
-Buy,PPL,Pembina Pipeline Corporation,9,0.379,Fairly priced
-Buy,MG,Magna International Inc.,10,0.349,Fairly priced
-Sell,SLF,Sun Life Financial Inc.,21,0.076,Fairly priced
-Sell,NTR,Nutrien Ltd.,26,-0.003,Fairly priced
-Sell,SHOP,Shopify Inc.,31,-0.095,Fairly priced
-Hold,CLS,Celestica Inc.,1,1.207,Underpriced
-Hold,FM,First Quantum Minerals Ltd.,2,0.887,Underpriced
-Hold,CCL-B,CCL Industries Inc.,3,0.726,Underpriced
-Hold,SAP,Saputo Inc.,4,0.652,Underpriced
-Hold,TECK-B,Teck Resources Limited,5,0.594,Underpriced
-Hold,CVE,Cenovus Energy Inc.,7,0.476,Underpriced
-Hold,WPM,Wheaton Precious Metals Corp.,8,0.452,Underpriced
+Buy,POW,Power Corporation of Canada,4,0.771,Underpriced
+Buy,FFH,Fairfax Financial Holdings Limited,6,0.506,Underpriced
+Buy,CTC-A,Canadian Tire Corporation Limited,7,0.411,Underpriced
+Buy,MG,Magna International Inc.,8,0.407,Underpriced
+Buy,GIB-A,CGI Inc.,9,0.36,Fairly priced
+Sell,SAP,Saputo Inc.,15,0.201,Fairly priced
+Sell,SLF,Sun Life Financial Inc.,17,0.175,Fairly priced
+Sell,SHOP,Shopify Inc.,23,0.014,Fairly priced
+Sell,WPM,Wheaton Precious Metals Corp.,29,-0.02,Fairly priced
+Sell,NTR,Nutrien Ltd.,39,-0.183,Fairly priced
+Hold,CLS,Celestica Inc.,1,1.24,Underpriced
+Hold,FM,First Quantum Minerals Ltd.,2,0.835,Underpriced
+Hold,CCL-B,CCL Industries Inc.,3,0.781,Underpriced
+Hold,TECK-B,Teck Resources Limited,5,0.642,Underpriced
+Hold,CVE,Cenovus Energy Inc.,10,0.346,Fairly priced

@@ -37,3 +37,13 @@ date,action,ticker,company,price,value
 2026-11-02,Buy,NTR,Nutrien Ltd.,98.2,983.82
 2026-11-02,Buy,SLF,Sun Life Financial Inc.,112.79,983.82
 2026-11-02,Buy,CCL-B,CCL Industries Inc.,100.0,983.82
+2026-11-09,Sell,SAP,Saputo Inc.,44.33,1057.79
+2026-11-09,Sell,SHOP,Shopify Inc.,214.86,971.25
+2026-11-09,Sell,WPM,Wheaton Precious Metals Corp.,202.99,1196.98
+2026-11-09,Sell,NTR,Nutrien Ltd.,102.04,1022.29
+2026-11-09,Sell,SLF,Sun Life Financial Inc.,104.19,908.8
+2026-11-09,Buy,POW,Power Corporation of Canada,92.5,999.55
+2026-11-09,Buy,CTC-A,Canadian Tire Corporation Limited,204.7,999.55
+2026-11-09,Buy,FFH,Fairfax Financial Holdings Limited,2705.83,999.55
+2026-11-09,Buy,MG,Magna International Inc.,88.09,999.55
+2026-11-09,Buy,H,Hydro One Limited,57.09,999.55

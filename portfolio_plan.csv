@@ -1,16 +1,12 @@
 action,ticker,company,rank_today,score,rating
-Buy,POW,Power Corporation of Canada,4,0.836,Underpriced
-Buy,CTC-A,Canadian Tire Corporation Limited,6,0.568,Underpriced
-Buy,FFH,Fairfax Financial Holdings Limited,7,0.515,Underpriced
-Buy,MG,Magna International Inc.,8,0.486,Underpriced
-Buy,H,Hydro One Limited,10,0.418,Fairly priced
-Sell,SAP,Saputo Inc.,16,0.217,Fairly priced
-Sell,SHOP,Shopify Inc.,18,0.136,Fairly priced
-Sell,NTR,Nutrien Ltd.,22,0.08,Fairly priced
-Sell,WPM,Wheaton Precious Metals Corp.,31,-0.004,Fairly priced
-Sell,SLF,Sun Life Financial Inc.,34,-0.057,Fairly priced
-Hold,CLS,Celestica Inc.,1,1.224,Underpriced
-Hold,CCL-B,CCL Industries Inc.,2,0.873,Underpriced
-Hold,FM,First Quantum Minerals Ltd.,3,0.847,Underpriced
-Hold,TECK-B,Teck Resources Limited,5,0.662,Underpriced
-Hold,CVE,Cenovus Energy Inc.,9,0.448,Fairly priced
+Buy,GIB-A,CGI Inc.,10,0.407,Underpriced
+Sell,H,Hydro One Limited,37,-0.137,Fairly priced
+Hold,CLS,Celestica Inc.,1,1.176,Underpriced
+Hold,CCL-B,CCL Industries Inc.,2,0.989,Underpriced
+Hold,POW,Power Corporation of Canada,3,0.877,Underpriced
+Hold,FM,First Quantum Minerals Ltd.,4,0.726,Underpriced
+Hold,TECK-B,Teck Resources Limited,5,0.626,Underpriced
+Hold,CTC-A,Canadian Tire Corporation Limited,6,0.581,Underpriced
+Hold,CVE,Cenovus Energy Inc.,7,0.536,Underpriced
+Hold,FFH,Fairfax Financial Holdings Limited,8,0.512,Underpriced
+Hold,MG,Magna International Inc.,9,0.478,Underpriced

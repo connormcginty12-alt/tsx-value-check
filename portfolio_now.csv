@@ -1,11 +1,11 @@
 ticker,company,since,entry_price,close,return_pct,value,weight_pct,rank_today,status
-CLS,Celestica Inc.,2026-10-19,424.15,318.72,-24.86,1012.7,10.1,1,Hold
-CCL-B,CCL Industries Inc.,2026-11-02,100.0,99.82,-0.18,1004.78,10.0,12,Would sell
-POW,Power Corporation of Canada,2026-11-09,92.5,94.57,2.24,1021.92,10.2,2,Hold
-FM,First Quantum Minerals Ltd.,2026-10-26,34.26,34.16,-0.29,972.78,9.7,3,Hold
-TECK-B,Teck Resources Limited,2026-10-14,92.23,89.22,-3.26,976.46,9.7,4,Hold
-CTC-A,Canadian Tire Corporation Limited,2026-11-09,204.7,205.11,0.2,1001.55,10.0,5,Hold
-FFH,Fairfax Financial Holdings Limited,2026-11-09,2705.83,2773.31,2.49,1024.48,10.2,6,Hold
-MG,Magna International Inc.,2026-11-09,88.09,87.01,-1.23,987.29,9.9,9,Hold
-CVE,Cenovus Energy Inc.,2026-10-14,46.48,39.33,-15.38,1008.52,10.1,8,Hold
-H,Hydro One Limited,2026-11-09,57.09,57.43,0.6,1005.5,10.0,48,Would sell
+CLS,Celestica Inc.,2026-10-19,424.15,345.43,-18.56,1097.57,10.8,1,Hold
+CCL-B,CCL Industries Inc.,2026-11-02,100.0,101.29,1.29,1019.58,10.0,10,Hold
+POW,Power Corporation of Canada,2026-11-09,92.5,95.87,3.64,1035.97,10.2,17,Would sell
+FM,First Quantum Minerals Ltd.,2026-10-26,34.26,34.31,0.15,977.05,9.6,2,Hold
+TECK-B,Teck Resources Limited,2026-10-14,92.23,90.71,-1.65,992.76,9.7,3,Hold
+CTC-A,Canadian Tire Corporation Limited,2026-11-09,204.7,204.97,0.13,1000.87,9.8,33,Would sell
+FFH,Fairfax Financial Holdings Limited,2026-11-09,2705.83,2767.49,2.28,1022.33,10.0,5,Hold
+MG,Magna International Inc.,2026-11-09,88.09,89.34,1.42,1013.73,9.9,7,Hold
+CVE,Cenovus Energy Inc.,2026-10-14,46.48,40.51,-12.84,1038.78,10.2,6,Hold
+H,Hydro One Limited,2026-11-09,57.09,57.04,-0.09,998.67,9.8,43,Would sell

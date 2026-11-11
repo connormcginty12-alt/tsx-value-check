@@ -1,13 +1,14 @@
 action,ticker,company,rank_today,score,rating
-Buy,FNV,Franco-Nevada Corporation,7,0.501,Underpriced
-Buy,SU,Suncor Energy Inc.,10,0.399,Fairly priced
-Sell,CCL-B,CCL Industries Inc.,12,0.378,Fairly priced
-Sell,H,Hydro One Limited,48,-0.253,Overpriced
-Hold,CLS,Celestica Inc.,1,1.21,Underpriced
-Hold,POW,Power Corporation of Canada,2,0.872,Underpriced
-Hold,FM,First Quantum Minerals Ltd.,3,0.79,Underpriced
-Hold,TECK-B,Teck Resources Limited,4,0.79,Underpriced
-Hold,CTC-A,Canadian Tire Corporation Limited,5,0.567,Underpriced
-Hold,FFH,Fairfax Financial Holdings Limited,6,0.501,Underpriced
-Hold,CVE,Cenovus Energy Inc.,8,0.435,Underpriced
-Hold,MG,Magna International Inc.,9,0.423,Underpriced
+Buy,L,Loblaw Companies Limited,4,0.657,Underpriced
+Buy,SU,Suncor Energy Inc.,8,0.462,Underpriced
+Buy,MRU,Metro Inc.,9,0.442,Underpriced
+Sell,POW,Power Corporation of Canada,17,0.212,Fairly priced
+Sell,CTC-A,Canadian Tire Corporation Limited,33,-0.074,Fairly priced
+Sell,H,Hydro One Limited,43,-0.204,Fairly priced
+Hold,CLS,Celestica Inc.,1,1.132,Underpriced
+Hold,FM,First Quantum Minerals Ltd.,2,0.847,Underpriced
+Hold,TECK-B,Teck Resources Limited,3,0.749,Underpriced
+Hold,FFH,Fairfax Financial Holdings Limited,5,0.54,Underpriced
+Hold,CVE,Cenovus Energy Inc.,6,0.504,Underpriced
+Hold,MG,Magna International Inc.,7,0.469,Underpriced
+Hold,CCL-B,CCL Industries Inc.,10,0.374,Underpriced

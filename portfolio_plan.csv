@@ -1,15 +1,15 @@
 action,ticker,company,rank_today,score,rating
-Buy,L,Loblaw Companies Limited,4,0.707,Underpriced
-Buy,MRU,Metro Inc.,6,0.505,Underpriced
-Buy,SU,Suncor Energy Inc.,7,0.503,Underpriced
-Buy,CNQ,Canadian Natural Resources Limited,10,0.391,Underpriced
-Sell,CCL-B,CCL Industries Inc.,15,0.229,Fairly priced
-Sell,POW,Power Corporation of Canada,17,0.19,Fairly priced
-Sell,CTC-A,Canadian Tire Corporation Limited,33,-0.091,Fairly priced
-Sell,H,Hydro One Limited,46,-0.196,Fairly priced
-Hold,CLS,Celestica Inc.,1,1.1,Underpriced
-Hold,FM,First Quantum Minerals Ltd.,2,0.878,Underpriced
-Hold,TECK-B,Teck Resources Limited,3,0.765,Underpriced
-Hold,FFH,Fairfax Financial Holdings Limited,5,0.532,Underpriced
-Hold,CVE,Cenovus Energy Inc.,8,0.494,Underpriced
-Hold,MG,Magna International Inc.,9,0.453,Underpriced
+Buy,L,Loblaw Companies Limited,4,0.767,Underpriced
+Buy,MRU,Metro Inc.,6,0.484,Underpriced
+Buy,SU,Suncor Energy Inc.,8,0.418,Underpriced
+Buy,SHOP,Shopify Inc.,9,0.38,Fairly priced
+Sell,CTC-A,Canadian Tire Corporation Limited,11,0.336,Underpriced
+Sell,CCL-B,CCL Industries Inc.,18,0.136,Fairly priced
+Sell,POW,Power Corporation of Canada,20,0.13,Fairly priced
+Sell,H,Hydro One Limited,46,-0.233,Overpriced
+Hold,CLS,Celestica Inc.,1,1.026,Underpriced
+Hold,FM,First Quantum Minerals Ltd.,2,0.887,Underpriced
+Hold,TECK-B,Teck Resources Limited,3,0.806,Underpriced
+Hold,FFH,Fairfax Financial Holdings Limited,5,0.607,Underpriced
+Hold,MG,Magna International Inc.,7,0.474,Underpriced
+Hold,CVE,Cenovus Energy Inc.,10,0.368,Underpriced

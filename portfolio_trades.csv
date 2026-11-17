@@ -47,3 +47,11 @@ date,action,ticker,company,price,value
 2026-11-09,Buy,FFH,Fairfax Financial Holdings Limited,2705.83,999.55
 2026-11-09,Buy,MG,Magna International Inc.,88.09,999.55
 2026-11-09,Buy,H,Hydro One Limited,57.09,999.55
+2026-11-16,Sell,CCL-B,CCL Industries Inc.,99.0,996.53
+2026-11-16,Sell,POW,Power Corporation of Canada,93.84,1014.03
+2026-11-16,Sell,CTC-A,Canadian Tire Corporation Limited,221.07,1079.48
+2026-11-16,Sell,H,Hydro One Limited,57.98,1015.13
+2026-11-16,Buy,L,Loblaw Companies Limited,71.04,997.81
+2026-11-16,Buy,MRU,Metro Inc.,101.49,997.81
+2026-11-16,Buy,SU,Suncor Energy Inc.,97.26,997.81
+2026-11-16,Buy,SHOP,Shopify Inc.,211.43,997.81

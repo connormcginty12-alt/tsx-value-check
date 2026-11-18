@@ -1,12 +1,14 @@
 action,ticker,company,rank_today,score,rating
-Buy,WN,George Weston Limited,5,0.719,Underpriced
-Sell,SHOP,Shopify Inc.,19,0.165,Fairly priced
-Hold,CLS,Celestica Inc.,1,0.961,Underpriced
-Hold,FM,First Quantum Minerals Ltd.,2,0.942,Underpriced
-Hold,TECK-B,Teck Resources Limited,3,0.819,Underpriced
-Hold,L,Loblaw Companies Limited,4,0.745,Underpriced
-Hold,FFH,Fairfax Financial Holdings Limited,6,0.602,Underpriced
-Hold,MRU,Metro Inc.,7,0.488,Underpriced
-Hold,SU,Suncor Energy Inc.,8,0.481,Underpriced
-Hold,CVE,Cenovus Energy Inc.,9,0.426,Fairly priced
-Hold,MG,Magna International Inc.,10,0.414,Underpriced
+Buy,WN,George Weston Limited,5,0.672,Underpriced
+Buy,ATD,Alimentation Couche-Tard Inc.,7,0.495,Underpriced
+Buy,CNQ,Canadian Natural Resources Limited,10,0.409,Underpriced
+Sell,MG,Magna International Inc.,11,0.38,Fairly priced
+Sell,SHOP,Shopify Inc.,14,0.306,Fairly priced
+Sell,MRU,Metro Inc.,44,-0.186,Fairly priced
+Hold,CLS,Celestica Inc.,1,0.913,Underpriced
+Hold,FM,First Quantum Minerals Ltd.,2,0.877,Underpriced
+Hold,TECK-B,Teck Resources Limited,3,0.823,Underpriced
+Hold,L,Loblaw Companies Limited,4,0.68,Underpriced
+Hold,FFH,Fairfax Financial Holdings Limited,6,0.632,Underpriced
+Hold,SU,Suncor Energy Inc.,8,0.493,Underpriced
+Hold,CVE,Cenovus Energy Inc.,9,0.461,Underpriced

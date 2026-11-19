@@ -1,14 +1,14 @@
 action,ticker,company,rank_today,score,rating
-Buy,WN,George Weston Limited,5,0.672,Underpriced
-Buy,ATD,Alimentation Couche-Tard Inc.,7,0.495,Underpriced
-Buy,CNQ,Canadian Natural Resources Limited,10,0.409,Underpriced
-Sell,MG,Magna International Inc.,11,0.38,Fairly priced
-Sell,SHOP,Shopify Inc.,14,0.306,Fairly priced
-Sell,MRU,Metro Inc.,44,-0.186,Fairly priced
-Hold,CLS,Celestica Inc.,1,0.913,Underpriced
-Hold,FM,First Quantum Minerals Ltd.,2,0.877,Underpriced
-Hold,TECK-B,Teck Resources Limited,3,0.823,Underpriced
-Hold,L,Loblaw Companies Limited,4,0.68,Underpriced
-Hold,FFH,Fairfax Financial Holdings Limited,6,0.632,Underpriced
-Hold,SU,Suncor Energy Inc.,8,0.493,Underpriced
-Hold,CVE,Cenovus Energy Inc.,9,0.461,Underpriced
+Buy,WN,George Weston Limited,4,0.637,Underpriced
+Buy,ATD,Alimentation Couche-Tard Inc.,6,0.526,Underpriced
+Buy,CNQ,Canadian Natural Resources Limited,9,0.434,Fairly priced
+Sell,SHOP,Shopify Inc.,14,0.281,Fairly priced
+Sell,L,Loblaw Companies Limited,27,0.026,Fairly priced
+Sell,MRU,Metro Inc.,44,-0.181,Fairly priced
+Hold,TECK-B,Teck Resources Limited,1,0.934,Underpriced
+Hold,FM,First Quantum Minerals Ltd.,2,0.924,Underpriced
+Hold,CLS,Celestica Inc.,3,0.701,Underpriced
+Hold,FFH,Fairfax Financial Holdings Limited,5,0.627,Underpriced
+Hold,SU,Suncor Energy Inc.,7,0.507,Underpriced
+Hold,CVE,Cenovus Energy Inc.,8,0.447,Underpriced
+Hold,MG,Magna International Inc.,10,0.361,Fairly priced

@@ -1,11 +1,11 @@
 ticker,company,since,entry_price,close,return_pct,value,weight_pct,rank_today,status
-CLS,Celestica Inc.,2026-10-19,424.15,349.29,-17.65,1022.73,10.5,3,Hold
-FM,First Quantum Minerals Ltd.,2026-10-26,34.26,28.43,-17.02,951.62,9.8,2,Hold
-TECK-B,Teck Resources Limited,2026-10-14,92.23,75.15,-18.52,917.25,9.5,1,Hold
-L,Loblaw Companies Limited,2026-11-16,71.04,70.57,-0.66,991.21,10.2,27,Would sell
-FFH,Fairfax Financial Holdings Limited,2026-11-09,2705.83,2693.47,-0.46,977.17,10.1,5,Hold
-MRU,Metro Inc.,2026-11-16,101.49,97.58,-3.85,959.37,9.9,44,Would sell
-MG,Magna International Inc.,2026-11-09,88.09,89.4,2.3,1017.96,10.5,10,Hold
-SU,Suncor Energy Inc.,2026-11-16,97.26,93.09,-4.29,955.03,9.8,7,Hold
-SHOP,Shopify Inc.,2026-11-16,211.43,199.78,-5.51,942.83,9.7,14,Would sell
-CVE,Cenovus Energy Inc.,2026-10-14,46.48,39.06,-15.96,964.0,9.9,8,Hold
+CLS,Celestica Inc.,2026-10-19,424.15,344.43,-18.8,1008.5,10.5,3,Hold
+FM,First Quantum Minerals Ltd.,2026-10-26,34.26,27.92,-18.51,934.55,9.8,1,Hold
+TECK-B,Teck Resources Limited,2026-10-14,92.23,73.96,-19.81,902.73,9.4,2,Hold
+L,Loblaw Companies Limited,2026-11-16,71.04,70.92,-0.17,996.12,10.4,35,Would sell
+FFH,Fairfax Financial Holdings Limited,2026-11-09,2705.83,2677.92,-1.03,971.53,10.2,4,Hold
+MRU,Metro Inc.,2026-11-16,101.49,96.72,-4.7,950.91,9.9,49,Would sell
+MG,Magna International Inc.,2026-11-09,88.09,88.36,1.11,1006.12,10.5,15,Would sell
+SU,Suncor Energy Inc.,2026-11-16,97.26,91.89,-5.52,942.72,9.9,6,Hold
+SHOP,Shopify Inc.,2026-11-16,211.43,189.35,-10.44,893.61,9.3,13,Would sell
+CVE,Cenovus Energy Inc.,2026-10-14,46.48,39.0,-16.09,962.52,10.1,9,Hold

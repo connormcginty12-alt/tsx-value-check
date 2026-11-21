@@ -1,15 +1,16 @@
 action,ticker,company,rank_today,score,rating
-Buy,WN,George Weston Limited,5,0.621,Underpriced
-Buy,ATD,Alimentation Couche-Tard Inc.,7,0.499,Underpriced
-Buy,CNQ,Canadian Natural Resources Limited,8,0.424,Underpriced
-Buy,BNS,Bank of Nova Scotia,10,0.362,Fairly priced
-Sell,SHOP,Shopify Inc.,13,0.313,Fairly priced
-Sell,MG,Magna International Inc.,15,0.247,Fairly priced
-Sell,L,Loblaw Companies Limited,35,-0.056,Fairly priced
-Sell,MRU,Metro Inc.,49,-0.322,Overpriced
-Hold,FM,First Quantum Minerals Ltd.,1,0.919,Underpriced
-Hold,TECK-B,Teck Resources Limited,2,0.873,Underpriced
-Hold,CLS,Celestica Inc.,3,0.724,Underpriced
-Hold,FFH,Fairfax Financial Holdings Limited,4,0.654,Underpriced
-Hold,SU,Suncor Energy Inc.,6,0.511,Underpriced
-Hold,CVE,Cenovus Energy Inc.,9,0.385,Fairly priced
+Buy,WN,George Weston Limited,5,0.568,Underpriced
+Buy,ATD,Alimentation Couche-Tard Inc.,6,0.459,Underpriced
+Buy,CTC-A,Canadian Tire Corporation Limited,8,0.36,Underpriced
+Buy,BNS,Bank of Nova Scotia,9,0.36,Fairly priced
+Buy,CNQ,Canadian Natural Resources Limited,10,0.352,Fairly priced
+Sell,MG,Magna International Inc.,13,0.318,Fairly priced
+Sell,SHOP,Shopify Inc.,14,0.29,Fairly priced
+Sell,CVE,Cenovus Energy Inc.,15,0.265,Fairly priced
+Sell,L,Loblaw Companies Limited,33,-0.039,Fairly priced
+Sell,MRU,Metro Inc.,50,-0.35,Overpriced
+Hold,FM,First Quantum Minerals Ltd.,1,0.936,Underpriced
+Hold,TECK-B,Teck Resources Limited,2,0.821,Underpriced
+Hold,FFH,Fairfax Financial Holdings Limited,3,0.672,Underpriced
+Hold,CLS,Celestica Inc.,4,0.642,Underpriced
+Hold,SU,Suncor Energy Inc.,7,0.422,Underpriced

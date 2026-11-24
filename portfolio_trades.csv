@@ -55,3 +55,15 @@ date,action,ticker,company,price,value
 2026-11-16,Buy,MRU,Metro Inc.,101.49,997.81
 2026-11-16,Buy,SU,Suncor Energy Inc.,97.26,997.81
 2026-11-16,Buy,SHOP,Shopify Inc.,211.43,997.81
+2026-11-23,Sell,TECK-B,Teck Resources Limited,,
+2026-11-23,Sell,L,Loblaw Companies Limited,71.91,1010.03
+2026-11-23,Sell,MRU,Metro Inc.,98.27,966.15
+2026-11-23,Sell,MG,Magna International Inc.,88.26,1004.98
+2026-11-23,Sell,SHOP,Shopify Inc.,192.96,910.64
+2026-11-23,Sell,CVE,Cenovus Energy Inc.,38.07,939.57
+2026-11-23,Buy,WN,George Weston Limited,113.96,
+2026-11-23,Buy,ATD,Alimentation Couche-Tard Inc.,83.58,
+2026-11-23,Buy,CNQ,Canadian Natural Resources Limited,62.93,
+2026-11-23,Buy,CTC-A,Canadian Tire Corporation Limited,221.96,
+2026-11-23,Buy,BNS,Bank of Nova Scotia,122.73,
+2026-11-23,Buy,WCN,Waste Connections Inc.,260.92,

@@ -1,11 +1,11 @@
 ticker,company,since,entry_price,close,return_pct,value,weight_pct,rank_today,status
-CLS,Celestica Inc.,2026-10-19,424.15,288.0,-32.1,843.27,9.2,4,Hold
-FM,First Quantum Minerals Ltd.,2026-10-26,34.26,26.1,-23.82,873.63,9.5,1,Hold
-TECK-B,Teck Resources Limited,2026-10-14,92.23,69.39,-24.76,846.95,9.2,2,Hold
-L,Loblaw Companies Limited,2026-11-16,71.04,71.45,0.58,1003.57,10.9,33,Would sell
-FFH,Fairfax Financial Holdings Limited,2026-11-09,2705.83,2628.81,-2.85,953.71,10.4,3,Hold
-MRU,Metro Inc.,2026-11-16,101.49,98.48,-2.97,968.22,10.5,50,Would sell
-MG,Magna International Inc.,2026-11-09,88.09,84.01,-3.87,956.59,10.4,13,Would sell
-SU,Suncor Energy Inc.,2026-11-16,97.26,91.58,-5.84,939.54,10.2,7,Hold
-SHOP,Shopify Inc.,2026-11-16,211.43,177.09,-16.24,835.75,9.1,14,Would sell
-CVE,Cenovus Energy Inc.,2026-10-14,46.48,38.87,-16.37,959.31,10.4,15,Would sell
+FM,First Quantum Minerals Ltd.,2026-10-26,34.26,27.24,-20.49,,,1,Hold
+FFH,Fairfax Financial Holdings Limited,2026-11-09,2705.83,2686.93,-0.7,,,2,Hold
+CLS,Celestica Inc.,2026-10-19,424.15,306.54,-27.73,,,4,Hold
+WN,George Weston Limited,2026-11-23,113.96,113.96,0.0,,,38,Would sell
+ATD,Alimentation Couche-Tard Inc.,2026-11-23,83.58,83.58,0.0,,,7,Hold
+SU,Suncor Energy Inc.,2026-11-16,97.26,90.48,-6.97,,,3,Hold
+CNQ,Canadian Natural Resources Limited,2026-11-23,62.93,62.93,0.0,,,5,Hold
+CTC-A,Canadian Tire Corporation Limited,2026-11-23,221.96,221.96,0.0,,,10,Hold
+BNS,Bank of Nova Scotia,2026-11-23,122.73,122.73,0.0,,,9,Hold
+WCN,Waste Connections Inc.,2026-11-23,260.92,260.92,0.0,,,8,Hold

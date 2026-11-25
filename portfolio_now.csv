@@ -1,11 +1,11 @@
 ticker,company,since,entry_price,close,return_pct,value,weight_pct,rank_today,status
-FM,First Quantum Minerals Ltd.,2026-10-26,34.26,27.24,-20.49,,,1,Hold
-FFH,Fairfax Financial Holdings Limited,2026-11-09,2705.83,2686.93,-0.7,,,2,Hold
-CLS,Celestica Inc.,2026-10-19,424.15,306.54,-27.73,,,4,Hold
-WN,George Weston Limited,2026-11-23,113.96,113.96,0.0,,,38,Would sell
-ATD,Alimentation Couche-Tard Inc.,2026-11-23,83.58,83.58,0.0,,,7,Hold
-SU,Suncor Energy Inc.,2026-11-16,97.26,90.48,-6.97,,,3,Hold
-CNQ,Canadian Natural Resources Limited,2026-11-23,62.93,62.93,0.0,,,5,Hold
-CTC-A,Canadian Tire Corporation Limited,2026-11-23,221.96,221.96,0.0,,,10,Hold
-BNS,Bank of Nova Scotia,2026-11-23,122.73,122.73,0.0,,,9,Hold
-WCN,Waste Connections Inc.,2026-11-23,260.92,260.92,0.0,,,8,Hold
+FM,First Quantum Minerals Ltd.,2026-10-26,34.26,24.42,-28.72,,,1,Hold
+FFH,Fairfax Financial Holdings Limited,2026-11-09,2705.83,2688.6,-0.64,,,4,Hold
+CLS,Celestica Inc.,2026-10-19,424.15,280.8,-33.8,,,5,Hold
+WN,George Weston Limited,2026-11-23,113.96,116.53,2.26,,,40,Would sell
+ATD,Alimentation Couche-Tard Inc.,2026-11-23,83.58,84.5,1.1,,,48,Would sell
+SU,Suncor Energy Inc.,2026-11-16,97.26,90.99,-6.45,,,6,Hold
+CNQ,Canadian Natural Resources Limited,2026-11-23,62.93,63.82,1.41,,,8,Hold
+CTC-A,Canadian Tire Corporation Limited,2026-11-23,221.96,224.35,1.08,,,11,Would sell
+BNS,Bank of Nova Scotia,2026-11-23,122.73,121.33,-1.14,,,2,Hold
+WCN,Waste Connections Inc.,2026-11-23,260.92,262.33,0.54,,,10,Hold

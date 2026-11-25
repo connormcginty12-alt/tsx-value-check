@@ -1,12 +1,14 @@
 action,ticker,company,rank_today,score,rating
-Buy,CVE,Cenovus Energy Inc.,6,0.46,Underpriced
-Sell,WN,George Weston Limited,38,-0.117,Fairly priced
-Hold,FM,First Quantum Minerals Ltd.,1,0.891,Underpriced
-Hold,FFH,Fairfax Financial Holdings Limited,2,0.625,Underpriced
-Hold,SU,Suncor Energy Inc.,3,0.605,Underpriced
-Hold,CLS,Celestica Inc.,4,0.602,Underpriced
-Hold,CNQ,Canadian Natural Resources Limited,5,0.538,Underpriced
-Hold,ATD,Alimentation Couche-Tard Inc.,7,0.434,Underpriced
-Hold,WCN,Waste Connections Inc.,8,0.387,Underpriced
-Hold,BNS,Bank of Nova Scotia,9,0.375,Underpriced
-Hold,CTC-A,Canadian Tire Corporation Limited,10,0.333,Underpriced
+Buy,TECK-B,Teck Resources Limited,3,0.831,Underpriced
+Buy,BMO,Bank of Montreal,7,0.516,Underpriced
+Buy,CVE,Cenovus Energy Inc.,9,0.432,Underpriced
+Sell,CTC-A,Canadian Tire Corporation Limited,11,0.353,Fairly priced
+Sell,WN,George Weston Limited,40,-0.142,Fairly priced
+Sell,ATD,Alimentation Couche-Tard Inc.,48,-0.266,Overpriced
+Hold,FM,First Quantum Minerals Ltd.,1,1.074,Underpriced
+Hold,BNS,Bank of Nova Scotia,2,0.979,Underpriced
+Hold,FFH,Fairfax Financial Holdings Limited,4,0.608,Underpriced
+Hold,CLS,Celestica Inc.,5,0.586,Underpriced
+Hold,SU,Suncor Energy Inc.,6,0.542,Underpriced
+Hold,CNQ,Canadian Natural Resources Limited,8,0.465,Underpriced
+Hold,WCN,Waste Connections Inc.,10,0.354,Fairly priced

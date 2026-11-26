@@ -1,14 +1,16 @@
 action,ticker,company,rank_today,score,rating
-Buy,TECK-B,Teck Resources Limited,3,0.831,Underpriced
-Buy,BMO,Bank of Montreal,7,0.516,Underpriced
-Buy,CVE,Cenovus Energy Inc.,9,0.432,Underpriced
-Sell,CTC-A,Canadian Tire Corporation Limited,11,0.353,Fairly priced
-Sell,WN,George Weston Limited,40,-0.142,Fairly priced
-Sell,ATD,Alimentation Couche-Tard Inc.,48,-0.266,Overpriced
-Hold,FM,First Quantum Minerals Ltd.,1,1.074,Underpriced
-Hold,BNS,Bank of Nova Scotia,2,0.979,Underpriced
-Hold,FFH,Fairfax Financial Holdings Limited,4,0.608,Underpriced
-Hold,CLS,Celestica Inc.,5,0.586,Underpriced
-Hold,SU,Suncor Energy Inc.,6,0.542,Underpriced
-Hold,CNQ,Canadian Natural Resources Limited,8,0.465,Underpriced
-Hold,WCN,Waste Connections Inc.,10,0.354,Fairly priced
+Buy,TD,Toronto-Dominion Bank,2,0.972,Underpriced
+Buy,TECK-B,Teck Resources Limited,3,0.819,Underpriced
+Buy,CM,Canadian Imperial Bank of Commerce,6,0.667,Underpriced
+Buy,BMO,Bank of Montreal,7,0.658,Underpriced
+Buy,RY,Royal Bank of Canada,9,0.6,Underpriced
+Sell,CNQ,Canadian Natural Resources Limited,11,0.419,Underpriced
+Sell,CTC-A,Canadian Tire Corporation Limited,13,0.303,Fairly priced
+Sell,WCN,Waste Connections Inc.,15,0.267,Fairly priced
+Sell,WN,George Weston Limited,39,-0.112,Fairly priced
+Sell,ATD,Alimentation Couche-Tard Inc.,46,-0.278,Fairly priced
+Hold,FM,First Quantum Minerals Ltd.,1,1.027,Underpriced
+Hold,CLS,Celestica Inc.,4,0.816,Underpriced
+Hold,BNS,Bank of Nova Scotia,5,0.814,Underpriced
+Hold,FFH,Fairfax Financial Holdings Limited,8,0.622,Underpriced
+Hold,SU,Suncor Energy Inc.,10,0.421,Fairly priced

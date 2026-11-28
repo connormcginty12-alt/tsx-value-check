@@ -1,17 +1,17 @@
 action,ticker,company,rank_today,score,rating
-Buy,TD,Toronto-Dominion Bank,3,0.907,Underpriced
-Buy,TECK-B,Teck Resources Limited,5,0.797,Underpriced
-Buy,BMO,Bank of Montreal,6,0.668,Underpriced
-Buy,CM,Canadian Imperial Bank of Commerce,7,0.625,Underpriced
-Buy,RY,Royal Bank of Canada,9,0.587,Underpriced
-Buy,NA,National Bank of Canada,10,0.584,Underpriced
-Sell,SU,Suncor Energy Inc.,11,0.391,Underpriced
-Sell,CNQ,Canadian Natural Resources Limited,12,0.375,Fairly priced
-Sell,CTC-A,Canadian Tire Corporation Limited,14,0.31,Fairly priced
+Buy,TD,Toronto-Dominion Bank,2,0.858,Underpriced
+Buy,TECK-B,Teck Resources Limited,3,0.849,Underpriced
+Buy,CM,Canadian Imperial Bank of Commerce,6,0.824,Underpriced
+Buy,BMO,Bank of Montreal,7,0.73,Underpriced
+Buy,RY,Royal Bank of Canada,8,0.696,Underpriced
+Buy,NA,National Bank of Canada,9,0.62,Underpriced
+Sell,SU,Suncor Energy Inc.,11,0.444,Underpriced
+Sell,CNQ,Canadian Natural Resources Limited,12,0.426,Underpriced
+Sell,CTC-A,Canadian Tire Corporation Limited,14,0.273,Fairly priced
 Sell,WCN,Waste Connections Inc.,17,0.222,Fairly priced
-Sell,ATD,Alimentation Couche-Tard Inc.,39,-0.104,Fairly priced
-Sell,WN,George Weston Limited,40,-0.146,Fairly priced
-Hold,FM,First Quantum Minerals Ltd.,1,0.991,Underpriced
-Hold,CLS,Celestica Inc.,2,0.919,Underpriced
-Hold,BNS,Bank of Nova Scotia,4,0.798,Underpriced
-Hold,FFH,Fairfax Financial Holdings Limited,8,0.619,Underpriced
+Sell,ATD,Alimentation Couche-Tard Inc.,38,-0.108,Fairly priced
+Sell,WN,George Weston Limited,40,-0.141,Fairly priced
+Hold,FM,First Quantum Minerals Ltd.,1,0.895,Underpriced
+Hold,CLS,Celestica Inc.,4,0.845,Underpriced
+Hold,BNS,Bank of Nova Scotia,5,0.829,Underpriced
+Hold,FFH,Fairfax Financial Holdings Limited,10,0.602,Underpriced

@@ -1,11 +1,11 @@
 ticker,company,since,entry_price,close,return_pct,value,weight_pct,rank_today,status
-FM,First Quantum Minerals Ltd.,2026-10-26,34.26,25.96,-24.23,,,1,Hold
-FFH,Fairfax Financial Holdings Limited,2026-11-09,2705.83,2657.52,-1.79,,,8,Hold
-CLS,Celestica Inc.,2026-10-19,424.15,280.32,-33.91,,,2,Hold
+FM,First Quantum Minerals Ltd.,2026-10-26,34.26,27.21,-20.58,,,1,Hold
+FFH,Fairfax Financial Holdings Limited,2026-11-09,2705.83,2696.76,-0.34,,,10,Hold
+CLS,Celestica Inc.,2026-10-19,424.15,290.26,-31.57,,,4,Hold
 WN,George Weston Limited,2026-11-23,113.96,118.07,3.61,,,40,Would sell
-ATD,Alimentation Couche-Tard Inc.,2026-11-23,83.58,86.94,4.02,,,39,Would sell
-SU,Suncor Energy Inc.,2026-11-16,97.26,93.72,-3.64,,,11,Would sell
-CNQ,Canadian Natural Resources Limited,2026-11-23,62.93,66.08,5.01,,,12,Would sell
-CTC-A,Canadian Tire Corporation Limited,2026-11-23,221.96,226.38,1.99,,,14,Would sell
-BNS,Bank of Nova Scotia,2026-11-23,122.73,120.21,-2.05,,,4,Hold
-WCN,Waste Connections Inc.,2026-11-23,260.92,265.39,1.71,,,17,Would sell
+ATD,Alimentation Couche-Tard Inc.,2026-11-23,83.58,85.48,2.27,,,38,Would sell
+SU,Suncor Energy Inc.,2026-11-16,97.26,93.55,-3.81,,,11,Would sell
+CNQ,Canadian Natural Resources Limited,2026-11-23,62.93,66.38,5.48,,,12,Would sell
+CTC-A,Canadian Tire Corporation Limited,2026-11-23,221.96,227.66,2.57,,,14,Would sell
+BNS,Bank of Nova Scotia,2026-11-23,122.73,120.58,-1.75,,,5,Hold
+WCN,Waste Connections Inc.,2026-11-23,260.92,265.86,1.89,,,17,Would sell
